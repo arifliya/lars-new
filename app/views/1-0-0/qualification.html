@@ -9,103 +9,29 @@
 
 
       <div class="govuk-grid-row">
-        <div class="govuk-grid-column-three-quarters">
+        <div class="govuk-grid-column-full">
           <h1 class="govuk-heading-xl">{{ data['input-autocomplete'] }}
             <span class="govuk-caption-xl">5010987X</span>
           </h1>
-          <!-- <p><span class="govuk-!-font-weight-bold">Updated on:</span> 30/10/2018</p> -->
-
-
-          <ul class="govuk-list">
-            
-            <li>
-              <span class="govuk-!-font-weight-bold">Status:</span> Archived
-            </li>
-            <li>
-              <span class="govuk-!-font-weight-bold">Level:</span> 2
-            </li>
-            <li>
-              <span class="govuk-!-font-weight-bold">Awarding organisation:</span> CG - City and Guilds of London Institute
-            </li>
-            <li>
-              <span class="govuk-!-font-weight-bold">Category:</span> Functional skills
-            </li>
-            <!-- <li>
-              <span class="govuk-!-font-weight-bold">Type:</span> 1448 - QCF Units
-            </li> -->
-            <!-- <li>
-              <span class="govuk-!-font-weight-bold">Teaching year:</span> 2019 to 2020
-            </li> -->
-            <!-- <li>
-              <span class="govuk-!-font-weight-bold">Credits:</span> 0
-            </li> -->
-            <li>
-              <span class="govuk-!-font-weight-bold">Guided learning hours:</span> 45
-            </li>
-          </ul>
-
-          <table class="govuk-table">
-            <caption class="govuk-table__caption">Course validity</caption>
-            <thead class="govuk-table__head">
-              <tr class="govuk-table__row">
-                <th scope="col" class="govuk-table__header">Funding</th>
-                <th scope="col" class="govuk-table__header">Start date</th>
-                <th scope="col" class="govuk-table__header">End date</th>
-                <th scope="col" class="govuk-table__header">Updated on</th>
-              </tr>
-            </thead>
-            <tbody class="govuk-table__body">
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">16-19 EFA</th>
-                <td class="govuk-table__cell">1 September 2010</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">30 October 2018</td>
-              </tr>
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">Adult skills</th>
-                <td class="govuk-table__cell">1 September 2010</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">10 April 2019</td>
-              </tr>
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">Apprenticeships</th>
-                <td class="govuk-table__cell">1 September 2010</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">7 August 2019</td>
-              </tr>
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">Community Learning</th>
-                <td class="govuk-table__cell">1 September 2010</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">25 April 2019</td>
-              </tr>
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">EFA Funding condition</th>
-                <td class="govuk-table__cell">1 September 2010</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">30 October 20218</td>
-              </tr>
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">European Social Fund</th>
-                <td class="govuk-table__cell">1 August 2015</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">10 April 2019</td>
-              </tr>
-              <tr class="govuk-table__row">
-                <th scope="row" class="govuk-table__header">OLASS</th>
-                <td class="govuk-table__cell">1 August 2011</td>
-                <td class="govuk-table__cell">31 August 2020</td>
-                <td class="govuk-table__cell">10 April 2019</td>
-              </tr>
-              <tr class="govuk-table__row">
-                
-              </tr>
-            </tbody>
-          </table>
-
           
-  
-          
+          <div class="flex space-between">
+              <p><span><a class="govuk-link govuk-link--no-visited-state" href="related">Related learning aims</a></span> &nbsp; &nbsp; <span><a class="govuk-link govuk-link--no-visited-state" href="category">Category</a></span></p>
+    
+              <div class="govuk-form-group">
+                  <label class="govuk-label" for="sort">
+                    Teaching year
+                  </label>
+                  <select class="govuk-select" id="sort" name="sort">
+                    <option value="published">Recently published</option>
+                    <option value="updated" selected>Recently updated</option>
+                    <option value="views">Most views</option>
+                    <option value="comments">Most comments</option>
+                  </select>
+                </div>
+              </div>
+
+          {% include "./aims-template-v2.html" %}
+
           
         </div>
   

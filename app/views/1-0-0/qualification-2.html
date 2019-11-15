@@ -9,33 +9,28 @@
 
 
       <div class="govuk-grid-row">
-        <div class="govuk-grid-column-three-quarters">
-          <h1 class="govuk-heading-xl">Access to HE Diploma (Actuarial Science and Maths)
-            <span class="govuk-caption-xl">40010740</span>
+        <div class="govuk-grid-column-full">
+          <h1 class="govuk-heading-xl">Functional Skills qualification in Mathematics
+            <span class="govuk-caption-xl">5010987X</span>
           </h1>
-  
-          <ul class="govuk-list">
-              <li>
-                <span class="govuk-!-font-weight-bold">Updated on:</span> 26/10/2019
-              </li>
-              <li>
-                <span class="govuk-!-font-weight-bold">Status:</span> Approved
-              </li>
-              <li>
-                <span class="govuk-!-font-weight-bold">Level:</span> 2
-              </li>
-              <li>
-                <span class="govuk-!-font-weight-bold">Awarding organisation:</span> MULTI - Multiple Awarding Bodies
-              </li>
-              <li>
-                <span class="govuk-!-font-weight-bold">Type:</span> 1448 - QCF Units
-              </li>
-              <li>
-                <span class="govuk-!-font-weight-bold">Teaching year:</span> 2019 to 2020
-              </li>
-            </ul>
-  
-          
+          <div class="flex space-between">
+          <p><span><a class="govuk-link govuk-link--no-visited-state" href="related">Related learning aims</a></span> &nbsp; &nbsp; <span><a class="govuk-link govuk-link--no-visited-state" href="category">Category</a></span></p>
+
+          <div class="govuk-form-group">
+              <label class="govuk-label" for="sort">
+                Teaching year
+              </label>
+              <select class="govuk-select" id="sort" name="sort">
+                <option value="published">Recently published</option>
+                <option value="updated" selected>Recently updated</option>
+                <option value="views">Most views</option>
+                <option value="comments">Most comments</option>
+              </select>
+            </div>
+          </div>
+
+          {% include "./aims-template-v2.html" %}
+       
           
         </div>
   
