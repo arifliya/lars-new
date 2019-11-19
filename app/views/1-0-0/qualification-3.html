@@ -1,0 +1,45 @@
+
+{% extends "layout-back.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h1 class="govuk-heading-xl">{{ data['input-autocomplete'] }}
+      <span class="govuk-caption-xl">5010987X</span>
+    </h1>
+    
+    <div class="flex space-between">
+        <!-- <p><span><a class="govuk-link govuk-link--no-visited-state" href="related">Related learning aims</a></span> &nbsp; &nbsp; <span><a class="govuk-link govuk-link--no-visited-state" href="category">Category</a></span></p> -->
+
+        <div class="govuk-form-group">
+            <label class="govuk-label" for="sort">
+              Teaching year
+            </label>
+            <select class="govuk-select" id="sort" name="sort">
+              <option value="published">2019 / 2020</option>
+              <option value="updated" selected>2018 / 2019</option>
+              <option value="views">2017 / 2018</option>
+              <option value="comments">2016 / 2017</option>
+            </select>
+          </div>
+        </div>
+
+    {% include "./aims-template-v2.html" %}
+
+    
+  </div>
+
+  <div class="govuk-grid-column-one-third">
+
+    
+
+  </div>
+</div>
+      
+    
+{% endblock %}
