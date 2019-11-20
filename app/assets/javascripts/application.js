@@ -40,6 +40,10 @@ $(".autocomplete__menu").click(function() {
     $('#changeUrl').attr('action', "all-results").submit();
   }
 
+  if ($('.autocomplete__input').val() === 'Functional Skills qualification in Mathematics') {
+    $('#changeUrl').attr('action', "all-results").submit();
+  }
+
   // else {
   //   $('#changeUrl').attr('action', "all-results").submit();
   // }
