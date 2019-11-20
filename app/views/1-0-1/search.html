@@ -1,0 +1,51 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+
+      <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds">
+            <div class="app-masthead">
+              <span class="govuk-heading-l white-text">Search for a qualification</span>
+              <p class="govuk-body white-text">Search by <strong>name, reference number</strong> or <strong>awarding body</strong></p>
+              <form id="changeUrl" class="govuk-form-group" action="all-results">
+                <div id="tt-overlay" class="autocomplete-wrapper"></div>
+                <button id="searchProviders" type="search" class="govuk-button" ><img src="https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png"></img></button>
+              </form>
+            </div>
+          </div>
+              
+              <!-- <div class="app-masthead">
+                  <div class="govuk-grid-row">
+                    <div class="govuk-grid-column-two-thirds">
+                      <span class="govuk-heading-s govuk-!-font-size-27 white-text">Search for a qualification</span>
+                      <form class="govuk-form-group" action="provider-record">
+                        <input class="govuk-input" id="name" name="name" type="text" placeholder="e.g. Manchester or 123456">
+                        <div id="tt-overlay" class="autocomplete-wrapper"></div>
+                        <button id="searchProviders" type="search" class="govuk-button" ><img src="https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png"></img></button>
+                      </form>
+                    </div>
+                    <div class="govuk-grid-column-one-third">
+                        <a href="advanced-search-v2">Advanced search</a>
+                        <a href="add-new-provider">Add a new provider</a>
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="govuk-grid-column-one-third">
+  
+         
+                    {% include "./help-links.html" %}
+            
+                  </div>
+        
+      </div>
+
+      {% include "./auto-js.html" %}
+    
+{% endblock %}

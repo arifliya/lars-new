@@ -1,5 +1,5 @@
 
-{% extends "layout-back.html" %}
+{% extends "layout.html" %}
 
 {% block pageTitle %}
   GOV.UK Prototype Kit
@@ -7,11 +7,23 @@
 
 {% block content %}
 
+<div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="all-results">Search results</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        Certificate in Engineering
+      </li>
+      
+    </ol>
+  </div>
+
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
-          <h1 class="govuk-heading-xl">GCE A Level in Psychology
-            <span class="govuk-caption-xl">6014838X</span>
+          <h1 class="govuk-heading-xl">Certificate in Engineering
+            <span class="govuk-caption-xl">60008805</span>
             <strong class="govuk-tag">
                 Valid for 2019 to 2020
               </strong>
@@ -25,14 +37,14 @@
                 <span class="govuk-!-font-weight-bold">Level:</span> 2
               </li>
               <li>
-                <span class="govuk-!-font-weight-bold">Type:</span> 0002 - GCE A level
+                <span class="govuk-!-font-weight-bold">Type:</span> 0016 - Certificate
               </li>
               <li>
-                <span class="govuk-!-font-weight-bold">Guided learning hours:</span> 360
+                <span class="govuk-!-font-weight-bold">Guided learning hours:</span> 300
               </li>
               <li>
-                  <span class="govuk-!-font-weight-bold">Awarding body:</span> AQA - Assessment & Qualifications Alliance
-                </li>
+                <span class="govuk-!-font-weight-bold">Awarding body:</span> CG - City & Guilds of London Institute
+              </li>
               
             </ul>
           
@@ -65,11 +77,14 @@
                 <nav role="navigation" aria-labelledby="subsection-title">
                   <ul class="govuk-list govuk-!-font-size-16">
                       <li>
-                          <span><a class="govuk-link govuk-link--no-visited-state" href="category">View category information</a></span>  
-                        </li>
-                        <li>
-                          <a class="govuk-link govuk-link--no-visited-state" target="blank" href="https://register.ofqual.gov.uk/Search?category=Qualifications&query=6014838X">View more information on OFQUAL</a> 
-                        </li>
+                        <span><a class="govuk-link govuk-link--no-visited-state" href="category">View category information</a></span>  
+                      </li>
+                      <li>
+                        <span><a class="govuk-link govuk-link--no-visited-state" href="frameworks">View frameworks</a></span>  
+                      </li>
+                      <li>
+                        <a class="govuk-link govuk-link--no-visited-state" target="blank" href="https://register.ofqual.gov.uk/Search?category=Qualifications&query=6014838X">View more information on OFQUAL</a> 
+                      </li>
                   </ul>
                 </nav>
               </aside>
@@ -79,7 +94,7 @@
       
       <div class="govuk-grid-row">
           <div class="govuk-grid-column-two-thirds">
-              {% include "./aims-template-v3.html" %}
+              {% include "./aims-template-app.html" %}
         </div>
       </div>
     

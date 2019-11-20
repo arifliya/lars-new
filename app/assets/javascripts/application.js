@@ -35,6 +35,10 @@ $(".autocomplete__menu").click(function() {
   if ($('.autocomplete__input').val() === 'Edexcel') {
     $('#changeUrl').attr('action', "all-results").submit();
   }
+  
+  if ($('.autocomplete__input').val() === 'engineering') {
+    $('#changeUrl').attr('action', "all-results").submit();
+  }
 
   // else {
   //   $('#changeUrl').attr('action', "all-results").submit();
