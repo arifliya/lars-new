@@ -1,0 +1,92 @@
+
+{% extends "layout-back.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          
+          <div class="standard-search">
+            <h1 class="govuk-heading-xl govuk-!-margin-bottom-5">Search</h1>
+            <form id="changeUrl" class="govuk-form-group" action="">
+              <div id="tt-overlay" class="autocomplete-wrapper"></div>
+              <button id="searchProviders" type="search" class="govuk-button" ><img src="https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png"></img></button>
+            </form>
+          </div>
+          <p class="govuk-body govuk-!-margin-top-6">12 results for {{ data['input-autocomplete'] }}</p>
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+          <ul id="resultList" class="govuk-list">
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Actuarial Science and Maths)</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"> <span>Reference: 40010740</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">GCE A Level in Psychology</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"> <span>Reference: 6014838X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: AQA - Assessment & Qualifications Alliance</span> </p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Computer Science and Maths)</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40010776</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Computer Science and Maths)</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40008538</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Engineering Science and Maths)</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 4000854X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Engineering Science and Maths)</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40010533</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Computer Science and Maths</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40003863</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Computing and Maths - Newham College of Further Education</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 00287333</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Engineering Science and Maths</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 4000398X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Maths - Southwark College</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 00286603</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2-2">Access to Higher Education Diploma: Maths and Engineering</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40003097</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Science and Maths</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40004880</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Science and Maths</a>
+                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>Reference: 40006396<span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Awarding body: Edexcel</span></p>
+              </li>
+            </ul>
+
+        </div>
+  
+        <div class="govuk-grid-column-one-third">
+  
+        
+  
+        </div>
+      </div>
+      
+    
+      {% include "./auto-js.html" %}
+
+
+{% endblock %}

@@ -15,6 +15,7 @@ $govuk-assets-path: '/govuk/assets/';
 // Components that aren't in Frontend
 @import "components/cookie-banner";
 @import "components/search-box";
+@import "components/filters";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 .white-text {
@@ -43,4 +44,9 @@ $govuk-assets-path: '/govuk/assets/';
 
 .space-between {
     justify-content: space-between;
+}
+
+
+.colour-black {
+    color: black;
 }

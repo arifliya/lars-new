@@ -1,0 +1,90 @@
+// Left filter //
+// .filter-box-button {
+//   background-color: govuk-colour("light-grey");
+//   padding: 10px;
+//   display: block;
+//   // z-index: 1;
+
+//   a {
+//     text-decoration: none;
+//   }
+// }
+
+// .filter-box {
+//   border: 5px solid govuk-colour("light-grey");
+//   border-top: 0;
+//   padding: 10px;
+//   // margin-top: -5px;
+//   margin-bottom: 15px;
+// }
+
+// .filter-box-button:hover {
+//   background-color: govuk-colour("mid-grey");
+// }
+
+// .filter-box-button:hover + .filter-box {
+//   // display: block;
+//   border-color: govuk-colour("mid-grey");
+// }
+
+// .filter-box.hidden {
+//   // display: none;
+// }
+.filter-section {
+
+  border-bottom: 1px solid govuk-colour("mid-grey");
+  padding: 15px;
+  padding-left: 0;
+
+  .filter-box-button {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    display: block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .govuk-checkboxes__item {
+    margin-left: 15px;
+  }
+
+  .filter-box-button {
+    display: flex;
+  }
+
+  .filter-box-button:before {
+    content: "";
+    box-sizing: border-box;
+    height: 12px;
+    width: 12px;
+    margin-top: 4px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 3px 3px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    margin-right: 10px;
+    transform: rotate(45deg);
+  }
+
+  .filter-box-button.rotate:before {
+    margin-top: 9px;
+    transform: rotate(225deg);
+  }
+
+  .filter-box {
+    position: relative;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+  }
+
+  .filter-box.hidden {
+    display: none;
+  }
+
+}
