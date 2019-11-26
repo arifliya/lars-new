@@ -47,6 +47,14 @@
     }
   }
 
+  .selected-text {
+    margin-left: 35px;
+    margin-top: -4px;
+    margin-bottom: 0;
+    display: block;
+    display: none;
+  }
+
   .govuk-checkboxes__item {
     margin-left: 15px;
   }
