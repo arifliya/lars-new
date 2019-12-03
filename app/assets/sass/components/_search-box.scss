@@ -11,11 +11,19 @@
   }
 
   #changeUrl.govuk-form-group {
-    display: flex;
+    // display: flex;
     margin-bottom: 0;
 
+      .govuk-button.govuk-button--start {
+        background-color: govuk-colour("light-grey");
+        color: $govuk-link-colour;
 
-      .govuk-button {
+        &:hover {
+          background-color: #e8f1f8;
+        }
+      }
+      
+      .govuk-button.icon {
         height: 41px;
         width: 40px;
         background-color: govuk-colour("black");

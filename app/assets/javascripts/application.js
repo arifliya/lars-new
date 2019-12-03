@@ -133,20 +133,31 @@ $('.filter-box-button').click(function(e){
 // });
 
 
+// ****************************************
+
+
 // filter functionality for all filters //
-$('#allFilters :checkbox').click(function () {
+
+$('#allFilters :checkbox').change(function () {
+
   $('#resultList li').hide();
   $('#allFilters :checkbox:checked').each(function () {
     $('.' + $(this).val()).show();
-  });
 
+    var listCount = $("#resultList li:visible").length;
+    $("#listCount").text('');
+    $("#listCount").append(listCount);
+  });
 
   if (!$('#allFilters :checkbox').is(':checked')) {
     $('#resultList li').show();
+
+    var listCount = $("#resultList li:visible").length;
+    $("#listCount").text('');
+    $("#listCount").append(listCount);
   }
 
-
-
+  
   if ($('#awardingBody :checkbox').is(':checked')) {
     
     $('#awardingBody .selected-text').show();
@@ -158,7 +169,6 @@ $('#allFilters :checkbox').click(function () {
   } else {
     $('#awardingBody .selected-text').hide();
   }
-
 
 
   if ($('#level :checkbox').is(':checked')) {
@@ -174,7 +184,6 @@ $('#allFilters :checkbox').click(function () {
   }
   
   
-  
   if ($('#teachingYear :checkbox').is(':checked')) {
 
     $('#teachingYear .selected-text').show();
@@ -188,5 +197,150 @@ $('#allFilters :checkbox').click(function () {
   }
 
   
+  if ($('#fundingStream :checkbox').is(':checked')) {
+
+    $('#fundingStream .selected-text').show();
+
+    var count3 = $("#fundingStream :checkbox:checked").length;
+    $('#fundingStream .counter').text('');
+    $('#fundingStream .counter').append(count3);
+
+  } else {
+    $('#fundingStream .selected-text').hide();
+  }
 
 });
+
+
+
+
+// ***************************************************
+
+
+$('#updateResults').click(function(e){
+  
+  $('#resultList li').hide();
+  $('#allFilters-2 :checkbox:checked').each(function () {
+    $('.' + $(this).val()).show();
+
+    var listCount = $("#resultList li:visible").length;
+    $("#listCount").text('');
+    $("#listCount").append(listCount);
+  });
+
+  if (!$('#allFilters-2 :checkbox').is(':checked')) {
+    $('#resultList li').show();
+
+    var listCount = $("#resultList li:visible").length;
+    $("#listCount").text('');
+    $("#listCount").append(listCount);
+  }
+
+  
+  if ($('#awardingBody :checkbox').is(':checked')) {
+    
+    $('#awardingBody .selected-text').show();
+
+    var count = $("#awardingBody :checkbox:checked").length;
+    $('#awardingBody .counter').text('');
+    $('#awardingBody .counter').append(count);
+
+  } else {
+    $('#awardingBody .selected-text').hide();
+  }
+
+
+  if ($('#level :checkbox').is(':checked')) {
+
+    $('#level .selected-text').show();
+
+    var count2 = $("#level :checkbox:checked").length;
+    $('#level .counter').text('');
+    $('#level .counter').append(count2);
+
+  } else {
+    $('#level .selected-text').hide();
+  }
+  
+  
+  if ($('#teachingYear :checkbox').is(':checked')) {
+
+    $('#teachingYear .selected-text').show();
+
+    var count3 = $("#teachingYear :checkbox:checked").length;
+    $('#teachingYear .counter').text('');
+    $('#teachingYear .counter').append(count3);
+
+  } else {
+    $('#teachingYear .selected-text').hide();
+  }
+
+  if ($('#fundingStream :checkbox').is(':checked')) {
+
+    $('#fundingStream .selected-text').show();
+
+    var count3 = $("#fundingStream :checkbox:checked").length;
+    $('#fundingStream .counter').text('');
+    $('#fundingStream .counter').append(count3);
+
+  } else {
+    $('#fundingStream .selected-text').hide();
+  }
+
+  e.preventDefault();
+});
+
+
+// $('#allFilters :checkbox').click(function() {
+
+//   // Get all checked filters...
+//   var $allCheckedFilters = $('input:checked');
+//   var checkedValues = [];
+
+//   // Iterate and build array containing all checked values...
+//   $allCheckedFilters.each(function(index, element){
+//     checkedValues.push($(this).val());
+//   })
+
+//   // Build string to use as selector...
+//   var classNameStr = checkedValues.join('.');    
+
+//   // Hide all listings...
+//   $('#resultList li').hide();
+
+//   // Get items with all classnames and show them...
+//   $('li.' + classNameStr).show();
+
+// });
+
+// $("#allFilters :checkbox").change(function(){
+//   if (!$('#allFilters :checkbox').is(':checked')) {
+//       $('#resultList li').show();
+//     }
+// });
+
+
+// var url = window.location.href;
+
+// var vars = [], hash;
+// var q = document.URL.split('?')[1];
+// if(q != undefined){
+//   q = q.split('+');
+//   for(var i = 0; i < q.length; i++){
+//     hash = q[i].split('=');
+//     vars.push(hash[1]);
+//     vars[hash[0]] = hash[1];
+//   }  
+// }
+
+
+// $( "#containing" ).after( "<span class='results-elements govuk-body govuk-!-font-size-16'><span class='close'></span>" + vars + "</span>" );
+
+
+
+$(".results-elements").click(function(){
+  $(this).hide();
+  $(".results-number-container").hide();
+  
+});
+

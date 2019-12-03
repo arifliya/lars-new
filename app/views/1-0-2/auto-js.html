@@ -1,0 +1,43 @@
+<script src="/public/javascripts/accessible-autocomplete.min.js"></script>
+<!-- <link href="/public/stylesheets/accessible-autocomplete.min.css" media="all" rel="stylesheet" type="text/css" /> -->
+
+ <script type="text/javascript">
+       var countries = [
+       'maths',
+       'psychology',
+       'engineering',
+       'AQA (Assessment and Qualifications Alliance)',
+       'Edexcel',
+       'functional skills qualification in mathematics',
+       'certificate in engineering',
+       'Access to HE Diploma - Science and Maths, 40010740',
+      //  'Access to HE Diploma (Computer Science and Maths), 40010776',
+      //  'Access to HE Diploma (Computer Science and Maths), 40008538',
+      //  'Access to HE Diploma (Engineering Science and Maths), 4000854X',
+      //  'Access to HE Diploma (Engineering Science and Maths), 40010533',
+      //  'Access to Higher Education Diploma: Computer Science and Maths, 40003863',
+      //  'Access to Higher Education Diploma: Computing and Maths - Newham College of Further Education, 00287333',
+      //  'Access to Higher Education Diploma: Engineering Science and Maths, 4000398X',
+      //  'Access to Higher Education Diploma: Maths - Southwark College, 00286603',
+      //  'Access to Higher Education Diploma: Maths and Engineering, 40003097',
+      //  'Access to Higher Education Diploma: Science and Maths, 40004880',
+      //  'Access to Higher Education Diploma: Science and Maths, 40006396'
+       ]
+ </script>
+
+
+    <script type="text/javascript">
+      element = document.querySelector('#tt-overlay')
+      id = 'autocomplete-overlay'
+      accessibleAutocomplete({
+        displayMenu: 'overlay',
+        element: element,
+        id: id,
+        source: countries,
+        placeholder: 'e.g maths or 40010740',
+        showNoOptionsFound: false
+        // value: '{{ data['provider'] }}'
+      })
+    </script>
+
+   
