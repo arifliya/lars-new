@@ -101,3 +101,12 @@ $govuk-assets-path: '/govuk/assets/';
         transform: rotate(-45deg);
       }
 }
+
+.filter-feedback-container {
+    @extend .results-number-container;
+    display: none;
+}
+
+.filter-feedback {
+    @extend .results-elements;
+}

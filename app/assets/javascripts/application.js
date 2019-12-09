@@ -140,9 +140,47 @@ $('.filter-box-button').click(function(e){
 
 $('#allFilters :checkbox').change(function () {
 
+
+
+  if ($(this).is(':checked')) {
+    // var checkboxValue = $(this).next().text();
+    var checkboxValue = $(this).val();
+    $('.filter-feedback-container').show();
+    $('.filter-feedback').show();
+    $('<a href="#" class="filter-feedback new"> <span class="filter-name"> <span class="close"></span>'+ checkboxValue +'</span>  </a>').appendTo('#firstFilter');
+}
+else {
+    var value = $(this).val();
+    if ($('#firstFilter').has('.filter-name:contains("'+value+'")')) {
+      $('.filter-name:contains("'+value+'")').parent().remove();
+    }
+    
+}
+    
+    
+    $('.filter-name').on('click', function(e) {
+      var filterValue = $(this).text();
+      $(this).parent().remove(); // remove the button
+      if ($('#allFilters :checkbox').has('label:contains("'+filterValue+'")')) {
+        $('label:contains("'+filterValue+'")').trigger('click');
+      }
+
+      e.preventDefault()
+    });
+
+    // $('.close').on('click', function() {
+    //   var filterValue = $(this).text();
+    //   $(this).parent().remove(); // remove the button
+    //   if ($('#allFilters :checkbox').has('label:contains("'+filterValue+'")')) {
+    //     $('label:contains("'+filterValue+'")').trigger('click');
+    //   }
+    // });
+
+
   $('#resultList li').hide();
   $('#allFilters :checkbox:checked').each(function () {
     $('.' + $(this).val()).show();
+    // $("#allFilters :checkbox").val($(this).val().toLowerCase().replace(/\s+/g, "-"));
 
     var listCount = $("#resultList li:visible").length;
     $("#listCount").text('');
@@ -150,6 +188,8 @@ $('#allFilters :checkbox').change(function () {
   });
 
   if (!$('#allFilters :checkbox').is(':checked')) {
+
+    $('.filter-feedback-container').hide();
     $('#resultList li').show();
 
     var listCount = $("#resultList li:visible").length;
@@ -343,4 +383,10 @@ $(".results-elements").click(function(){
   $(".results-number-container").hide();
   
 });
+
+// $(".filter-feedback").click(function(){
+//   $(this).hide();
+//   // $(".filter-feedback-container").hide();
+  
+// });
 
