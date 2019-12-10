@@ -64,7 +64,7 @@ $("#searchProviders").click(function() {
     $('#changeUrl').attr('action', "all-results-func");
   }
   if ($('.autocomplete__input').val() === 'maths') {
-    $('#changeUrl').attr('action', "all-results-func");
+    $('#changeUrl').attr('action', "all-results-maths");
   }
   
   if ($('.autocomplete__input').val() === 'Access to HE Diploma - Science and Maths, 40010740') {

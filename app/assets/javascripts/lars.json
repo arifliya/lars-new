@@ -1,0 +1,3855 @@
+var data = `[
+    {
+        "LearnAimRefTitle": "Aromatherapy",
+        "LearnAimRef": "00222181",
+        "AwardOrgCode": "IEB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "00237439",
+        "AwardOrgCode": "ANM",
+        "NotionalNVQLevelDesc": "Higher level",
+        "LastNewStartDate": "2019-01-03"
+    },
+    {
+        "LearnAimRefTitle": "Basic Skills Maths",
+        "LearnAimRef": "00239676",
+        "AwardOrgCode": "NONE",
+        "NotionalNVQLevelDesc": "Not Applicable\/ Not Known",
+        "LastNewStartDate": "2019-01-03"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Education - Lifelong Learning Sector (Mathematics and Numeracy)",
+        "LearnAimRef": "00244953",
+        "AwardOrgCode": "NTU",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy CPD) in the Lifelong Sector",
+        "LearnAimRef": "00246120",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Education and Training for Mathematics and Numeracy Specialists",
+        "LearnAimRef": "00246224",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Mathematics (Year One)",
+        "LearnAimRef": "00246494",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Post Graduate Certificate in Education in Secondary Physics and Maths (PGCE)",
+        "LearnAimRef": "00246697",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "DipHE in Teaching Mathematics: Numeracy",
+        "LearnAimRef": "00246804",
+        "AwardOrgCode": "UOSX",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics",
+        "LearnAimRef": "00260047",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics",
+        "LearnAimRef": "00260048",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics (MEI)",
+        "LearnAimRef": "00260052",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level Mathematics",
+        "LearnAimRef": "00260329",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics",
+        "LearnAimRef": "00260408",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy for Carers",
+        "LearnAimRef": "00270783",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Aromatherapy",
+        "LearnAimRef": "00274501",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics",
+        "LearnAimRef": "00280024",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths Level-1 (Online)",
+        "LearnAimRef": "00280248",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths Level-1 (CD-Rom)",
+        "LearnAimRef": "00280249",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths Level-2 (Online)",
+        "LearnAimRef": "00280250",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths Level-2 (CD-Rom)",
+        "LearnAimRef": "00280251",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level 3)",
+        "LearnAimRef": "00280282",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions and Decimals (Entry Level 3)",
+        "LearnAimRef": "00280283",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Entry Level 3)",
+        "LearnAimRef": "00280284",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Entry Level 3)",
+        "LearnAimRef": "00280285",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Entry Level 3)",
+        "LearnAimRef": "00280286",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Level-1)",
+        "LearnAimRef": "00280287",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions, Decimals and Percentages (Level-1)",
+        "LearnAimRef": "00280288",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Level-1)",
+        "LearnAimRef": "00280289",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Level-1)",
+        "LearnAimRef": "00280290",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Level-1)",
+        "LearnAimRef": "00280291",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Level-2)",
+        "LearnAimRef": "00280292",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions, Decimals and Percentages (Level-2)",
+        "LearnAimRef": "00280293",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Level-2)",
+        "LearnAimRef": "00280294",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Level-2)",
+        "LearnAimRef": "00280295",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Level-2)",
+        "LearnAimRef": "00280296",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills (Entry Level 3) - CD-ROM",
+        "LearnAimRef": "00280317",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills (Level-1) - CD-ROM",
+        "LearnAimRef": "00280318",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills (Level-2) - CD-ROM",
+        "LearnAimRef": "00280319",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level 3) - Text only",
+        "LearnAimRef": "00280328",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions, Decimals and Percentages (Entry Level 3) - Text only",
+        "LearnAimRef": "00280329",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Entry Level 3) - Text only",
+        "LearnAimRef": "00280330",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Entry Level 3) - Text only",
+        "LearnAimRef": "00280331",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Entry Level 3) - Text only",
+        "LearnAimRef": "00280332",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Level-1) - Text only",
+        "LearnAimRef": "00280333",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions, Decimals and Percentages (Level-1) - Text only",
+        "LearnAimRef": "00280334",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Level-1) - Text only",
+        "LearnAimRef": "00280335",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Level-1) - Text only",
+        "LearnAimRef": "00280336",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Level-1) - Text only",
+        "LearnAimRef": "00280337",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Level-2) - Text only",
+        "LearnAimRef": "00280338",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions, Decimals and Percentages (Level-2) - Text only",
+        "LearnAimRef": "00280339",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Level-2) - Text only",
+        "LearnAimRef": "00280340",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Level-2) - Text only",
+        "LearnAimRef": "00280342",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level-2)",
+        "LearnAimRef": "00280420",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Fractions (Entry Level-2)",
+        "LearnAimRef": "00280421",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 1 (Entry Level-2)",
+        "LearnAimRef": "00280422",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 2 (Entry Level-2)",
+        "LearnAimRef": "00280423",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Entry Level-2)",
+        "LearnAimRef": "00280424",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Handling Data  (Entry Level-2)",
+        "LearnAimRef": "00280426",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level-1)",
+        "LearnAimRef": "00280432",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 1 (Entry Level-1)",
+        "LearnAimRef": "00280433",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 2 (Entry Level-1)",
+        "LearnAimRef": "00280434",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Shapes and Space (Entry Level-1)",
+        "LearnAimRef": "00280435",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Data Handling (Entry Level-1)",
+        "LearnAimRef": "00280436",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Text Only - Fractions (Entry Level-2)",
+        "LearnAimRef": "00280444",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Everyday Maths Skills - Text Only - Common Measures 2 (Entry Level-2)",
+        "LearnAimRef": "00280448",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths L1",
+        "LearnAimRef": "00280457",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths L1 (CD-ROM)",
+        "LearnAimRef": "00280458",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-1"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths L2",
+        "LearnAimRef": "00280459",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2"
+    },
+    {
+        "LearnAimRefTitle": "Brush Up Maths L2 (CD-ROM)",
+        "LearnAimRef": "00280460",
+        "AwardOrgCode": "Learn-Direct",
+        "NotionalNVQLevelDesc": "Level-2"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
+        "LearnAimRef": "00280618",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
+        "LearnAimRef": "00280619",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
+        "LearnAimRef": "00285045",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
+        "LearnAimRef": "00285048",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics (MEI)",
+        "LearnAimRef": "00285049",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics (MEI)",
+        "LearnAimRef": "00285050",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
+        "LearnAimRef": "00285054",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
+        "LearnAimRef": "00285514",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
+        "LearnAimRef": "00285516",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
+        "LearnAimRef": "00285517",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics",
+        "LearnAimRef": "00285518",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
+        "LearnAimRef": "00285523",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
+        "LearnAimRef": "00285535",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics (Pilot)",
+        "LearnAimRef": "00285541",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Further Mathematics (Pilot)",
+        "LearnAimRef": "00285542",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics (Pilot)",
+        "LearnAimRef": "00285546",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Mathematics (Pilot)",
+        "LearnAimRef": "00285547",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
+        "LearnAimRef": "00285549",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics (Pilot)",
+        "LearnAimRef": "00285550",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Use of Mathematics (Pilot)",
+        "LearnAimRef": "00285553",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Maths - Southwark College",
+        "LearnAimRef": "00286603",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Computing and Maths - Newham College of Further Education",
+        "LearnAimRef": "00287333",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Mathematics - University of Bolton",
+        "LearnAimRef": "00287750",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Certificate in Science and Mathematics for Engineering Technicians (Provider Specific)",
+        "LearnAimRef": "00291850",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "00295214",
+        "AwardOrgCode": "IFPA",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Function Junction Mathematics",
+        "LearnAimRef": "00295990",
+        "AwardOrgCode": "ASDAN",
+        "NotionalNVQLevelDesc": "Level-2"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Secondary Mathematics",
+        "LearnAimRef": "00300257",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Primary Education (Mathematics)",
+        "LearnAimRef": "00300271",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Mathematics and Numeracy Specialists",
+        "LearnAimRef": "00300295",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector",
+        "LearnAimRef": "00300371",
+        "AwardOrgCode": "UW",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Education and Training - Mathematics (120 Credits)",
+        "LearnAimRef": "00300392",
+        "AwardOrgCode": "UOWAR",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics : Numeracy (45 Credits)",
+        "LearnAimRef": "00300395",
+        "AwardOrgCode": "UOWAR",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Maths (Numeracy)",
+        "LearnAimRef": "00300637",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "CertED in Mathematics (Numeracy)",
+        "LearnAimRef": "00300638",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Advanced Certificate in Teaching Mathematics (Numeracy)",
+        "LearnAimRef": "00300639",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc in Secondary Education (Physics With Mathematics) - (Bradford College)",
+        "LearnAimRef": "00301467",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PGCE for Mathematics and Numeracy Specialists - Newcastle College",
+        "LearnAimRef": "00302059",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level 5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Education and Training for Mathematics and Numeracy Specialists -Newcastle College",
+        "LearnAimRef": "00302115",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Secondary (Mathematics) - Bradford College",
+        "LearnAimRef": "00302309",
+        "AwardOrgCode": "BOLTONIN",
+        "NotionalNVQLevelDesc": "Level 5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Secondary (Physics and Mathematics) - Bradford College",
+        "LearnAimRef": "00302312",
+        "AwardOrgCode": "BOLTONIN",
+        "NotionalNVQLevelDesc": "Level 5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Education Post-16 Education and Training (Mathematics) - Leeds City College",
+        "LearnAimRef": "00303700",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Professional Graduate Certificate in Education (Mathematics) - Leeds City College",
+        "LearnAimRef": "00303703",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Working in 2 and 3 Dimensions",
+        "LearnAimRef": "10006515",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Making Sense of Data",
+        "LearnAimRef": "10006564",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Managing Money",
+        "LearnAimRef": "10006576",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Handling and Interpreting Data",
+        "LearnAimRef": "10006631",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using Algebra, Functions and Graphics",
+        "LearnAimRef": "10006692",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Calculating Finances",
+        "LearnAimRef": "10006746",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Modelling with Calculus",
+        "LearnAimRef": "10006758",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Working with Algebraic and Graphical Techniques",
+        "LearnAimRef": "10006801",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using and Applying Statistics",
+        "LearnAimRef": "10006813",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics",
+        "LearnAimRef": "10010385",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-11-30"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics",
+        "LearnAimRef": "10010622",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Entry level",
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics B",
+        "LearnAimRef": "10013143",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics A",
+        "LearnAimRef": "10013155",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Use of Mathematics",
+        "LearnAimRef": "10013301",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Extension Award in Mathematics",
+        "LearnAimRef": "10015516",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 10,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "10024037",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Additional Mathematics",
+        "LearnAimRef": "10025480",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2023-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Foundations of Advanced Mathematics",
+        "LearnAimRef": "10026046",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics",
+        "LearnAimRef": "10034055",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-30"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics",
+        "LearnAimRef": "10034080",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics",
+        "LearnAimRef": "10034110",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics",
+        "LearnAimRef": "10034122",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics (MEI)",
+        "LearnAimRef": "10034171",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics (MEI)",
+        "LearnAimRef": "10034183",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics",
+        "LearnAimRef": "10034237",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics",
+        "LearnAimRef": "10034249",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics",
+        "LearnAimRef": "10034298",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics",
+        "LearnAimRef": "10034328",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics",
+        "LearnAimRef": "10034341",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics",
+        "LearnAimRef": "10034353",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics (Entry 1, 2 and 3)",
+        "LearnAimRef": "10052033",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 120,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using and Applying Decision Mathematics",
+        "LearnAimRef": "10055800",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
+        "LearnAimRef": "10060042",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
+        "LearnAimRef": "10060054",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
+        "LearnAimRef": "10060066",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics",
+        "LearnAimRef": "10060078",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
+        "LearnAimRef": "1006008X",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
+        "LearnAimRef": "10060091",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics",
+        "LearnAimRef": "10060108",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
+        "LearnAimRef": "1006011X",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-22"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
+        "LearnAimRef": "10060121",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
+        "LearnAimRef": "10060133",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics",
+        "LearnAimRef": "10060145",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
+        "LearnAimRef": "10060157",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics (MEI)",
+        "LearnAimRef": "10060169",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics (MEI)",
+        "LearnAimRef": "10060170",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics (MEI)",
+        "LearnAimRef": "10060182",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics (MEI)",
+        "LearnAimRef": "10060194",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
+        "LearnAimRef": "10060200",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
+        "LearnAimRef": "10060212",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics",
+        "LearnAimRef": "10060224",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
+        "LearnAimRef": "10060236",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
+        "LearnAimRef": "10060248",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
+        "LearnAimRef": "1006025X",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics",
+        "LearnAimRef": "10060261",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
+        "LearnAimRef": "10060273",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics A (Linear)",
+        "LearnAimRef": "10064291",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics B (Modular)",
+        "LearnAimRef": "10064308",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics A (Linear)",
+        "LearnAimRef": "1006431X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics B (Modular)",
+        "LearnAimRef": "10064321",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics A (Linear)",
+        "LearnAimRef": "10064333",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics B (Modular)",
+        "LearnAimRef": "10064345",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics",
+        "LearnAimRef": "10064357",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics C",
+        "LearnAimRef": "10064370",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics (Pilot)",
+        "LearnAimRef": "10064436",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Additional Mathematics (Pilot)",
+        "LearnAimRef": "10064448",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Money Management (Pilot)",
+        "LearnAimRef": "1006445X",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using Spatial Techniques (Pilot)",
+        "LearnAimRef": "10064461",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using Data (Pilot)",
+        "LearnAimRef": "10064473",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Data Analysis (Pilot)",
+        "LearnAimRef": "10064497",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Use of Mathematics (Pilot)",
+        "LearnAimRef": "10064515",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2012-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Financial Calculations (Pilot)",
+        "LearnAimRef": "10064527",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Shape and Space (Pilot)",
+        "LearnAimRef": "10064539",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Data Handling (Pilot)",
+        "LearnAimRef": "10064540",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Algebra and Graphs (Pilot)",
+        "LearnAimRef": "10064552",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2012-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics D (Pilot)",
+        "LearnAimRef": "10064564",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Additional Mathematics (Pilot)",
+        "LearnAimRef": "10064576",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2012-03-02"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Additional Mathematics (Pilot)",
+        "LearnAimRef": "10064588",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "10064722",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Maths and Engineering",
+        "LearnAimRef": "40003097",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Computer Science and Maths",
+        "LearnAimRef": "40003863",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-10-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering Science and Maths",
+        "LearnAimRef": "4000398X",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-10-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science; Engineering and Maths",
+        "LearnAimRef": "40004478",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-10-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Business with Mathematics",
+        "LearnAimRef": "40004508",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Humanities with Mathematics",
+        "LearnAimRef": "40004521",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Maths",
+        "LearnAimRef": "40004880",
+        "AwardOrgCode": "OCNCREDI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-01-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science with Maths",
+        "LearnAimRef": "40005483",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science combined with Mathematics",
+        "LearnAimRef": "40005616",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Maths",
+        "LearnAimRef": "40006396",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2021-03-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science; Technology; Engineering and Mathematics",
+        "LearnAimRef": "40006451",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2020-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Computer Science and Maths)",
+        "LearnAimRef": "40008538",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Engineering Science and Maths)",
+        "LearnAimRef": "4000854X",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Science with Mathematics)",
+        "LearnAimRef": "40010508",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2024-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Engineering Science and Maths)",
+        "LearnAimRef": "40010533",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2024-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Actuarial Science and Maths)",
+        "LearnAimRef": "40010740",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Computer Science and Maths)",
+        "LearnAimRef": "40010776",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "5001044X",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 200,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Additional Aromatherapy Techniques",
+        "LearnAimRef": "50010499",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 230,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Applications (Pilot)",
+        "LearnAimRef": "50017408",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 90,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in HL Mathematics",
+        "LearnAimRef": "50020638",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Mathematics",
+        "LearnAimRef": "50020651",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 225,
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Further Mathematics",
+        "LearnAimRef": "50020663",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 225,
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Mathematical Studies",
+        "LearnAimRef": "50020687",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 225,
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "50020857",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50024127",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50025569",
+        "AwardOrgCode": "ASDAN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50025600",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50025624",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50026720",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50026756",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50026823",
+        "AwardOrgCode": "EDI",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50027141",
+        "AwardOrgCode": "EAL",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50027153",
+        "AwardOrgCode": "EAL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics (Pilot)",
+        "LearnAimRef": "50027359",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics (Pilot)",
+        "LearnAimRef": "50027360",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50027475",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50027487",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50027554",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50027839",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Further Mathematics (Pilot)",
+        "LearnAimRef": "50027906",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2012-12-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Mathematics (Pilot)",
+        "LearnAimRef": "50027918",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2012-12-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics (Pilot)",
+        "LearnAimRef": "50029125",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics (Pilot)",
+        "LearnAimRef": "50029137",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2012-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "50030048",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 150,
+        "LastNewStartDate": "2015-12-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Pure Mathematics (Pilot)",
+        "LearnAimRef": "50031582",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Pure Mathematics (Pilot)",
+        "LearnAimRef": "50031636",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Mathematics (Pilot)",
+        "LearnAimRef": "50032021",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Further Mathematics (Pilot)",
+        "LearnAimRef": "50032033",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2011-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "50033451",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 120,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "50033670",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 150,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "50033852",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Pre-U Certificate in Mathematics (Principal)",
+        "LearnAimRef": "50037894",
+        "AwardOrgCode": "CAIE",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 380,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Pre-U Certificate in Further Mathematics (Principal)",
+        "LearnAimRef": "50038291",
+        "AwardOrgCode": "CAIE",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 380,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Hypothesis Testing (Pilot)",
+        "LearnAimRef": "50040066",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Decision Mathematics (Pilot)",
+        "LearnAimRef": "50040078",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Calculus (Pilot)",
+        "LearnAimRef": "5004008X",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Dynamics (Pilot)",
+        "LearnAimRef": "5004090X",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Mathematical Principles for Personal Finance (Pilot)",
+        "LearnAimRef": "50040923",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Use of Mathematics (Pilot)",
+        "LearnAimRef": "50040947",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics for Engineering",
+        "LearnAimRef": "50041368",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Use of Mathematics (Pilot)",
+        "LearnAimRef": "50041460",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics (Pilot)",
+        "LearnAimRef": "50042348",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2011-09-30"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematical Techniques and Applications for Engineers",
+        "LearnAimRef": "50047097",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award for Mathematics in Engineering",
+        "LearnAimRef": "50047516",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2013-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Basic Aromatherapy Techniques (QCF)",
+        "LearnAimRef": "50050758",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 270,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
+        "LearnAimRef": "50056062",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics",
+        "LearnAimRef": "50056554",
+        "AwardOrgCode": "CAIE",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
+        "LearnAimRef": "50062359",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
+        "LearnAimRef": "50062372",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 250,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
+        "LearnAimRef": "50065002",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills (Entry 1)",
+        "LearnAimRef": "50066109",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-22"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Basic Aromatherapy (QCF)",
+        "LearnAimRef": "50067941",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 270,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
+        "LearnAimRef": "50068805",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 250,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "BTEC Certificate in Science, Technology, Engineering and Maths Leadership Skills (QCF)",
+        "LearnAimRef": "50073023",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "BTEC Certificate in Science, Technology, Engineering and Maths Leadership Skills (QCF)",
+        "LearnAimRef": "50073217",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
+        "LearnAimRef": "50073485",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics A",
+        "LearnAimRef": "50077648",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics",
+        "LearnAimRef": "50078070",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2018-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Applications of Mathematics (Pilot)",
+        "LearnAimRef": "50078495",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics",
+        "LearnAimRef": "50078501",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics",
+        "LearnAimRef": "50078562",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Methods in Mathematics (Pilot)",
+        "LearnAimRef": "50078811",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics B",
+        "LearnAimRef": "50078860",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics A",
+        "LearnAimRef": "50079165",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics B",
+        "LearnAimRef": "50079232",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics",
+        "LearnAimRef": "50079256",
+        "AwardOrgCode": "CCEA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Additional Mathematics",
+        "LearnAimRef": "50079293",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2022-02-28"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Applications of Mathematics (Pilot)",
+        "LearnAimRef": "50079311",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Applications of Mathematics (Pilot)",
+        "LearnAimRef": "50079402",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Methods in Mathematics (Pilot)",
+        "LearnAimRef": "50079426",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Methods in Mathematics (Pilot)",
+        "LearnAimRef": "50079499",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Use of Mathematics (** Caution - see learning aim notes **)",
+        "LearnAimRef": "50082929",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Use of Mathematics (** Caution - see learning aim notes **)",
+        "LearnAimRef": "50082930",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 1)",
+        "LearnAimRef": "50084665",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Level-2",
+        "LearnAimRef": "50084914",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Level-1",
+        "LearnAimRef": "50084926",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics B",
+        "LearnAimRef": "50084951",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
+        "LearnAimRef": "50084963",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2020-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
+        "LearnAimRef": "50084975",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2020-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "50084987",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2020-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Level-1",
+        "LearnAimRef": "50085013",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Mathematics - Linear",
+        "LearnAimRef": "50085062",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50087022",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50087034",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
+        "LearnAimRef": "50089031",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
+        "LearnAimRef": "50089043",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "50089055",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in mathematics",
+        "LearnAimRef": "50089067",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in mathematics",
+        "LearnAimRef": "50089079",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in mathematics",
+        "LearnAimRef": "50089080",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2020-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in mathematics",
+        "LearnAimRef": "50089109",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2020-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
+        "LearnAimRef": "50091724",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
+        "LearnAimRef": "50091967",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "50092959",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
+        "LearnAimRef": "50093356",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Use of Mathematics",
+        "LearnAimRef": "50094804",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2018-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Applications",
+        "LearnAimRef": "50102643",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 90,
+        "LastNewStartDate": "2019-07-22"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Applications",
+        "LearnAimRef": "50102655",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 90,
+        "LastNewStartDate": "2019-07-22"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Financial Calculations",
+        "LearnAimRef": "50105218",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Money Management",
+        "LearnAimRef": "50105243",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
+        "LearnAimRef": "50106375",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Higher Free-Standing Mathematics Qualification in Data Handling",
+        "LearnAimRef": "50106843",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Free-Standing Mathematics Qualification in Using Data",
+        "LearnAimRef": "50106855",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Higher Free-Standing Mathematics Qualification in Shape and Space",
+        "LearnAimRef": "50106867",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Free-Standing Mathematics Qualification in Using Spatial Techniques",
+        "LearnAimRef": "50106879",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Higher Free-Standing Mathematics Qualification in Algebra and Graphs",
+        "LearnAimRef": "50106880",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Massage Using Pre-Blended Aromatherapy Oils",
+        "LearnAimRef": "50107306",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 122,
+        "LastNewStartDate": "2020-09-29"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Massage using pre-blended Aromatherapy Oils (QCF)",
+        "LearnAimRef": "50108037",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 153,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "50108347",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "5010956X",
+        "AwardOrgCode": "EDI",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50109868",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "5010987X",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50111395",
+        "AwardOrgCode": "EAL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50111589",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50111875",
+        "AwardOrgCode": "EAL",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 1)",
+        "LearnAimRef": "50114323",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-01-09"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50114372",
+        "AwardOrgCode": "SKILLSFR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-09-09"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50114992",
+        "AwardOrgCode": "SKILLSFR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-09-09"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50115224",
+        "AwardOrgCode": "EDI",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50115583",
+        "AwardOrgCode": "IMIAL",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2014-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50115637",
+        "AwardOrgCode": "IMIAL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2014-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics",
+        "LearnAimRef": "50116721",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-01-09"
+    },
+    {
+        "LearnAimRefTitle": "Subsidiary Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "50117701",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 150,
+        "LastNewStartDate": "2019-02-08"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "50118201",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
+        "LearnAimRef": "50118213",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level 3",
+        "LearnAimRef": "50119448",
+        "AwardOrgCode": "EDI",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50121455",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2014-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
+        "LearnAimRef": "50123245",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
+        "LearnAimRef": "50123257",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 2)",
+        "LearnAimRef": "50123804",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-01-09"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "50123841",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2014-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics (Entry 1)",
+        "LearnAimRef": "60000296",
+        "AwardOrgCode": "EDI",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "60000752",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
+        "LearnAimRef": "60001197",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
+        "LearnAimRef": "60001203",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 3)",
+        "LearnAimRef": "60001215",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-01-09"
+    },
+    {
+        "LearnAimRefTitle": "Award in Functional Skills Mathematics",
+        "LearnAimRef": "60001227",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-01-09"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics",
+        "LearnAimRef": "60004757",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
+        "LearnAimRef": "60006936",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 250,
+        "LastNewStartDate": "2015-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Pre-U Certificate in Mathematics (Statistics with Pure Mathematics) (Short Course)",
+        "LearnAimRef": "60007746",
+        "AwardOrgCode": "CAIE",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2018-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level-1",
+        "LearnAimRef": "6000793X",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level-2",
+        "LearnAimRef": "60009044",
+        "AwardOrgCode": "EDI",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level-2",
+        "LearnAimRef": "60012183",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level 3",
+        "LearnAimRef": "60012195",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "60019566",
+        "AwardOrgCode": "SQA",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "60019578",
+        "AwardOrgCode": "SQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Further Mathematics",
+        "LearnAimRef": "60021238",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "NVQ Award in Massage Using Pre-blended Aromatherapy Oils (QCF)",
+        "LearnAimRef": "60024951",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 67,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Pre-U Certificate in Further Mathematics (Short Course)",
+        "LearnAimRef": "60025682",
+        "AwardOrgCode": "CAIE",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2018-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in HL Mathematics",
+        "LearnAimRef": "6002575X",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Mathematical Studies",
+        "LearnAimRef": "60025979",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 225,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Mathematics",
+        "LearnAimRef": "60026017",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 225,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Further Mathematics HL",
+        "LearnAimRef": "60029912",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
+        "LearnAimRef": "60035456",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
+        "LearnAimRef": "60036278",
+        "AwardOrgCode": "CIBTAC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2013-10-23"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics (Entry 3)",
+        "LearnAimRef": "60040944",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics (Entry 2)",
+        "LearnAimRef": "60041857",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 80,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics (Entry 2)",
+        "LearnAimRef": "60041869",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics (Entry 3)",
+        "LearnAimRef": "60042485",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 80,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
+        "LearnAimRef": "60043155",
+        "AwardOrgCode": "FIRST",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-01-09"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Business Management, Mathematics and Economics",
+        "LearnAimRef": "60043775",
+        "AwardOrgCode": "KPA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 648,
+        "LastNewStartDate": "2021-06-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
+        "LearnAimRef": "6004682X",
+        "AwardOrgCode": "IMIAL",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2014-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "60048438",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 296,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "60049601",
+        "AwardOrgCode": "ABC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 296,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Basic Aromatherapy Techniques (QCF)",
+        "LearnAimRef": "60049650",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 260,
+        "LastNewStartDate": "2017-10-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
+        "LearnAimRef": "60050925",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 296,
+        "LastNewStartDate": "2018-02-08"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Aromatherapy for Complementary Therapies",
+        "LearnAimRef": "60050950",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 112,
+        "LastNewStartDate": "2017-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy (QCF)",
+        "LearnAimRef": "6005458X",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 120,
+        "LastNewStartDate": "2015-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "60055054",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 296,
+        "LastNewStartDate": "2019-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Aromatherapy",
+        "LearnAimRef": "60056587",
+        "AwardOrgCode": "CIBTAC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 296,
+        "LastNewStartDate": "2020-10-17"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy in the Lifelong Learning Sector (QCF)",
+        "LearnAimRef": "60056605",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 381,
+        "LastNewStartDate": "2018-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching in the Lifelong Learning Sector (Mathematics: Numeracy) (QCF)",
+        "LearnAimRef": "60056617",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 401,
+        "LastNewStartDate": "2018-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
+        "LearnAimRef": "60059540",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2020-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy (QCF)",
+        "LearnAimRef": "60060797",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "OfQualGlhMax": 120,
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Massage using Pre-Blended Aromatherapy Oils",
+        "LearnAimRef": "60066623",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 67,
+        "LastNewStartDate": "2019-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Aromatherapy",
+        "LearnAimRef": "60066684",
+        "AwardOrgCode": "ITEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 112,
+        "LastNewStartDate": "2019-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
+        "LearnAimRef": "60068851",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
+        "LearnAimRef": "60068863",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Level-1",
+        "LearnAimRef": "60071643",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Level-1",
+        "LearnAimRef": "60071825",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Level-2",
+        "LearnAimRef": "60071837",
+        "AwardOrgCode": "VTCT",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2017-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space",
+        "LearnAimRef": "60073664",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills (Measure, Shape and Space) (Entry 1)",
+        "LearnAimRef": "60074929",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 50,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data (Entry 1)",
+        "LearnAimRef": "60074930",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Number (Entry 2)",
+        "LearnAimRef": "60074942",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space (Entry 2)",
+        "LearnAimRef": "60074954",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data (Entry 2)",
+        "LearnAimRef": "60074966",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Number (Entry 3)",
+        "LearnAimRef": "60074978",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 70,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space (Entry 3)",
+        "LearnAimRef": "6007498X",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data (Entry 3)",
+        "LearnAimRef": "60074991",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Number",
+        "LearnAimRef": "60075053",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space",
+        "LearnAimRef": "60075065",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data",
+        "LearnAimRef": "60075077",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Number",
+        "LearnAimRef": "60075089",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data",
+        "LearnAimRef": "60075119",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics Skills (Entry 3)",
+        "LearnAimRef": "60075120",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 120,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics Skills",
+        "LearnAimRef": "60075144",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics Skills (Entry 2)",
+        "LearnAimRef": "60075156",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics Skills",
+        "LearnAimRef": "60075168",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematics Skills (Entry 1)",
+        "LearnAimRef": "60075235",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills - Number (Entry 1)",
+        "LearnAimRef": "60075247",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Money and time (Entry 1) (QCF)",
+        "LearnAimRef": "60075600",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 10,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations with whole numbers (Entry 2) (QCF)",
+        "LearnAimRef": "60075612",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and compass directions (Entry 3) (QCF)",
+        "LearnAimRef": "60075624",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Decimals in money and length (Entry 3) (QCF)",
+        "LearnAimRef": "60075636",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Measurement and time (Entry 3) (QCF)",
+        "LearnAimRef": "60075648",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations, ratio and direct proportion (QCF)",
+        "LearnAimRef": "6007565X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 50,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Fractions, decimals and percentages (QCF)",
+        "LearnAimRef": "60075661",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data and probability (QCF)",
+        "LearnAimRef": "60075673",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and space (QCF)",
+        "LearnAimRef": "60075685",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Fractions and measurement (Entry 2) (QCF)",
+        "LearnAimRef": "60075697",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data (Entry 2) (QCF)",
+        "LearnAimRef": "60075703",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and positional vocabulary (Entry 2) (QCF)",
+        "LearnAimRef": "60075715",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Money, time and date (Entry 2) (QCF)",
+        "LearnAimRef": "60075727",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Measuring systems (Entry 1) (QCF)",
+        "LearnAimRef": "60075739",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations with whole numbers (Entry 3) (QCF)",
+        "LearnAimRef": "60075740",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Fractions (Entry 3) (QCF)",
+        "LearnAimRef": "60075752",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 10,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Money (QCF)",
+        "LearnAimRef": "60075764",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 10,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Measurement and time (QCF)",
+        "LearnAimRef": "60075776",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations, ratio and direct proportion (QCF)",
+        "LearnAimRef": "60075788",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Fractions and decimals (QCF)",
+        "LearnAimRef": "6007579X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data and probability (QCF)",
+        "LearnAimRef": "60075806",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape, space and measure (QCF)",
+        "LearnAimRef": "60075818",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 40,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations with whole numbers (Entry 1) (QCF)",
+        "LearnAimRef": "6007582X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data (Entry 1) (QCF)",
+        "LearnAimRef": "60075831",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in The Principles of Using Mathematical Techniques",
+        "LearnAimRef": "60076550",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 98,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in The Principles of Using Mathematical Techniques",
+        "LearnAimRef": "60076562",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 98,
+        "LastNewStartDate": "2021-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Number (Entry 1) (QCF)",
+        "LearnAimRef": "60076744",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data (Entry 3) (QCF)",
+        "LearnAimRef": "60076756",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and positional vocabulary (Entry 1) (QCF)",
+        "LearnAimRef": "60077220",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Certificate in Mathematics (Entry 3) (QCF)",
+        "LearnAimRef": "6007727X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Certificate in Mathematics (Entry 2) (QCF)",
+        "LearnAimRef": "60077281",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Certificate in Mathematics (Entry 1) (QCF)",
+        "LearnAimRef": "60077293",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
+        "LearnAimRef": "60077669",
+        "AwardOrgCode": "IQ",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2019-07-22"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Certificate in Mathematics (QCF)",
+        "LearnAimRef": "60077773",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Cambridge Certificate in Mathematics (QCF)",
+        "LearnAimRef": "60077785",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 130,
+        "LastNewStartDate": "2016-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding Numbers",
+        "LearnAimRef": "60077864",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Using Calculations: Addition and Subtraction of Whole Numbers",
+        "LearnAimRef": "60077876",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Using Calculations: Multiplication and Division of Whole Numbers",
+        "LearnAimRef": "60077888",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding and Using Fractions",
+        "LearnAimRef": "6007789X",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding and Using Decimals",
+        "LearnAimRef": "60077906",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding and Using Percentages",
+        "LearnAimRef": "60077918",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills",
+        "LearnAimRef": "60078479",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 54,
+        "LastNewStartDate": "2020-04-30"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Handling Data",
+        "LearnAimRef": "60079009",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Measure: Time and Temperature",
+        "LearnAimRef": "60079010",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 18,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Probability",
+        "LearnAimRef": "60079022",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding Length, Weight and Capacity",
+        "LearnAimRef": "60079034",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding and Using 2D Shapes",
+        "LearnAimRef": "60079046",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding Perimeter and Area",
+        "LearnAimRef": "60079058",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Data Calculations",
+        "LearnAimRef": "60079149",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematical Skills - Understanding Volume",
+        "LearnAimRef": "60079150",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 9,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Mathematical Skills",
+        "LearnAimRef": "60079162",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 189,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
+        "LearnAimRef": "60079472",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
+        "LearnAimRef": "60079484",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-10-22"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills",
+        "LearnAimRef": "60081429",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 48,
+        "LastNewStartDate": "2020-04-30"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
+        "LearnAimRef": "60086397",
+        "AwardOrgCode": "AIMAWARD",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-09-10"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
+        "LearnAimRef": "60086440",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
+        "LearnAimRef": "60086464",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
+        "LearnAimRef": "60086476",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
+        "LearnAimRef": "60086488",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
+        "LearnAimRef": "6008649X",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
+        "LearnAimRef": "6008859X",
+        "AwardOrgCode": "AIMAWARD",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-09-10"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
+        "LearnAimRef": "60088606",
+        "AwardOrgCode": "AIMAWARD",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-09-10"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
+        "LearnAimRef": "60088618",
+        "AwardOrgCode": "AIMAWARD",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-09-10"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Level-2",
+        "LearnAimRef": "6008862X",
+        "AwardOrgCode": "AIMAWARD",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2018-09-10"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry Level-1",
+        "LearnAimRef": "60094825",
+        "AwardOrgCode": "IQ",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry Level-2",
+        "LearnAimRef": "60094837",
+        "AwardOrgCode": "IQ",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry Level 3",
+        "LearnAimRef": "60100412",
+        "AwardOrgCode": "IQ",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Level-2",
+        "LearnAimRef": "60101738",
+        "AwardOrgCode": "IQ",
+        "NotionalNVQLevelDesc": "Level-2",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Level-1",
+        "LearnAimRef": "60102445",
+        "AwardOrgCode": "IQ",
+        "NotionalNVQLevelDesc": "Level-1",
+        "OfQualGlhMax": 45,
+        "LastNewStartDate": "2019-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills (Entry 1)",
+        "LearnAimRef": "60105707",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 90,
+        "LastNewStartDate": "2020-04-30"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills (Entry 2)",
+        "LearnAimRef": "60105719",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 90,
+        "LastNewStartDate": "2020-04-30"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics Skills (Entry 3)",
+        "LearnAimRef": "60105720",
+        "AwardOrgCode": "NOCN",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 90,
+        "LastNewStartDate": "2020-04-30"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Maths (Entry 1)",
+        "LearnAimRef": "60106098",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 170,
+        "LastNewStartDate": "2027-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Maths (Entry 2)",
+        "LearnAimRef": "60106104",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 210,
+        "LastNewStartDate": "2027-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Maths (Entry 3)",
+        "LearnAimRef": "60106116",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 230,
+        "LastNewStartDate": "2027-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Adding and Subtracting (Entry 1)",
+        "LearnAimRef": "6010627X",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Money and Time (Entry 1)",
+        "LearnAimRef": "60106281",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Using and Communicating Data (Entry 1)",
+        "LearnAimRef": "60106293",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Using Size, Shape and Space (Entry 1)",
+        "LearnAimRef": "6010630X",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Using Whole Numbers (Entry 1)",
+        "LearnAimRef": "60106311",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Addition, Subtracting and Multiplication (Entry 2)",
+        "LearnAimRef": "60106414",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Money, Time and Temperature (Entry 2)",
+        "LearnAimRef": "60106438",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Using and Communicating Data (Entry 2)",
+        "LearnAimRef": "6010644X",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Using Whole Numbers and Fractions (Entry 2)",
+        "LearnAimRef": "60106451",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 20,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Using Size, Shape and Measure (Entry 2)",
+        "LearnAimRef": "60106670",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Making Calculations (Entry 3)",
+        "LearnAimRef": "60107029",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Award in Mathematics - Money, Time and Temperature (Entry 3)",
+        "LearnAimRef": "60107030",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Entry level",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2022-07-31"
+    }
+]`;
