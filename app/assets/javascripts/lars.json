@@ -3,7 +3,7 @@ var data = `[
         "LearnAimRefTitle": "Aromatherapy",
         "LearnAimRef": "00222181",
         "AwardOrgCode": "IEB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2013-12-31"
     },
     {
@@ -24,83 +24,83 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Education - Lifelong Learning Sector (Mathematics and Numeracy)",
         "LearnAimRef": "00244953",
         "AwardOrgCode": "NTU",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy CPD) in the Lifelong Sector",
         "LearnAimRef": "00246120",
         "AwardOrgCode": "UOPLY",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "Foundation Degree in Education and Training for Mathematics and Numeracy Specialists",
         "LearnAimRef": "00246224",
         "AwardOrgCode": "NCG",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "BSc (Hons) in Mathematics (Year One)",
         "LearnAimRef": "00246494",
         "AwardOrgCode": "UCLAN",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "Post Graduate Certificate in Education in Secondary Physics and Maths (PGCE)",
         "LearnAimRef": "00246697",
         "AwardOrgCode": "UOT",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "DipHE in Teaching Mathematics: Numeracy",
         "LearnAimRef": "00246804",
         "AwardOrgCode": "UOSX",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics",
         "LearnAimRef": "00260047",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics",
         "LearnAimRef": "00260048",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics (MEI)",
         "LearnAimRef": "00260052",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level Mathematics",
         "LearnAimRef": "00260329",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics",
         "LearnAimRef": "00260408",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "Diploma in Aromatherapy for Carers",
         "LearnAimRef": "00270783",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2011-07-31"
     },
     { 
@@ -114,7 +114,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A2 Level in Mathematics",
         "LearnAimRef": "00280024",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
@@ -488,175 +488,175 @@ var data = `[
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
         "LearnAimRef": "00280618",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
         "LearnAimRef": "00280619",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
         "LearnAimRef": "00285045",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
         "LearnAimRef": "00285048",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics (MEI)",
         "LearnAimRef": "00285049",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics (MEI)",
         "LearnAimRef": "00285050",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
         "LearnAimRef": "00285054",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
         "LearnAimRef": "00285514",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
         "LearnAimRef": "00285516",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
         "LearnAimRef": "00285517",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics",
         "LearnAimRef": "00285518",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
         "LearnAimRef": "00285523",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics",
         "LearnAimRef": "00285535",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics (Pilot)",
         "LearnAimRef": "00285541",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Further Mathematics (Pilot)",
         "LearnAimRef": "00285542",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics (Pilot)",
         "LearnAimRef": "00285546",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Mathematics (Pilot)",
         "LearnAimRef": "00285547",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics",
         "LearnAimRef": "00285549",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Pure Mathematics (Pilot)",
         "LearnAimRef": "00285550",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "GCE A2 Level in Use of Mathematics (Pilot)",
         "LearnAimRef": "00285553",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2015-07-31"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Maths - Southwark College",
         "LearnAimRef": "00286603",
         "AwardOrgCode": "OCNLR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-11-21"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Computing and Maths - Newham College of Further Education",
         "LearnAimRef": "00287333",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-11-21"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Mathematics - University of Bolton",
         "LearnAimRef": "00287750",
         "AwardOrgCode": "OPENAWRD",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-11-21"
     },
     {
         "LearnAimRefTitle": "Advanced Certificate in Science and Mathematics for Engineering Technicians (Provider Specific)",
         "LearnAimRef": "00291850",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2011-07-31"
     },
     {
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "00295214",
         "AwardOrgCode": "IFPA",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "Function Junction Mathematics",
@@ -668,105 +668,105 @@ var data = `[
         "LearnAimRefTitle": "PGCE in Secondary Mathematics",
         "LearnAimRef": "00300257",
         "AwardOrgCode": "UOT",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "BA (Hons) in Primary Education (Mathematics)",
         "LearnAimRef": "00300271",
         "AwardOrgCode": "UOT",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "PGCE in Mathematics and Numeracy Specialists",
         "LearnAimRef": "00300295",
         "AwardOrgCode": "UOT",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector",
         "LearnAimRef": "00300371",
         "AwardOrgCode": "UW",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "Diploma in Education and Training - Mathematics (120 Credits)",
         "LearnAimRef": "00300392",
         "AwardOrgCode": "UOWAR",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "Diploma in Teaching Mathematics : Numeracy (45 Credits)",
         "LearnAimRef": "00300395",
         "AwardOrgCode": "UOWAR",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "PGCE in Maths (Numeracy)",
         "LearnAimRef": "00300637",
         "AwardOrgCode": "UCLAN",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "CertED in Mathematics (Numeracy)",
         "LearnAimRef": "00300638",
         "AwardOrgCode": "UCLAN",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "PGCE in Advanced Certificate in Teaching Mathematics (Numeracy)",
         "LearnAimRef": "00300639",
         "AwardOrgCode": "UCLAN",
-        "NotionalNVQLevelDesc": "Level 5 (original)",
+        "NotionalNVQLevelDesc": "Level-5 (original)",
         "LastNewStartDate": "2018-04-10"
     },
     {
         "LearnAimRefTitle": "BSc in Secondary Education (Physics With Mathematics) - (Bradford College)",
         "LearnAimRef": "00301467",
         "AwardOrgCode": "UOT",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "PGCE for Mathematics and Numeracy Specialists - Newcastle College",
         "LearnAimRef": "00302059",
         "AwardOrgCode": "NCG",
-        "NotionalNVQLevelDesc": "Level 5 (original)"
+        "NotionalNVQLevelDesc": "Level-5 (original)"
     },
     {
         "LearnAimRefTitle": "Foundation Degree in Education and Training for Mathematics and Numeracy Specialists -Newcastle College",
         "LearnAimRef": "00302115",
         "AwardOrgCode": "NCG",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "PGCE in Secondary (Mathematics) - Bradford College",
         "LearnAimRef": "00302309",
         "AwardOrgCode": "BOLTONIN",
-        "NotionalNVQLevelDesc": "Level 5 (original)"
+        "NotionalNVQLevelDesc": "Level-5 (original)"
     },
     {
         "LearnAimRefTitle": "PGCE in Secondary (Physics and Mathematics) - Bradford College",
         "LearnAimRef": "00302312",
         "AwardOrgCode": "BOLTONIN",
-        "NotionalNVQLevelDesc": "Level 5 (original)"
+        "NotionalNVQLevelDesc": "Level-5 (original)"
     },
     {
         "LearnAimRefTitle": "Certificate in Education Post-16 Education and Training (Mathematics) - Leeds City College",
         "LearnAimRef": "00303700",
         "AwardOrgCode": "OU",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "Professional Graduate Certificate in Education (Mathematics) - Leeds City College",
         "LearnAimRef": "00303703",
         "AwardOrgCode": "OU",
-        "NotionalNVQLevelDesc": "Level 4 (original)"
+        "NotionalNVQLevelDesc": "Level-4 (original)"
     },
     {
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Working in 2 and 3 Dimensions",
@@ -820,7 +820,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Modelling with Calculus",
         "LearnAimRef": "10006758",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2016-08-31"
     },
@@ -828,7 +828,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Working with Algebraic and Graphical Techniques",
         "LearnAimRef": "10006801",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2016-08-31"
     },
@@ -836,7 +836,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using and Applying Statistics",
         "LearnAimRef": "10006813",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2016-08-31"
     },
@@ -875,7 +875,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Use of Mathematics",
         "LearnAimRef": "10013301",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2016-08-31"
     },
@@ -883,7 +883,7 @@ var data = `[
         "LearnAimRefTitle": "Advanced Extension Award in Mathematics",
         "LearnAimRef": "10015516",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 10,
         "LastNewStartDate": "2099-12-31"
     },
@@ -891,7 +891,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "10024037",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-12-31"
     },
@@ -899,7 +899,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Additional Mathematics",
         "LearnAimRef": "10025480",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2023-08-31"
     },
@@ -915,7 +915,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics",
         "LearnAimRef": "10034055",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-30"
     },
@@ -923,7 +923,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics",
         "LearnAimRef": "10034080",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -931,7 +931,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics",
         "LearnAimRef": "10034110",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -939,7 +939,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics",
         "LearnAimRef": "10034122",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -947,7 +947,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics (MEI)",
         "LearnAimRef": "10034171",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -955,7 +955,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics (MEI)",
         "LearnAimRef": "10034183",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -963,7 +963,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics",
         "LearnAimRef": "10034237",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -971,7 +971,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics",
         "LearnAimRef": "10034249",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -979,7 +979,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics",
         "LearnAimRef": "10034298",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-08-31"
     },
@@ -987,7 +987,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics",
         "LearnAimRef": "10034328",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2020-08-31"
     },
@@ -995,7 +995,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics",
         "LearnAimRef": "10034341",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1003,7 +1003,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics",
         "LearnAimRef": "10034353",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1019,7 +1019,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Using and Applying Decision Mathematics",
         "LearnAimRef": "10055800",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2016-08-31"
     },
@@ -1027,7 +1027,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
         "LearnAimRef": "10060042",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1035,7 +1035,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
         "LearnAimRef": "10060054",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1043,7 +1043,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
         "LearnAimRef": "10060066",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1051,7 +1051,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics",
         "LearnAimRef": "10060078",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1059,7 +1059,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
         "LearnAimRef": "1006008X",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-08-31"
     },
@@ -1067,7 +1067,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
         "LearnAimRef": "10060091",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-08-31"
     },
@@ -1075,7 +1075,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics",
         "LearnAimRef": "10060108",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2020-08-31"
     },
@@ -1083,7 +1083,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
         "LearnAimRef": "1006011X",
         "AwardOrgCode": "CCEA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-22"
     },
@@ -1091,7 +1091,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
         "LearnAimRef": "10060121",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1099,7 +1099,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
         "LearnAimRef": "10060133",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1107,7 +1107,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics",
         "LearnAimRef": "10060145",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1115,7 +1115,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
         "LearnAimRef": "10060157",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1123,7 +1123,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics (MEI)",
         "LearnAimRef": "10060169",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1131,7 +1131,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics (MEI)",
         "LearnAimRef": "10060170",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1139,7 +1139,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics (MEI)",
         "LearnAimRef": "10060182",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1147,7 +1147,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics (MEI)",
         "LearnAimRef": "10060194",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1155,7 +1155,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
         "LearnAimRef": "10060200",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1163,7 +1163,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
         "LearnAimRef": "10060212",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1171,7 +1171,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics",
         "LearnAimRef": "10060224",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1179,7 +1179,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
         "LearnAimRef": "10060236",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1187,7 +1187,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics",
         "LearnAimRef": "10060248",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1195,7 +1195,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics",
         "LearnAimRef": "1006025X",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1203,7 +1203,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics",
         "LearnAimRef": "10060261",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1211,7 +1211,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics",
         "LearnAimRef": "10060273",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1314,7 +1314,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Data Analysis (Pilot)",
         "LearnAimRef": "10064497",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1392,63 +1392,63 @@ var data = `[
         "LearnAimRefTitle": "Access to Higher Education Diploma: Maths and Engineering",
         "LearnAimRef": "40003097",
         "AwardOrgCode": "ONEAWARDS",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2019-07-01"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Computer Science and Maths",
         "LearnAimRef": "40003863",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-10-31"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering Science and Maths",
         "LearnAimRef": "4000398X",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-10-31"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science; Engineering and Maths",
         "LearnAimRef": "40004478",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-10-31"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Business with Mathematics",
         "LearnAimRef": "40004508",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2019-07-01"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Humanities with Mathematics",
         "LearnAimRef": "40004521",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2019-07-01"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Maths",
         "LearnAimRef": "40004880",
         "AwardOrgCode": "OCNCREDI",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2019-01-31"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science with Maths",
         "LearnAimRef": "40005483",
         "AwardOrgCode": "ONEAWARDS",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2019-07-01"
     },
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science combined with Mathematics",
         "LearnAimRef": "40005616",
         "AwardOrgCode": "LASER",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2020-07-31"
     },
@@ -1456,7 +1456,7 @@ var data = `[
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Maths",
         "LearnAimRef": "40006396",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-03-01"
     },
@@ -1464,7 +1464,7 @@ var data = `[
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science; Technology; Engineering and Mathematics",
         "LearnAimRef": "40006451",
         "AwardOrgCode": "OPENAWRD",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2020-12-01"
     },
@@ -1472,7 +1472,7 @@ var data = `[
         "LearnAimRefTitle": "Access to HE Diploma (Computer Science and Maths)",
         "LearnAimRef": "40008538",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2019-07-01"
     },
@@ -1480,7 +1480,7 @@ var data = `[
         "LearnAimRefTitle": "Access to HE Diploma (Engineering Science and Maths)",
         "LearnAimRef": "4000854X",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2019-07-01"
     },
@@ -1488,7 +1488,7 @@ var data = `[
         "LearnAimRefTitle": "Access to HE Diploma (Science with Mathematics)",
         "LearnAimRef": "40010508",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2024-07-01"
     },
@@ -1496,7 +1496,7 @@ var data = `[
         "LearnAimRefTitle": "Access to HE Diploma (Engineering Science and Maths)",
         "LearnAimRef": "40010533",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2024-07-01"
     },
@@ -1504,7 +1504,7 @@ var data = `[
         "LearnAimRefTitle": "Access to HE Diploma (Actuarial Science and Maths)",
         "LearnAimRef": "40010740",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
     },
@@ -1512,7 +1512,7 @@ var data = `[
         "LearnAimRefTitle": "Access to HE Diploma (Computer Science and Maths)",
         "LearnAimRef": "40010776",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
     },
@@ -1520,7 +1520,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "5001044X",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 200,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1528,7 +1528,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Additional Aromatherapy Techniques",
         "LearnAimRef": "50010499",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 230,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1544,7 +1544,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in HL Mathematics",
         "LearnAimRef": "50020638",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2013-12-31"
     },
@@ -1552,7 +1552,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in SL Mathematics",
         "LearnAimRef": "50020651",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 225,
         "LastNewStartDate": "2013-12-31"
     },
@@ -1560,7 +1560,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in SL Further Mathematics",
         "LearnAimRef": "50020663",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 225,
         "LastNewStartDate": "2013-12-31"
     },
@@ -1568,7 +1568,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in SL Mathematical Studies",
         "LearnAimRef": "50020687",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 225,
         "LastNewStartDate": "2013-12-31"
     },
@@ -1576,7 +1576,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50020857",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2016-12-31"
     },
@@ -1656,7 +1656,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics (Pilot)",
         "LearnAimRef": "50027359",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1664,7 +1664,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics (Pilot)",
         "LearnAimRef": "50027360",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1704,7 +1704,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Further Mathematics (Pilot)",
         "LearnAimRef": "50027906",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2012-12-31"
     },
@@ -1712,7 +1712,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Mathematics (Pilot)",
         "LearnAimRef": "50027918",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2012-12-31"
     },
@@ -1720,7 +1720,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics (Pilot)",
         "LearnAimRef": "50029125",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1728,7 +1728,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics (Pilot)",
         "LearnAimRef": "50029137",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2012-12-31"
     },
@@ -1736,7 +1736,7 @@ var data = `[
         "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50030048",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 150,
         "LastNewStartDate": "2015-12-31"
     },
@@ -1744,7 +1744,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Pure Mathematics (Pilot)",
         "LearnAimRef": "50031582",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1752,7 +1752,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Pure Mathematics (Pilot)",
         "LearnAimRef": "50031636",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1760,7 +1760,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Mathematics (Pilot)",
         "LearnAimRef": "50032021",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1768,7 +1768,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Further Mathematics (Pilot)",
         "LearnAimRef": "50032033",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2011-08-31"
     },
@@ -1776,7 +1776,7 @@ var data = `[
         "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50033451",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 120,
         "LastNewStartDate": "2016-12-31"
     },
@@ -1784,7 +1784,7 @@ var data = `[
         "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50033670",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 150,
         "LastNewStartDate": "2016-12-31"
     },
@@ -1792,7 +1792,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50033852",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2016-12-31"
     },
@@ -1800,7 +1800,7 @@ var data = `[
         "LearnAimRefTitle": "Pre-U Certificate in Mathematics (Principal)",
         "LearnAimRef": "50037894",
         "AwardOrgCode": "CAIE",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 380,
         "LastNewStartDate": "2099-12-31"
     },
@@ -1808,7 +1808,7 @@ var data = `[
         "LearnAimRefTitle": "Pre-U Certificate in Further Mathematics (Principal)",
         "LearnAimRef": "50038291",
         "AwardOrgCode": "CAIE",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 380,
         "LastNewStartDate": "2099-12-31"
     },
@@ -1816,7 +1816,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Hypothesis Testing (Pilot)",
         "LearnAimRef": "50040066",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1824,7 +1824,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Decision Mathematics (Pilot)",
         "LearnAimRef": "50040078",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-08-31"
     },
@@ -1832,7 +1832,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification in Calculus (Pilot)",
         "LearnAimRef": "5004008X",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1840,7 +1840,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Dynamics (Pilot)",
         "LearnAimRef": "5004090X",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1848,7 +1848,7 @@ var data = `[
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Mathematical Principles for Personal Finance (Pilot)",
         "LearnAimRef": "50040923",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1856,7 +1856,7 @@ var data = `[
         "LearnAimRefTitle": "GCE AS Level in Use of Mathematics (Pilot)",
         "LearnAimRef": "50040947",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1864,7 +1864,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics for Engineering",
         "LearnAimRef": "50041368",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2016-08-31"
     },
@@ -1872,7 +1872,7 @@ var data = `[
         "LearnAimRefTitle": "GCE A Level in Use of Mathematics (Pilot)",
         "LearnAimRef": "50041460",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2019-07-31"
     },
@@ -1888,7 +1888,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematical Techniques and Applications for Engineers",
         "LearnAimRef": "50047097",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2016-08-31"
     },
@@ -1896,7 +1896,7 @@ var data = `[
         "LearnAimRefTitle": "Award for Mathematics in Engineering",
         "LearnAimRef": "50047516",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2013-08-31"
     },
@@ -1928,7 +1928,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "50062359",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2015-08-31"
     },
@@ -1936,7 +1936,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
         "LearnAimRef": "50062372",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 250,
         "LastNewStartDate": "2015-08-31"
     },
@@ -1944,7 +1944,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "50065002",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2015-08-31"
     },
@@ -1968,7 +1968,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
         "LearnAimRef": "50068805",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 250,
         "LastNewStartDate": "2015-08-31"
     },
@@ -1992,7 +1992,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "50073485",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2015-08-31"
     },
@@ -2400,7 +2400,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Massage Using Pre-Blended Aromatherapy Oils",
         "LearnAimRef": "50107306",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 122,
         "LastNewStartDate": "2020-09-29"
     },
@@ -2408,7 +2408,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Massage using pre-blended Aromatherapy Oils (QCF)",
         "LearnAimRef": "50108037",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 153,
         "LastNewStartDate": "2016-07-31"
     },
@@ -2528,7 +2528,7 @@ var data = `[
         "LearnAimRefTitle": "Subsidiary Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50117701",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 150,
         "LastNewStartDate": "2019-02-08"
     },
@@ -2656,7 +2656,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
         "LearnAimRef": "60006936",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 250,
         "LastNewStartDate": "2015-08-31"
     },
@@ -2664,7 +2664,7 @@ var data = `[
         "LearnAimRefTitle": "Pre-U Certificate in Mathematics (Statistics with Pure Mathematics) (Short Course)",
         "LearnAimRef": "60007746",
         "AwardOrgCode": "CAIE",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2018-06-30"
     },
@@ -2728,7 +2728,7 @@ var data = `[
         "LearnAimRefTitle": "NVQ Award in Massage Using Pre-blended Aromatherapy Oils (QCF)",
         "LearnAimRef": "60024951",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 67,
         "LastNewStartDate": "2016-07-31"
     },
@@ -2736,7 +2736,7 @@ var data = `[
         "LearnAimRefTitle": "Pre-U Certificate in Further Mathematics (Short Course)",
         "LearnAimRef": "60025682",
         "AwardOrgCode": "CAIE",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 180,
         "LastNewStartDate": "2018-06-30"
     },
@@ -2744,7 +2744,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in HL Mathematics",
         "LearnAimRef": "6002575X",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2017-08-31"
     },
@@ -2752,7 +2752,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in SL Mathematical Studies",
         "LearnAimRef": "60025979",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 225,
         "LastNewStartDate": "2017-08-31"
     },
@@ -2760,7 +2760,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in SL Mathematics",
         "LearnAimRef": "60026017",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 225,
         "LastNewStartDate": "2017-08-31"
     },
@@ -2768,7 +2768,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Further Mathematics HL",
         "LearnAimRef": "60029912",
         "AwardOrgCode": "IB",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2017-08-31"
     },
@@ -2776,7 +2776,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
         "LearnAimRef": "60035456",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2020-07-31"
     },
@@ -2784,7 +2784,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "60036278",
         "AwardOrgCode": "CIBTAC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2013-10-23"
     },
@@ -2832,7 +2832,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Business Management, Mathematics and Economics",
         "LearnAimRef": "60043775",
         "AwardOrgCode": "KPA",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 648,
         "LastNewStartDate": "2021-06-30"
     },
@@ -2848,7 +2848,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "60048438",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 296,
         "LastNewStartDate": "2020-07-31"
     },
@@ -2856,7 +2856,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "60049601",
         "AwardOrgCode": "ABC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 296,
         "LastNewStartDate": "2017-07-31"
     },
@@ -2872,7 +2872,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "60050925",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 296,
         "LastNewStartDate": "2018-02-08"
     },
@@ -2880,7 +2880,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Aromatherapy for Complementary Therapies",
         "LearnAimRef": "60050950",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 112,
         "LastNewStartDate": "2017-12-31"
     },
@@ -2888,7 +2888,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy (QCF)",
         "LearnAimRef": "6005458X",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 120,
         "LastNewStartDate": "2015-12-31"
     },
@@ -2896,7 +2896,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "60055054",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 296,
         "LastNewStartDate": "2019-12-31"
     },
@@ -2904,7 +2904,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "60056587",
         "AwardOrgCode": "CIBTAC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 296,
         "LastNewStartDate": "2020-10-17"
     },
@@ -2912,7 +2912,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "60056605",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 381,
         "LastNewStartDate": "2018-12-31"
     },
@@ -2920,7 +2920,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Teaching in the Lifelong Learning Sector (Mathematics: Numeracy) (QCF)",
         "LearnAimRef": "60056617",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 401,
         "LastNewStartDate": "2018-12-31"
     },
@@ -2928,7 +2928,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
         "LearnAimRef": "60059540",
         "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2020-12-31"
     },
@@ -2936,7 +2936,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy (QCF)",
         "LearnAimRef": "60060797",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 120,
         "LastNewStartDate": "2013-12-31"
     },
@@ -2944,7 +2944,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Massage using Pre-Blended Aromatherapy Oils",
         "LearnAimRef": "60066623",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 67,
         "LastNewStartDate": "2019-12-31"
     },
@@ -2952,7 +2952,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Aromatherapy",
         "LearnAimRef": "60066684",
         "AwardOrgCode": "ITEC",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 112,
         "LastNewStartDate": "2019-12-31"
     },
@@ -3416,7 +3416,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
         "LearnAimRef": "60077669",
         "AwardOrgCode": "IQ",
-        "NotionalNVQLevelDesc": "Level 3",
+        "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-22"
     },
