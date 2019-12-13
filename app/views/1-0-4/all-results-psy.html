@@ -7,6 +7,8 @@
 
 {% block content %}
 
+<script type="text/javascript" src="/public/javascripts/psychology.json"></script>
+
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
       <div class="standard-search">
@@ -53,7 +55,7 @@
         <div class="govuk-grid-column-two-thirds">
           
           
-            <p class="govuk-body flex space-between"><span><span id="listCount">15</span> results</span> <span><a class="govuk-link govuk-link--no-visited-state govuk-!-font-size-16" href="#">Download results</a></span></p>
+            <p class="govuk-body flex space-between"><span><span id="listCount">205</span> results</span> <span><a class="govuk-link govuk-link--no-visited-state govuk-!-font-size-16" href="#">Download results</a></span></p>
             <div class="filter-feedback-container">
               <span id="from" class="govuk-body govuk-!-font-size-16"><strong>From: </strong>  
                 <span id="firstFilter"> 
@@ -67,82 +69,29 @@
           <hr class="colour-black govuk-section-break govuk-section-break--m govuk-section-break--visible">
 
           <ul id="resultList" class="govuk-list">
-              <li class="Edexcel level-1 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Counselling and Psychology)</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"> <span>40010740</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 1</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="CG level-2 2018-2019">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Applied Psychology - Lowestoft College</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"> <span>5010987X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>CG - City & Guilds of London Instit</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 2</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span> </p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="AQA level-1 2017-2018">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">GCE A Level in Psychology</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"> <span>6014838X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>AQA - Assessment & Qualifications Alliance</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 1</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span> </p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="CG level-1 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to Higher Education Diploma: Psychology and Counselling	</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"> <span>60008805</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>CG - City & Guilds of London Institute</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 1</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-2 2018-2019">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">BA (Hons) in Counselling and Psychology in Community Settings</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40010776</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 2</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-1 2018-2019">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">BSc (Hons) in Applied Psychology</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40008538</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 1</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-4 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">BSc (Hons) in Child and Adolescent Psychology</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>4000854X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 4</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-3 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Access to HE Diploma (Engineering Science and Maths)</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40010533</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 3</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-1 2017-2018">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">	BSc (Hons) in Psychology (Year One)</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40003863</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 1</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-2 2016-2017">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">BSc (Hons) in Psychology with Foundation Entry - Blackburn College</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>00287333</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 2</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-4 2018-2019">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Certificate in HL Psychology	</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>4000398X</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 4</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-3 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">GCE A2 Level Psychology</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>00286603</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 3</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-3 2016-2017">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Intermediate Equine Psychology</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40003097</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 3</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-2 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Psychology (City Literary Institute)</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40004880</span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 2</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-              <li class="Edexcel level-1 2019-2020">
-                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">Modern Theories of Canine Behaviour, Psychology and Training	</a>
-                <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2"><span>40006396<span> &nbsp; &nbsp; &nbsp; &nbsp; <span>Edexcel</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>Level 1</span>&nbsp; &nbsp; &nbsp; &nbsp; <span>45 Guided learning hours</span></p>
-                <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: 31 August 2020</span></p>
-              </li>
-            </ul>
+          </ul>
+        
+          <script>
+          (function() {
+            var mydata = JSON.parse(data);
+            var ul = document.getElementById('resultList');
+            
+            for(var i=0;i<mydata.length;i++) {
+              const node =
+                    `<li data-category="${mydata[i].AwardOrgCode} ${mydata[i].NotionalNVQLevelDesc} 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer">
+                        <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">${mydata[i].LearnAimRefTitle}</a>
+                        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex space-between">
+                          <span>${mydata[i].LearnAimRef}</span>
+                          <span>${mydata[i].AwardOrgCode}</span>
+                          <span>${mydata[i].NotionalNVQLevelDesc}</span>
+                          <span>${mydata[i].OfQualGlhMax} Guided learning hours</span>
+                        </p>
+                        <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: ${mydata[i].LastNewStartDate}</span></p>
+                      </li>`;
+              ul.insertAdjacentHTML('beforeend', node);
+            }
+          })();
+          </script>
 
         </div>
   

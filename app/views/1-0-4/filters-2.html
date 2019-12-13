@@ -15,44 +15,40 @@
             
             items: [
               {
-                value: "iCQ",
-                text: "iCan Qualifications Limited"
+                value: "IEB",
+                text: "IEB"
               },
               {
-                value: "QA",
-                text: "Qualsafe Awards"
+                value: "OCR",
+                text: "OCR"
               },
               {
-                value: "BIIAB",
-                text: "BIIAB"
+                value: "Learn-Direct",
+                text: "Learn-Direct"
               },
               {
                 value: "AQA",
                 text: "AQA"
               },
               {
-                value: "CG",
-                text: "CG - City & Guilds of London Institute"
+                value: "City-Guilds",
+                text: "City-Guilds"
               },
               {
-                value: "Edexcel",
-                text: "Edexcel"
+                value: "EDEXCEL",
+                text: "EDEXCEL"
               },
               {
                 value: "UWLQ",
-                text: "University of West London"
+                text: "UWLQ"
               },
               {
                 value: "UAL",
-                text: "University of the Arts London"
+                text: "UAL"
               },
               {
-                value: "OCR",
-                text: "Oxford, Cambridge and RSA Examinations"
-              },
-              {
-                value: "NCC Education",
-                text: "NCC Education"
+                value: "NCC-Education",
+                text: "NCC-Education"
               }
             ]
           }) }}
@@ -74,61 +70,123 @@
             
             items: [
               {
-                value: "level-1",
-                text: "Level 1"
+                value: "Level-1",
+                text: "Level-1",
+                id: "Level-1"
               },
               {
-                value: "level-1-2",
-                text: "Level 1/2"
+                value: "Level-2",
+                text: "Level-2"
               },
               {
-                value: "level-2",
-                text: "Level 2"
+                value: "Level-3",
+                text: "Level-3"
               },
               {
-                value: "level-3",
-                text: "Level 3"
+                value: "Level-4",
+                text: "Level-4"
               },
               {
-                value: "level-4",
-                text: "Level 4"
+                value: "Level-5",
+                text: "Level-5"
               },
               {
-                value: "level-5",
-                text: "Level 5"
+                value: "Level-6",
+                text: "Level-6"
               },
               {
-                value: "level-6",
-                text: "Level 6"
+                value: "Level-7",
+                text: "Level-7"
               },
               {
-                value: "level-7",
-                text: "Level 7"
+                value: "Level-8",
+                text: "Level-8"
               },
               {
-                value: "level-8",
-                text: "Level 8"
+                value: "Entry-level",
+                text: "Entry-level"
               },
               {
-                value: "entry-level",
-                text: "Entry level"
+                value: "Higher-level",
+                text: "Higher-level"
               },
               {
-                value: "higher-level",
-                text: "Higher level"
+                value: "Mixed-level",
+                text: "Mixed-level"
               },
               {
-                value: "mixed-level",
-                text: "Mixed level"
-              },
-              {
-                value: "not-known",
-                text: "Not known"
+                value: "Not-known",
+                text: "Not-known"
               }
             ]
           }) }}
       </div>
   </section>
+
+
+  <section id="fundingStream" class="filter-section">
+    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      Funding stream
+    </a>
+    <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+    <div class="filter-box hidden">
+        {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+        {{ govukCheckboxes({
+          idPrefix: "funding stream",
+          name: "funding stream",
+          classes: "govuk-checkboxes--small",
+          
+          items: [
+            {
+              value: "16-19",
+              text: "16-19"
+            },
+            {
+              value: "Adult-skills",
+              text: "Adult-skills"
+            },
+            {
+              value: "Advanced-learner-loans",
+              text: "Advanced-learner-loans"
+            },
+            {
+              value: "Other",
+              text: "Other"
+            },
+            {
+              value: "Apprenticeships",
+              text: "Apprenticeships"
+            },
+            {
+              value: "Community-learning",
+              text: "Community learning"
+            },
+            {
+              value: "EFA-Funding-condition-english",
+              text: "EFA-Funding-condition-english"
+            },
+            {
+              value: "EFA-Funding-condition-maths",
+              text: "EFA-Funding-condition-maths"
+            },
+            {
+              value: "European-social-fund",
+              text: "European-social-fund"
+            },
+            {
+              value: "OLASS",
+              text: "OLASS"
+            },
+            {
+              value: "Unemployed-offer",
+              text: "Unemployed-offer"
+            }
+          ]
+        }) }}
+    </div>
+</section>
+
 
   <section id="teachingYear" class="filter-section">
       <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
@@ -166,68 +224,7 @@
       </div>
   </section>
 
-  <section id="fundingStream" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-        Funding stream
-      </a>
-      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
-      <div class="filter-box hidden">
-          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
-
-          {{ govukCheckboxes({
-            idPrefix: "funding stream",
-            name: "funding stream",
-            classes: "govuk-checkboxes--small",
-            
-            items: [
-              {
-                value: "16-19",
-                text: "16 to 19 EFA"
-              },
-              {
-                value: "adult-skills",
-                text: "Adult skills"
-              },
-              {
-                value: "all",
-                text: "Advanced learner loans"
-              },
-              {
-                value: "other",
-                text: "Other"
-              },
-              {
-                value: "apprenticeships",
-                text: "Apprenticeships"
-              },
-              {
-                value: "community-learning",
-                text: "Community learning"
-              },
-              {
-                value: "efa-f-c-english",
-                text: "EFA Funding condition - English qualification validity"
-              },
-              {
-                value: "efa-f-c-maths",
-                text: "EFA Funding condition - Maths qualification validity"
-              },
-              {
-                value: "esf",
-                text: "European social fund"
-              },
-              {
-                value: "olass",
-                text: "OLASS"
-              },
-              {
-                value: "unemployed-offer",
-                text: "Unemployed offer"
-              }
-            ]
-          }) }}
-      </div>
-  </section>
+  
 
   <section id="newStarters" class="filter-section">
       <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
@@ -265,3 +262,4 @@
   </section>
 </div>
 <a href="#" id="updateResults" class="govuk-!-margin-top-4 govuk-button govuk-button--secondary">Update results</a>
+<p><a href="#" id="clearFilters" class="govuk-!-margin-top-4 govuk-link govuk-link--no-visited-state">Clear filters</a></p>

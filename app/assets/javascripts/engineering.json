@@ -1,0 +1,3296 @@
+var data = `[
+    {
+        "LearnAimRefTitle": "HND in Engineering",
+        "LearnAimRef": "00100834",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Electrical\/Electronic)",
+        "LearnAimRef": "00100839",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Electronics)",
+        "LearnAimRef": "00100843",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Manufacture)",
+        "LearnAimRef": "00100845",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Mechanical\/Manufacture)",
+        "LearnAimRef": "00100848",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2019 Basic Engineering Competences (Customer Specific Scheme)",
+        "LearnAimRef": "00103952",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2059 Advanced Mechanical Engineering Studies Shipbuilding (Customer Specific Scheme)",
+        "LearnAimRef": "00103957",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical and Production Engineering",
+        "LearnAimRef": "00221535",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "BSc in Aeronautical Engineering",
+        "LearnAimRef": "00239931",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical \/ Electronic Engineering",
+        "LearnAimRef": "00239989",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Electrical \/ Electronic Engineering",
+        "LearnAimRef": "00239990",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Mechanical Engineering",
+        "LearnAimRef": "00239992",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Network Engineering and Systems Administration",
+        "LearnAimRef": "00244726",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering Technology",
+        "LearnAimRef": "00244794",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Management of Engineering Technologies",
+        "LearnAimRef": "00244813",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Civil Engineering",
+        "LearnAimRef": "00244871",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical Power Engineering",
+        "LearnAimRef": "00244909",
+        "AwardOrgCode": "ASTONUNI",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering Systems",
+        "LearnAimRef": "00244910",
+        "AwardOrgCode": "UOBATH",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Building Services Engineering",
+        "LearnAimRef": "00244941",
+        "AwardOrgCode": "SBU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Marine Engineering",
+        "LearnAimRef": "00244964",
+        "AwardOrgCode": "UNORTH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Marine Engineering",
+        "LearnAimRef": "00244972",
+        "AwardOrgCode": "UNORTH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00244999",
+        "AwardOrgCode": "UWE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Engineering Technology",
+        "LearnAimRef": "00245090",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electrical and Electronic Engineering",
+        "LearnAimRef": "00245099",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Motor Engineering",
+        "LearnAimRef": "00245118",
+        "AwardOrgCode": "LJM",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Software Engineering",
+        "LearnAimRef": "00245119",
+        "AwardOrgCode": "LJM",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND in Mechanical Engineering",
+        "LearnAimRef": "00245331",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Design Engineering",
+        "LearnAimRef": "00245373",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Building Services Engineering",
+        "LearnAimRef": "00245435",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Civil Engineering",
+        "LearnAimRef": "00245436",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Refrigeration and Air Conditioning Engineering",
+        "LearnAimRef": "00245440",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical\/Electronic Marine Engineering",
+        "LearnAimRef": "00245457",
+        "AwardOrgCode": "UNORTH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aerospace Engineering Manufacturing",
+        "LearnAimRef": "00245512",
+        "AwardOrgCode": "UWE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Mechanical)",
+        "LearnAimRef": "00245570",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Mechatronics)",
+        "LearnAimRef": "00245571",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Instrumentation and Control Engineering",
+        "LearnAimRef": "00245572",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Instrumentation and Control Engineering",
+        "LearnAimRef": "00245573",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Operations Engineering",
+        "LearnAimRef": "00245574",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Operations Engineering",
+        "LearnAimRef": "00245575",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Manufacturing Engineering",
+        "LearnAimRef": "00245578",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Manufacturing Engineering",
+        "LearnAimRef": "00245579",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Motorsport Engineering",
+        "LearnAimRef": "00245589",
+        "AwardOrgCode": "CU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "FdEng Automotive Engineering and Technology",
+        "LearnAimRef": "00245655",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "FEng Autosport Engineering and Technology",
+        "LearnAimRef": "00245656",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Automotive Engineering and Technology",
+        "LearnAimRef": "00245657",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HE Bridging Programme: Automotive Engineering",
+        "LearnAimRef": "00245658",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Computer Aided Engineering",
+        "LearnAimRef": "00245666",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSC (Hons) in Construction Engineering Management",
+        "LearnAimRef": "00245667",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Engineering",
+        "LearnAimRef": "00245749",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Marine Engineering",
+        "LearnAimRef": "00245765",
+        "AwardOrgCode": "SQA",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Civil Engineering",
+        "LearnAimRef": "00245780",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Engineering Illustration",
+        "LearnAimRef": "00245846",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering Illustration",
+        "LearnAimRef": "00245848",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "FdEng Marine Engineering",
+        "LearnAimRef": "00245850",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Professional Engineering (Power Systems)",
+        "LearnAimRef": "00245854",
+        "AwardOrgCode": "ASTONUNI",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Automotive Engineering)",
+        "LearnAimRef": "00245871",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Design and Manufacture)",
+        "LearnAimRef": "00245872",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00246146",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Sound Engineering",
+        "LearnAimRef": "00246213",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering Technologies",
+        "LearnAimRef": "00246248",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdSc Network Engineering, Security and Systems Administration",
+        "LearnAimRef": "00246256",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Network Engineering, Security and Systems Administration",
+        "LearnAimRef": "00246257",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdSc Software Engineering and Game Development",
+        "LearnAimRef": "00246258",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Software Engineering and Game Development",
+        "LearnAimRef": "00246259",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Agricultural Engineering and Mechanism (Part time)",
+        "LearnAimRef": "00246289",
+        "AwardOrgCode": "HAUC",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Construction Plant Engineering (Part time)",
+        "LearnAimRef": "00246290",
+        "AwardOrgCode": "HAUC",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Mechanical\/Electrical)",
+        "LearnAimRef": "00246352",
+        "AwardOrgCode": "UOESSEX",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "CertHE in Engineering (Mechanical\/Electrical)",
+        "LearnAimRef": "00246353",
+        "AwardOrgCode": "UOESSEX",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Computer Aided Engineering",
+        "LearnAimRef": "00246487",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Motorsport Engineering",
+        "LearnAimRef": "00246695",
+        "AwardOrgCode": "UOBATH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Civil Engineering",
+        "LearnAimRef": "00246721",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical Engineering",
+        "LearnAimRef": "00246723",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electronic Engineering",
+        "LearnAimRef": "00246724",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00246727",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Civil Engineering",
+        "LearnAimRef": "00246732",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Civil Engineering",
+        "LearnAimRef": "00246733",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Building Services Engineering",
+        "LearnAimRef": "00246734",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electrical)",
+        "LearnAimRef": "00246737",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electronic)",
+        "LearnAimRef": "00246738",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical)",
+        "LearnAimRef": "00246739",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Renewable Energy)",
+        "LearnAimRef": "00246740",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Computing Software Engineering",
+        "LearnAimRef": "00246746",
+        "AwardOrgCode": "MIDU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical)",
+        "LearnAimRef": "00246750",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electrical and Electronic)",
+        "LearnAimRef": "00246751",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechatronics)",
+        "LearnAimRef": "00246752",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Manufacturing)",
+        "LearnAimRef": "00246753",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electronic Systems)",
+        "LearnAimRef": "00246760",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Design and Manufacture)",
+        "LearnAimRef": "00246761",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Aeronautical Engineering",
+        "LearnAimRef": "00246762",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Automotive Engineering",
+        "LearnAimRef": "00246769",
+        "AwardOrgCode": "CU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Building Services Engineering",
+        "LearnAimRef": "00246784",
+        "AwardOrgCode": "LJM",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Plant and Process Engineering",
+        "LearnAimRef": "00246789",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND in Sound Engineering & Multimedia Integration",
+        "LearnAimRef": "00246840",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering and Computer Aided Engineering",
+        "LearnAimRef": "00246867",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical & Electronic Engineering",
+        "LearnAimRef": "00246868",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Electrical Electronic Engineering",
+        "LearnAimRef": "00246886",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Mechanical Manufacturing Engineering",
+        "LearnAimRef": "00246887",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Management of Engineering Technologies",
+        "LearnAimRef": "00246888",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Building Services and Sustainable Engineering",
+        "LearnAimRef": "00246956",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Applied Mechanical Engineering",
+        "LearnAimRef": "00250648",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Mechanical Engineering Theory",
+        "LearnAimRef": "00250649",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Applied Mechanical Electrical and Electronic Engineering",
+        "LearnAimRef": "00250650",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Applied Electrical and Electronic Engineering",
+        "LearnAimRef": "00250652",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Electrical and Electronic Engineering Theory",
+        "LearnAimRef": "00250653",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Applied Mechanical and Electrical Engineering - Design and Manufacture",
+        "LearnAimRef": "00250654",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Mechanical and Electrical Engineering Theory - Design and Manufacture",
+        "LearnAimRef": "00250655",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Applied Mechanical and Electrical Engineering - Plant Technology",
+        "LearnAimRef": "00250656",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Mechanical and Electrical Engineering Theory - Plant Technology",
+        "LearnAimRef": "00250657",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Applied Mechanical and Electrical Engineering - Mechatronics",
+        "LearnAimRef": "00250658",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Mechanical and Electrical Engineering Theory - Mechatronics",
+        "LearnAimRef": "00250659",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Applied Mechanical Engineering - Manufacturing",
+        "LearnAimRef": "00250660",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Mechanical Engineering Theory - Manufacturing",
+        "LearnAimRef": "00250661",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Applied Mechanical Engineering - Plant Technology",
+        "LearnAimRef": "00250662",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Diploma in Mechanical Engineering Theory - Plant Technology",
+        "LearnAimRef": "00250663",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Applied Mechanical Engineering - Manufacturing",
+        "LearnAimRef": "00250664",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Mechanical Engineering Theory - Manufacturing",
+        "LearnAimRef": "00250665",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Applied Mechanical Engineering - Plant Technology",
+        "LearnAimRef": "00250666",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Mechanical Engineering Theory - Plant Technology",
+        "LearnAimRef": "00250667",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Applied Mechanical and Electrical Engineering - Design and Manufacture",
+        "LearnAimRef": "00250668",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Mechanical and Electrical Engineering Theory - Design and Manufacture",
+        "LearnAimRef": "00250669",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Applied Mechanical and Electrical Engineering - Plant Technology",
+        "LearnAimRef": "00250670",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Mechanical and Electrical Engineering Theory - Plant Technology",
+        "LearnAimRef": "00250671",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Applied Mechanical and Electrical Engineering - Control Systems",
+        "LearnAimRef": "00250672",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Advanced Technician Diploma in Mechanical and Electrical Engineering Theory - Control Systems",
+        "LearnAimRef": "00250673",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Computing Engineering - Newham College of Further Education",
+        "LearnAimRef": "00287334",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - The College of Haringey, Enfield and North East London",
+        "LearnAimRef": "00287471",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Lambeth College",
+        "LearnAimRef": "00287472",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Certificate in Science and Mathematics for Engineering Technicians (Provider Specific)",
+        "LearnAimRef": "00291850",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Diploma in Engineering Principles (Provider Specific)",
+        "LearnAimRef": "00291878",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Software Engineering",
+        "LearnAimRef": "00300089",
+        "AwardOrgCode": "BUCKSNEW",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electronic and Electrical Engineering (Top-Up)",
+        "LearnAimRef": "00300268",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Mechanical Engineering (Top-Up)",
+        "LearnAimRef": "00300269",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aeronautical Engineering",
+        "LearnAimRef": "00300328",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00300329",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical Engineering",
+        "LearnAimRef": "00300330",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Refrigeration and Air Conditioning Engineering",
+        "LearnAimRef": "00300345",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Refrigeration and Air Conditioning Engineering",
+        "LearnAimRef": "00300346",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng in Engineering",
+        "LearnAimRef": "00300351",
+        "AwardOrgCode": "UOCUMBRI",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aeronautical Engineering",
+        "LearnAimRef": "00300354",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Motorsport Engineering",
+        "LearnAimRef": "00300415",
+        "AwardOrgCode": "OBU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Marine Engineering",
+        "LearnAimRef": "00300449",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in General Engineering",
+        "LearnAimRef": "00300456",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aircraft Engineering",
+        "LearnAimRef": "00300490",
+        "AwardOrgCode": "KINGSTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Digital Media and Engineering",
+        "LearnAimRef": "00300496",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electronic and Electrical Engineering",
+        "LearnAimRef": "00300497",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Leadership and Management (Engineering)",
+        "LearnAimRef": "00300499",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng Tech (Hons) in Electronic and Electrical Engineering",
+        "LearnAimRef": "00300513",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Civil Engineering",
+        "LearnAimRef": "00300535",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Building Services Engineering",
+        "LearnAimRef": "00300542",
+        "AwardOrgCode": "UNORTH",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "BEng in Electronic and Electrical Engineering",
+        "LearnAimRef": "00300557",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Mechatronics)",
+        "LearnAimRef": "00300575",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Engineering",
+        "LearnAimRef": "00300605",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Mechanical and Manufacturing)",
+        "LearnAimRef": "00300635",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Electrical and Electronic)",
+        "LearnAimRef": "00300636",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Marine Engineering",
+        "LearnAimRef": "00300694",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Mechanical Design)",
+        "LearnAimRef": "00300714",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Manufacturing Management)",
+        "LearnAimRef": "00300715",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00300745",
+        "AwardOrgCode": "CU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Building Services Engineering",
+        "LearnAimRef": "00300758",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Civil Engineering",
+        "LearnAimRef": "00300759",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Manufacturing Engineering",
+        "LearnAimRef": "00300760",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electromechanical Engineering (Renewable Energy Systems)",
+        "LearnAimRef": "00300761",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng in Engineering Technology (top -up)",
+        "LearnAimRef": "00300203",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering Technology",
+        "LearnAimRef": "00300202",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Manufacturing)",
+        "LearnAimRef": "00300010",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Electrical\/Electronic)",
+        "LearnAimRef": "00300009",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in in Nuclear Engineering (Power Generation)",
+        "LearnAimRef": "00300002",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in in Nuclear Engineering (Decommissioning)",
+        "LearnAimRef": "00300001",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - West Suffolk College",
+        "LearnAimRef": "00298545",
+        "AwardOrgCode": "CAVA",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Gateshead College",
+        "LearnAimRef": "00298542",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - East Durham College",
+        "LearnAimRef": "00298535",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Physics and Engineering - John Leggott College",
+        "LearnAimRef": "00298527",
+        "AwardOrgCode": "CAVA",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Central College Nottingham",
+        "LearnAimRef": "00298522",
+        "AwardOrgCode": "CAVA",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - City of Wolverhampton College",
+        "LearnAimRef": "00298511",
+        "AwardOrgCode": "OPENCOLLNETWESTMID",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Tyne Metropolitan College",
+        "LearnAimRef": "00298509",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Newcastle City Learning at Westgate College",
+        "LearnAimRef": "00298494",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - Preston College",
+        "LearnAimRef": "00298476",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Hartlepool College of Further Education",
+        "LearnAimRef": "00298457",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Darlington College",
+        "LearnAimRef": "00298455",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Guildford College of Further and Higher Education",
+        "LearnAimRef": "00298454",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Highbury College",
+        "LearnAimRef": "00298439",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Engineering - South Devon College",
+        "LearnAimRef": "00298395",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Stockport College",
+        "LearnAimRef": "00298377",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - LeSoCo",
+        "LearnAimRef": "00298358",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Leeds City College",
+        "LearnAimRef": "00298351",
+        "AwardOrgCode": "CERTA",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Redcar and Cleveland College",
+        "LearnAimRef": "00298350",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Engineering - Highbury College",
+        "LearnAimRef": "00298325",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - City College Brighton and Hove",
+        "LearnAimRef": "00298308",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - Blackburn College",
+        "LearnAimRef": "00298303",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Engineering - Cornwall College",
+        "LearnAimRef": "00298301",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Northumberland College",
+        "LearnAimRef": "00298257",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Newcastle City Learning at Westgate College",
+        "LearnAimRef": "00298254",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Engineering - City College Plymouth",
+        "LearnAimRef": "00298249",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Ealing, Hammersmith and West London College",
+        "LearnAimRef": "00298230",
+        "AwardOrgCode": "OCNLR",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Engineering - City of Bristol College",
+        "LearnAimRef": "00298217",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - Birmingham Metropolitan College",
+        "LearnAimRef": "00298146",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "National Certificate in Engineering Power Generation (Provider Specific)",
+        "LearnAimRef": "00292054",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3"
+    },
+    {
+        "LearnAimRefTitle": "National Award in General Engineering (Provider Specific)",
+        "LearnAimRef": "00292052",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3"
+    },
+    {
+        "LearnAimRefTitle": "National Award in Electrical Installation Engineering (Provider Specific)",
+        "LearnAimRef": "00292049",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Middlesbrough College",
+        "LearnAimRef": "00288943",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Newham College of Further Education",
+        "LearnAimRef": "00288757",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - The Lakes College",
+        "LearnAimRef": "00288702",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Stockton Riverside College",
+        "LearnAimRef": "00288701",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - The London College UCK",
+        "LearnAimRef": "00288669",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Basingstoke College of Technology",
+        "LearnAimRef": "00288646",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science (Engineering) - Southport College",
+        "LearnAimRef": "00288451",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - Blackpool and The Fylde College",
+        "LearnAimRef": "00288423",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Queen Elizabeth Sixth Form College",
+        "LearnAimRef": "00288328",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - North Tyneside College",
+        "LearnAimRef": "00288327",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Newcastle College",
+        "LearnAimRef": "00288326",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Kenton College",
+        "LearnAimRef": "00288325",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Heaton Manor School",
+        "LearnAimRef": "00288324",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Gateshead College",
+        "LearnAimRef": "00288323",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Engineering and Computing - Carlisle College",
+        "LearnAimRef": "00288322",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - Riverside College Halton",
+        "LearnAimRef": "00288288",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering and Technology - Accrington and Rossendale College",
+        "LearnAimRef": "00288287",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science and Engineering - Highbury College",
+        "LearnAimRef": "00287960",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science, Medicine and Engineering - Liverpool Community College",
+        "LearnAimRef": "00287782",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Science Engineering - St Helens College",
+        "LearnAimRef": "00287781",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Computer Science and Engineering - The Manchester College",
+        "LearnAimRef": "00287702",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Newcastle College",
+        "LearnAimRef": "00287652",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Aerospace - Newcastle College",
+        "LearnAimRef": "00287651",
+        "AwardOrgCode": "ONEAWARDS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Leicester College",
+        "LearnAimRef": "00287235",
+        "AwardOrgCode": "AIMAWARD",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Engineering - Matthew Boulton College",
+        "LearnAimRef": "00286320",
+        "AwardOrgCode": "OPENCOLLNETWESTMID",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level-in Engineering (Single Award)",
+        "LearnAimRef": "00285813",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Marine Engineering Entry Course (Client Specific Scheme)",
+        "LearnAimRef": "00285646",
+        "AwardOrgCode": "NCFE",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level-in Engineering",
+        "LearnAimRef": "00285009",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "MNTB Engineering Skills Operational Level",
+        "LearnAimRef": "00284028",
+        "AwardOrgCode": "MCA",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2011-12-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Operations Engineering",
+        "LearnAimRef": "00283044",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Mechanical Engineering",
+        "LearnAimRef": "00283039",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Marine Engineering",
+        "LearnAimRef": "00283038",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Manufacturing Engineering",
+        "LearnAimRef": "00283037",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - General Engineering",
+        "LearnAimRef": "00283030",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Electronic Engineering",
+        "LearnAimRef": "00283024",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Electrical Engineering",
+        "LearnAimRef": "00283022",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Electrical and Electronic Engineering",
+        "LearnAimRef": "00283021",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Automotive Engineering",
+        "LearnAimRef": "00283009",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC to HND Conversion Code - Aeronautical Engineering",
+        "LearnAimRef": "00283003",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Requirements Engineering",
+        "LearnAimRef": "00275459",
+        "AwardOrgCode": "BCS",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2010-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Plant and Process Engineering (Mechatronics)",
+        "LearnAimRef": "00272724",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Instrumentation and Control Engineering",
+        "LearnAimRef": "00272426",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Mechanical)",
+        "LearnAimRef": "00272312",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Plant and Process Engineering (Mechatronics)",
+        "LearnAimRef": "00271847",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical and Manufacturing Engineering",
+        "LearnAimRef": "00271825",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Manufacturing Engineering (Mechatronics)",
+        "LearnAimRef": "00271818",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Instrumentation and Control Engineering",
+        "LearnAimRef": "00271803",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering Design and Manufacture (Mechanical Engineering)",
+        "LearnAimRef": "00271750",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical)",
+        "LearnAimRef": "00271748",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electronic Systems Engineering",
+        "LearnAimRef": "00271740",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical Engineering",
+        "LearnAimRef": "00271736",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical and Electronic Engineering",
+        "LearnAimRef": "00271735",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Diploma in Mechanical Engineering Technician",
+        "LearnAimRef": "00271596",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Diploma in Instrument Engineering Technician",
+        "LearnAimRef": "00271592",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Diploma in Electrical Engineering Technician",
+        "LearnAimRef": "00271591",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Intermediate Award in Computer Engineering",
+        "LearnAimRef": "00267605",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Diploma in Electrical and Electronic Engineering for a Radio Technician",
+        "LearnAimRef": "00262168",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Marine Engineering",
+        "LearnAimRef": "00246910",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Civil Engineering - Construction Site Engineering Technician Apprenticeship Standard",
+        "LearnAimRef": "00246909",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electrical and Electronics Engineering",
+        "LearnAimRef": "00246904",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Mechanical Engineering",
+        "LearnAimRef": "00246902",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00246462",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND in Marine Engineering",
+        "LearnAimRef": "00246188",
+        "AwardOrgCode": "SQA",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00246187",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering",
+        "LearnAimRef": "00246176",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Motorsports Engineering",
+        "LearnAimRef": "00246092",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Engineering",
+        "LearnAimRef": "00246086",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Subsea Engineering",
+        "LearnAimRef": "00246073",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Process Engineering",
+        "LearnAimRef": "00246072",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Multi-Skill Engineering",
+        "LearnAimRef": "00246071",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Manufacturing Engineering",
+        "LearnAimRef": "00246070",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical Electronic Engineering",
+        "LearnAimRef": "00246069",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Civil Engineering",
+        "LearnAimRef": "00246068",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical Engineering and Renewable Energy",
+        "LearnAimRef": "00246067",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Automotive Management and Technology)",
+        "LearnAimRef": "00246043",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Integrated Engineering",
+        "LearnAimRef": "00245967",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Certificate in Aeronautical Engineering",
+        "LearnAimRef": "00245954",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "CertHE in Automotive Engineering with Motorsport",
+        "LearnAimRef": "00245950",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Civil Engineering",
+        "LearnAimRef": "00245720",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Building Services Engineering",
+        "LearnAimRef": "00245719",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree Building Services Engineering",
+        "LearnAimRef": "00245714",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Civil Engineering",
+        "LearnAimRef": "00245705",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering with Management",
+        "LearnAimRef": "00245559",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Communications Engineering",
+        "LearnAimRef": "00245394",
+        "AwardOrgCode": "CU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical\/Electronic Engineering",
+        "LearnAimRef": "00245393",
+        "AwardOrgCode": "CU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00245392",
+        "AwardOrgCode": "CU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering",
+        "LearnAimRef": "00245330",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Electrical\/Electronic Engineering",
+        "LearnAimRef": "00245329",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical\/Electronic Engineering",
+        "LearnAimRef": "00245328",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Software Engineering",
+        "LearnAimRef": "00245324",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Process Plant Engineering",
+        "LearnAimRef": "00245316",
+        "AwardOrgCode": "LJM",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Engineering Systems",
+        "LearnAimRef": "00245315",
+        "AwardOrgCode": "UOBATH",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Subsea Engineering",
+        "LearnAimRef": "00245311",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Mechanical and Manufacturing Engineering",
+        "LearnAimRef": "00245307",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "CertHE in Engineering",
+        "LearnAimRef": "00245284",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00245283",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Teaching in the Lifelong Learning Sector (Mechanical and Manufacturing Engineering)",
+        "LearnAimRef": "00245261",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng in Engineering",
+        "LearnAimRef": "00245246",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Process Engineering",
+        "LearnAimRef": "00245233",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HE Bridging Programme: Network Engineering and System Administration",
+        "LearnAimRef": "00245224",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Mechanical and Production Engineering",
+        "LearnAimRef": "00245222",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng Mechanical and Production Engineering",
+        "LearnAimRef": "00245221",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Motorsport Engineering",
+        "LearnAimRef": "00245062",
+        "AwardOrgCode": "UNIBRI",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Automotive Engineering",
+        "LearnAimRef": "00245061",
+        "AwardOrgCode": "UNIBRI",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00245053",
+        "AwardOrgCode": "WU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Network Engineering and Systems Administration",
+        "LearnAimRef": "00244725",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Automotive Engineering (Manufacturing)",
+        "LearnAimRef": "00244720",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Motorsport Engineering",
+        "LearnAimRef": "00244716",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Building Services Engineering",
+        "LearnAimRef": "00244583",
+        "AwardOrgCode": "LJM",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00244582",
+        "AwardOrgCode": "MMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "CertHE in Motorsport Engineering",
+        "LearnAimRef": "00244420",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "CertHE in Aeronautical Engineering",
+        "LearnAimRef": "00244417",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Computing with Software Engineering",
+        "LearnAimRef": "00243894",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Maintenance Engineering",
+        "LearnAimRef": "00243859",
+        "AwardOrgCode": "UOS",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Multi-Skill Engineering",
+        "LearnAimRef": "00243807",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical \/ Manufacturing Engineering",
+        "LearnAimRef": "00243806",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical \/ Electronic Engineering",
+        "LearnAimRef": "00243805",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical\/Electronic Engineering",
+        "LearnAimRef": "00243772",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical Engineering",
+        "LearnAimRef": "00243426",
+        "AwardOrgCode": "APU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Computer Engineering",
+        "LearnAimRef": "00243407",
+        "AwardOrgCode": "UORG",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering",
+        "LearnAimRef": "00243218",
+        "AwardOrgCode": "STAFFU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electrical Engineering",
+        "LearnAimRef": "00243206",
+        "AwardOrgCode": "STAFFU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Industrial Systems Engineering",
+        "LearnAimRef": "00243192",
+        "AwardOrgCode": "UOS",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical and Electronic Engineering",
+        "LearnAimRef": "00243118",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aeronautical Engineering",
+        "LearnAimRef": "00243116",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND in Civil Engineering",
+        "LearnAimRef": "00241136",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Civil Engineering",
+        "LearnAimRef": "00241135",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Automotive Engineering with Motorsport",
+        "LearnAimRef": "00241066",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2009-07-31"
+    },
+    {
+        "LearnAimRefTitle": "BSc in Mechanical & Production Engineering",
+        "LearnAimRef": "00240493",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Chemical Engineering",
+        "LearnAimRef": "00236818",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Electrical and Electronic Engineering Theory",
+        "LearnAimRef": "00236702",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Applied Electrical and Electronic Engineering",
+        "LearnAimRef": "00236701",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Mechanical\/Electrical and Electronic Engineering Theory",
+        "LearnAimRef": "00236700",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Mechanical Engineering Theory",
+        "LearnAimRef": "00236699",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Technician Certificate in Applied Mechanical Engineering",
+        "LearnAimRef": "00236698",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Mechanical and Electrical Engineering Technician's Diploma",
+        "LearnAimRef": "00233130",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Mechanical Engineering Technician's Diploma",
+        "LearnAimRef": "00233129",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 2565 Mechanical; Electrical and Electronic Engineering Technician's Certificate",
+        "LearnAimRef": "00233128",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Electrical and Electronic Engineering Technician's Advanced Diploma",
+        "LearnAimRef": "00233127",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Electrical and Electronic Engineering Technician's Diploma",
+        "LearnAimRef": "00233126",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Manufacturing Engineering",
+        "LearnAimRef": "00232903",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Aerospace Engineering",
+        "LearnAimRef": "00232902",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Aerospace Engineering",
+        "LearnAimRef": "00232888",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HND in Computing (Software Engineering)",
+        "LearnAimRef": "00232887",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Mechanical Engineering",
+        "LearnAimRef": "00229687",
+        "AwardOrgCode": "UOM",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Applications of Engineering and Technology",
+        "LearnAimRef": "00228959",
+        "AwardOrgCode": "ECITB",
+        "NotionalNVQLevelDesc": "Not Applicable\/ Not Known",
+        "LastNewStartDate": "2019-01-03"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering (Telecommunications)",
+        "LearnAimRef": "00221485",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Advanced Technical Diploma in Electrical and Electronic Engineering",
+        "LearnAimRef": "00220713",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Technician Diploma in Electrical and Electronic Engineering",
+        "LearnAimRef": "00220712",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Technician Certificate in Electrical and Electronic Engineering",
+        "LearnAimRef": "00220711",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-1",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Advanced Technician Diploma in Electrical and Electronic Engineering",
+        "LearnAimRef": "00220684",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "CG 8030 Technician Diploma in Electrical and Electronic Engineering",
+        "LearnAimRef": "00220683",
+        "AwardOrgCode": "CG",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Visual Testing of General Engineering Materials",
+        "LearnAimRef": "00119048",
+        "AwardOrgCode": "PCN",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Liquid Penetrant Testing (General Engineering)",
+        "LearnAimRef": "00114283",
+        "AwardOrgCode": "PCN",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Magnetic Particle Testing (General Engineering)",
+        "LearnAimRef": "00114282",
+        "AwardOrgCode": "PCN",
+        "NotionalNVQLevelDesc": "Level-3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "BEng in Integrated Engineering",
+        "LearnAimRef": "00114185",
+        "AwardOrgCode": "MIDU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical\/Manufacture)",
+        "LearnAimRef": "00100633",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical Engineering)",
+        "LearnAimRef": "00100632",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Instrumentation and Control)",
+        "LearnAimRef": "00100628",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electrical\/Electronic)",
+        "LearnAimRef": "00100623",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering",
+        "LearnAimRef": "00100618",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Civil Engineering Studies",
+        "LearnAimRef": "00100588",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Building Services Engineering (Refrigeration)",
+        "LearnAimRef": "00100572",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Building Services Engineering",
+        "LearnAimRef": "00100567",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2011-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Nuclear Related Technology (Design Engineering)",
+        "LearnAimRef": "00300763",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aeronautical Engineering (Manufacture)",
+        "LearnAimRef": "00300764",
+        "AwardOrgCode": "GLYUNI",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00300768",
+        "AwardOrgCode": "UOGREENW",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Process Engineering Management",
+        "LearnAimRef": "00300769",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical and Electronic Engineering",
+        "LearnAimRef": "00300770",
+        "AwardOrgCode": "UOGREENW",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical and Electronic Engineering",
+        "LearnAimRef": "00300771",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering",
+        "LearnAimRef": "00300772",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Engineering",
+        "LearnAimRef": "00300773",
+        "AwardOrgCode": "UONORTON",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering",
+        "LearnAimRef": "00300774",
+        "AwardOrgCode": "APU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering",
+        "LearnAimRef": "00300775",
+        "AwardOrgCode": "UOBEDS",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND in Mechanical Engineering",
+        "LearnAimRef": "00300776",
+        "AwardOrgCode": "UOBEDS",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechatronics Engineering",
+        "LearnAimRef": "00300779",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Subsea Engineering",
+        "LearnAimRef": "00300781",
+        "AwardOrgCode": "LEEDU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering",
+        "LearnAimRef": "00300783",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Industrial Engineering",
+        "LearnAimRef": "00300785",
+        "AwardOrgCode": "GLYUNI",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Railway Engineering",
+        "LearnAimRef": "00300788",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Railway Engineering",
+        "LearnAimRef": "00300789",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Aeronautical Engineering",
+        "LearnAimRef": "00300790",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering",
+        "LearnAimRef": "00300791",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Plant and Process Engineering",
+        "LearnAimRef": "00300795",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering",
+        "LearnAimRef": "00300797",
+        "AwardOrgCode": "MMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical)",
+        "LearnAimRef": "00300798",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechatronics)",
+        "LearnAimRef": "00300799",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical and Computer Aided Engineering",
+        "LearnAimRef": "00300800",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical and Manufacturing Engineering",
+        "LearnAimRef": "00300801",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering Technologies - Mechanical",
+        "LearnAimRef": "00300802",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical and Electronic Engineering",
+        "LearnAimRef": "00300804",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Instrumentation and Control Engineering",
+        "LearnAimRef": "00300805",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical and Electronic Engineering",
+        "LearnAimRef": "00300808",
+        "AwardOrgCode": "MMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electrical and Electronics)",
+        "LearnAimRef": "00300809",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical and Electronic Engineering",
+        "LearnAimRef": "00300810",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electrical and Electronic Engineering by Flexible Open learning",
+        "LearnAimRef": "00300811",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND in Mechanical Engineering",
+        "LearnAimRef": "00300813",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "HND Mechanical Engineering by Flexible Open Learning",
+        "LearnAimRef": "00300814",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "DipHE in Manufacturing Engineering",
+        "LearnAimRef": "00300815",
+        "AwardOrgCode": "WU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Engineering (Mechanical) (Top-up)",
+        "LearnAimRef": "00300833",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Engineering (Electrical and Electronic) (Top-up)",
+        "LearnAimRef": "00300834",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Motorsport Engineering",
+        "LearnAimRef": "00300875",
+        "AwardOrgCode": "UOBATH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Communications Systems Engineering (Framework 418)",
+        "LearnAimRef": "00300961",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical and Manufacturing Engineering - (Framework 550)",
+        "LearnAimRef": "00301061",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Materials Engineering - (Framework 550)",
+        "LearnAimRef": "00301062",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering - (Framework 550)",
+        "LearnAimRef": "00301063",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Electronic Design) - (Framework 550)",
+        "LearnAimRef": "00301064",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical and Manufacturing Engineering - (Framework 550)",
+        "LearnAimRef": "00301065",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Production Engineering - (Framework 550)",
+        "LearnAimRef": "00301066",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Mechanical Design) - (Framework 550)",
+        "LearnAimRef": "00301067",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in  Engineering (Manufacturing Management) - (Framework 550)",
+        "LearnAimRef": "00301068",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Engineering (Electronic Design) - (Framework 550)",
+        "LearnAimRef": "00301069",
+        "AwardOrgCode": "BNU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical and Electronic Engineering - (Framework 550)",
+        "LearnAimRef": "00301108",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering - (Runshaw College)",
+        "LearnAimRef": "00301176",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Mechanical Engineering - (Runshaw College)",
+        "LearnAimRef": "00301177",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Civil Engineering (Top up) - (Mid-Kent College)",
+        "LearnAimRef": "00301224",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Building Services Engineering (Top up) - (Mid-Kent College)",
+        "LearnAimRef": "00301225",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering - (City College Plymouth)",
+        "LearnAimRef": "00301237",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Computer Network Engineering with Administration - (The Manchester College)",
+        "LearnAimRef": "00301273",
+        "AwardOrgCode": "MMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Computer Systems Engineering - (The Manchester College)",
+        "LearnAimRef": "00301277",
+        "AwardOrgCode": "MMU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdEng Aerospace Engineering",
+        "LearnAimRef": "00301298",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdEng Automotive Engineering and Technology (Automotive)",
+        "LearnAimRef": "00301299",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdEng Automotive Engineering and Technology (Motorsport)",
+        "LearnAimRef": "00301300",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Automotive Engineering and Technology (Automotive)",
+        "LearnAimRef": "00301301",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Automotive Engineering and Technology (Motorsport)",
+        "LearnAimRef": "00301302",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Building Services Engineering (Top Up) - (Mid-Kent College)",
+        "LearnAimRef": "00301314",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Building Services Engineering - (Mid-Kent College)",
+        "LearnAimRef": "00301315",
+        "AwardOrgCode": "UOK",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering - (Warwickshire College)",
+        "LearnAimRef": "00301348",
+        "AwardOrgCode": "WARWKCLG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc in Agricultural Machinery Engineering - (Myerscough College)",
+        "LearnAimRef": "00301418",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Agricultural Machinery Engineering - (Myerscough College)",
+        "LearnAimRef": "00301419",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Certificate in Agricultural Machinery Engineering - (Myerscough College)",
+        "LearnAimRef": "00301420",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Software Engineering - (Newcastle College)",
+        "LearnAimRef": "00301450",
+        "AwardOrgCode": "NCG",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Aerospace Engineering - (Framework 550)",
+        "LearnAimRef": "00301506",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electronics and Communications Engineering  (Framework 418)",
+        "LearnAimRef": "00301542",
+        "AwardOrgCode": "BCUNIV",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Civil Engineering - (Framework 612)",
+        "LearnAimRef": "00301547",
+        "AwardOrgCode": "WU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Professional Aviation Engineering Practice - City College Norwich",
+        "LearnAimRef": "00301656",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering  - Teesside University",
+        "LearnAimRef": "00301701",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Electrical and Electronic Engineering by Flexible Open Learning  - Teesside University",
+        "LearnAimRef": "00301702",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Electrical and Electronic Engineering by Flexible Open Learning  - Teesside University",
+        "LearnAimRef": "00301703",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Instrumental and Control Engineering - Teesside University",
+        "LearnAimRef": "00301704",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Instrumental and Control Engineering By Flexible Open Learning - Teesside University",
+        "LearnAimRef": "00301705",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Aerospace Engineering - Teesside University",
+        "LearnAimRef": "00301708",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Civil Engineering  - Teesside University",
+        "LearnAimRef": "00301709",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng Tech (Hons) in Electrical and Electronic Engineering  - Teesside University",
+        "LearnAimRef": "00301710",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electrical and Electronic Engineering  - Teesside University",
+        "LearnAimRef": "00301711",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng Tech (Hons) in Mechanical Engineering - Teesside University",
+        "LearnAimRef": "00301712",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng  (Hons) in Mechanical Engineering - Teesside University",
+        "LearnAimRef": "00301713",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "MSc in Systems Engineering for Defence Capability - Cranfield University",
+        "LearnAimRef": "00301714",
+        "AwardOrgCode": "CRANFIELD",
+        "NotionalNVQLevelDesc": "Level-5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PgDip in Systems Engineering for Defence Capability - Cranfield University",
+        "LearnAimRef": "00301715",
+        "AwardOrgCode": "CRANFIELD",
+        "NotionalNVQLevelDesc": "Level-5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PgCert in Systems Engineering for Defence Capability - Cranfield University",
+        "LearnAimRef": "00301716",
+        "AwardOrgCode": "CRANFIELD",
+        "NotionalNVQLevelDesc": "Level-5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electronic Engineering - Babcock",
+        "LearnAimRef": "00301745",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Marine Systems Engineering - Babcock",
+        "LearnAimRef": "00301746",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering - Alton College",
+        "LearnAimRef": "00301747",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Building Services Engineering - London Southbank University",
+        "LearnAimRef": "00301763",
+        "AwardOrgCode": "SBU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Civil Engineering - London Southbank University",
+        "LearnAimRef": "00301764",
+        "AwardOrgCode": "SBU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electronic Engineering - University of Portsmouth",
+        "LearnAimRef": "00301772",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering- University of Portsmouth",
+        "LearnAimRef": "00301774",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdSc Network Engineering (Cyber Security)",
+        "LearnAimRef": "00301781",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Network Engineering (Cyber Security)",
+        "LearnAimRef": "00301782",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdEng Nuclear Engineering",
+        "LearnAimRef": "00301785",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Nuclear Engineering",
+        "LearnAimRef": "00301786",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdSc Network Engineering (Systems Administration)",
+        "LearnAimRef": "00301787",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Network Engineering (Systems admin)",
+        "LearnAimRef": "00301788",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Mechanical Engineering - Staffordshire University",
+        "LearnAimRef": "00301797",
+        "AwardOrgCode": "STAFFU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Beng (Hons) in Software Engineering - University of Central Lancashire",
+        "LearnAimRef": "00301819",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Building Services Engineering - East Berkshire College",
+        "LearnAimRef": "00301833",
+        "AwardOrgCode": "SBU",
+        "NotionalNVQLevelDesc": "Level-4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Energy and Power Engineering - Preston College",
+        "LearnAimRef": "00301913",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Materials Engineering - North Lindsey College",
+        "LearnAimRef": "00301917",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Civil Engineering Site Management - University of East London",
+        "LearnAimRef": "00301968",
+        "AwardOrgCode": "UEL",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Engineering (Advanced Manufacturing) -Hugh Baird College",
+        "LearnAimRef": "00301985",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electronic and Computer Engineering - Gloucestershire College",
+        "LearnAimRef": "00302034",
+        "AwardOrgCode": "UWE",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electronic Engineering - Derby College",
+        "LearnAimRef": "00302035",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Manufacturing Engineering - Derby College",
+        "LearnAimRef": "00302036",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Mechanical Engineering - Derby College",
+        "LearnAimRef": "00302037",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Electrical\/Electronic Engineering - University of Plymouth - (framework 550)",
+        "LearnAimRef": "00302038",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electronic Engineering - University of Portsmouth - Embedded Electronic Systems Design and Development Engineer degree apprenticeship",
+        "LearnAimRef": "00302044",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Mechanical Engineering - Furness College",
+        "LearnAimRef": "00302051",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Electrical and Electronic Engineering - Furness College",
+        "LearnAimRef": "00302052",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Aerospace Engineering",
+        "LearnAimRef": "00302071",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Network Engineering (Cyber Security)",
+        "LearnAimRef": "00302072",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Marine Engineering - South Tyneside College",
+        "LearnAimRef": "00302083",
+        "AwardOrgCode": "UOS",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Marine Electrical Engineering - South Tyneside College",
+        "LearnAimRef": "00302084",
+        "AwardOrgCode": "UOS",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Marine Engineering (Stage 3 top -up)- South Tyneside College",
+        "LearnAimRef": "00302085",
+        "AwardOrgCode": "UOS",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "MSc in Systems Engineering Technical Leadership (Aviation) - The University of Warwick",
+        "LearnAimRef": "00302087",
+        "AwardOrgCode": "UOWAR",
+        "NotionalNVQLevelDesc": "Level-5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PgD (Hons) in Systems Engineering Technical Leadership (Aviation) - The University of Warwick",
+        "LearnAimRef": "00302088",
+        "AwardOrgCode": "UOWAR",
+        "NotionalNVQLevelDesc": "Level-5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PGCert (Hons) in Systems Engineering Technical Leadership (Aviation) - The University of Warwick",
+        "LearnAimRef": "00302089",
+        "AwardOrgCode": "UOWAR",
+        "NotionalNVQLevelDesc": "Level-5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Manufacturing and Mechatronic Engineering -University 0f Plymouth (via South Devon College)",
+        "LearnAimRef": "00302136",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering - University of Chichester)",
+        "LearnAimRef": "00302137",
+        "AwardOrgCode": "UOCHESTR",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Mechanical Engineering (University of Chichester)",
+        "LearnAimRef": "00302138",
+        "AwardOrgCode": "UOCHESTR",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Electronics and Robotic Control Engineering - University of Plymouth (via South Down College)",
+        "LearnAimRef": "00302139",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Engineering  (Mechanical Engineering)",
+        "LearnAimRef": "00302152",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) Engineering  (Mechatronics Engineering)",
+        "LearnAimRef": "00302153",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdSc Software Engineering (App Development)",
+        "LearnAimRef": "00302154",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Software Engineering (App Development)",
+        "LearnAimRef": "00302155",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "FdSc Software Engineering (Game Development)",
+        "LearnAimRef": "00302156",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) Software Engineering (Game Development)",
+        "LearnAimRef": "00302157",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in control and automation engineering - University of Salford - Control - Technical Support Engineer standard",
+        "LearnAimRef": "00302165",
+        "AwardOrgCode": "SALFU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Maintenance Engineering - University of Sheffield",
+        "LearnAimRef": "00302172",
+        "AwardOrgCode": "UOSH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Maintenance Engineering - University of Sheffield",
+        "LearnAimRef": "00302174",
+        "AwardOrgCode": "UOSH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BEng (Hons) in Maintenance Engineering (Top up)- University of Sheffield",
+        "LearnAimRef": "00302177",
+        "AwardOrgCode": "UOSH",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Mechanical Engineering - University of Portsmouth",
+        "LearnAimRef": "00302179",
+        "AwardOrgCode": "PU",
+        "NotionalNVQLevelDesc": "Level-4 (original)"
+    }
+]`;

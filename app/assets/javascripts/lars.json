@@ -103,7 +103,7 @@ var data = `[
         "NotionalNVQLevelDesc": "Level 3",
         "LastNewStartDate": "2011-07-31"
     },
-    {
+    { 
         "LearnAimRefTitle": "Introduction to Aromatherapy",
         "LearnAimRef": "00274501",
         "AwardOrgCode": "NCFE",

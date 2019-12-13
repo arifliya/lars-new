@@ -47,10 +47,6 @@
                 text: "UAL"
               },
               {
-                value: "OCR",
-                text: "OCR"
-              },
-              {
                 value: "NCC-Education",
                 text: "NCC-Education"
               }
@@ -127,41 +123,7 @@
       </div>
   </section>
 
-  <section id="teachingYear" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-        Teaching year
-      </a>
-      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
-      <div class="filter-box hidden">
-          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
-
-          {{ govukCheckboxes({
-            idPrefix: "teaching year",
-            name: "teaching year",
-            classes: "govuk-checkboxes--small",
-            
-            items: [
-              
-              {
-                value: "2019-2020",
-                text: "2019-2020"
-              },
-              {
-                value: "2018-2019",
-                text: "2018-2019"
-              },
-              {
-                value: "2017-2018",
-                text: "2017-2018"
-              },
-              {
-                value: "2016-2017",
-                text: "2016-2017"
-              }
-            ]
-          }) }}
-      </div>
-  </section>
+  
 
   <section id="fundingStream" class="filter-section">
       <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
@@ -225,6 +187,45 @@
           }) }}
       </div>
   </section>
+
+
+
+  <section id="teachingYear" class="filter-section">
+    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      Teaching year
+    </a>
+    <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+    <div class="filter-box hidden">
+        {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+        {{ govukCheckboxes({
+          idPrefix: "teaching year",
+          name: "teaching year",
+          classes: "govuk-checkboxes--small",
+          
+          items: [
+            
+            {
+              value: "2019-2020",
+              text: "2019-2020"
+            },
+            {
+              value: "2018-2019",
+              text: "2018-2019"
+            },
+            {
+              value: "2017-2018",
+              text: "2017-2018"
+            },
+            {
+              value: "2016-2017",
+              text: "2016-2017"
+            }
+          ]
+        }) }}
+    </div>
+</section>
+
 
   <section id="newStarters" class="filter-section">
       <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">

@@ -15,40 +15,7 @@ $('#backLink').on('click', function(e){
 });
 
 
-//************** */ autocomlete option select function for version 1-0-0 *****************//
-// $(".autocomplete__menu").click(function() {
-//   $("#searchProviders").trigger("click");
-//   $('#changeUrl').attr('action', "qualification").submit();
 
-//   if ($('.autocomplete__input').val() === 'maths') {
-//     $('#changeUrl').attr('action', "all-results").submit();
-//   }
-  
-//   if ($('.autocomplete__input').val() === 'science') {
-//     $('#changeUrl').attr('action', "all-results").submit();
-//   }
-  
-//   if ($('.autocomplete__input').val() === 'AQA (Assessment and Qualifications Alliance)') {
-//     $('#changeUrl').attr('action', "all-results").submit();
-//   }
-  
-//   if ($('.autocomplete__input').val() === 'Edexcel') {
-//     $('#changeUrl').attr('action', "all-results").submit();
-//   }
-  
-//   if ($('.autocomplete__input').val() === 'engineering') {
-//     $('#changeUrl').attr('action', "all-results").submit();
-//   }
-
-//   if ($('.autocomplete__input').val() === 'Functional Skills qualification in Mathematics') {
-//     $('#changeUrl').attr('action', "all-results").submit();
-//   }
-
-//   // else {
-//   //   $('#changeUrl').attr('action', "all-results").submit();
-//   // }
-
-// });
 
 $("#searchProviders").click(function() {
   if ($('.autocomplete__input').val() === 'certificate in engineering') {
@@ -61,7 +28,7 @@ $("#searchProviders").click(function() {
     $('#changeUrl').attr('action', "all-results-psy");
   }
   if ($('.autocomplete__input').val() === 'functional skills qualification in mathematics') {
-    $('#changeUrl').attr('action', "all-results-func");
+    $('#changeUrl').attr('action', "all-results-maths");
   }
   if ($('.autocomplete__input').val() === 'maths') {
     $('#changeUrl').attr('action', "all-results-maths");
@@ -81,56 +48,6 @@ $('.filter-box-button').click(function(e){
 });
 
 
-// // filter functionality for awarding body //
-// $('#awardingBody :checkbox').click(function () {
-//   $('#resultList li').hide();
-//   $('#awardingBody :checkbox:checked').each(function () {
-//     $('.' + $(this).val()).show();
-//   })
-
-//   if (!$('#awardingBody :checkbox').is(':checked')) {
-//     $('#resultList li').show();
-//   }
-// });
-
-
-// // filter functionality for level //
-// $('#level :checkbox').click(function () {
-//   $('#resultList li').hide();
-//   $('#level :checkbox:checked').each(function () {
-//     $('.' + $(this).val()).show();
-//   });
-
-//   if (!$('#level :checkbox').is(':checked')) {
-//     $('#resultList li').show();
-//   }
-// });
-
-
-// // filter functionality for teaching year //
-// $('#teachingYear :checkbox').click(function () {
-//   $('#resultList li').hide();
-//   $('#teachingYear :checkbox:checked').each(function () {
-//     $('.' + $(this).val()).show();
-//   });
-
-//   if (!$('#teachingYear :checkbox').is(':checked')) {
-//     $('#resultList li').show();
-//   }
-// });
-
-
-// // filter functionality for funding stream //
-// $('#fundingStream :checkbox').click(function () {
-//   $('#resultList li').hide();
-//   $('#fundingStream :checkbox:checked').each(function () {
-//     $('.' + $(this).val()).show();
-//   });
-
-//   if (!$('#fundingStream :checkbox').is(':checked')) {
-//     $('#resultList li').show();
-//   }
-// });
 
 
 // ****************************************
@@ -138,53 +55,83 @@ $('.filter-box-button').click(function(e){
 
 // filter functionality for all filters //
 
-$('#allFilters :checkbox').change(function () {
+var $filterCheckboxes = $('#allFilters input[type="checkbox"]');
+
+$filterCheckboxes.on('change', function() {
+
+  var selectedFilters = {};
+
+  $filterCheckboxes.filter(':checked').each(function() {
+
+    if (!selectedFilters.hasOwnProperty(this.name)) {
+      selectedFilters[this.name] = [];
+    }
+
+    selectedFilters[this.name].push(this.value);
+
+  });
+
+  // create a collection containing all of the filterable elements
+  var $filteredResults = $('#resultList li');
+
+  // loop over the selected filter name -> (array) values pairs
+  $.each(selectedFilters, function(name, filterValues) {
+
+    // filter each .flower element
+    $filteredResults = $filteredResults.filter(function() {
+
+      var matched = false,
+        currentFilterValues = $(this).data('category').split(' ');
+
+      // loop over each category value in the current .flower's data-category
+      $.each(currentFilterValues, function(_, currentFilterValue) {
+
+        // if the current category exists in the selected filters array
+        // set matched to true, and stop looping. as we're ORing in each
+        // set of filters, we only need to match once
+
+        if ($.inArray(currentFilterValue, filterValues) != -1) {
+          matched = true;
+          return false;
+        }
+      });
+
+      // if matched is true the current .flower element is returned
+      return matched;
+
+    });
+  });
+
+  $('#resultList li').hide().filter($filteredResults).show();
+
+  var listCount = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCount);
 
 
 
   if ($(this).is(':checked')) {
-    // var checkboxValue = $(this).next().text();
     var checkboxValue = $(this).val();
     $('.filter-feedback-container').show();
     $('.filter-feedback').show();
     $('<a href="#" class="filter-feedback new"> <span class="filter-name"> <span class="close"></span>'+ checkboxValue +'</span>  </a>').appendTo('#firstFilter');
-}
-else {
+  }
+  else {
     var value = $(this).val();
     if ($('#firstFilter').has('.filter-name:contains("'+value+'")')) {
       $('.filter-name:contains("'+value+'")').parent().remove();
     }
+  }
     
-}
     
-    
-    $('.filter-name').on('click', function(e) {
-      var filterValue = $(this).text();
-      $(this).parent().remove(); // remove the button
-      if ($('#allFilters :checkbox').has('label:contains("'+filterValue+'")')) {
-        $('label:contains("'+filterValue+'")').trigger('click');
-      }
+  $('.filter-name').on('click', function(e) {
+    var filterValue = $(this).text();
+    $(this).parent().remove(); // remove the button
+    if ($('#allFilters :checkbox').has('label:contains("'+filterValue+'")')) {
+      $('label:contains("'+filterValue+'")').trigger('click');
+    }
 
-      e.preventDefault()
-    });
-
-    // $('.close').on('click', function() {
-    //   var filterValue = $(this).text();
-    //   $(this).parent().remove(); // remove the button
-    //   if ($('#allFilters :checkbox').has('label:contains("'+filterValue+'")')) {
-    //     $('label:contains("'+filterValue+'")').trigger('click');
-    //   }
-    // });
-
-
-  $('#resultList li').hide();
-  $('#allFilters :checkbox:checked').each(function () {
-    $('.' + $(this).val()).show();
-    // $("#allFilters :checkbox").val($(this).val().toLowerCase().replace(/\s+/g, "-"));
-
-    var listCount = $("#resultList li:visible").length;
-    $("#listCount").text('');
-    $("#listCount").append(listCount);
+    e.preventDefault()
   });
 
   if (!$('#allFilters :checkbox').is(':checked')) {
@@ -197,7 +144,7 @@ else {
     $("#listCount").append(listCount);
   }
 
-  
+
   if ($('#awardingBody :checkbox').is(':checked')) {
     
     $('#awardingBody .selected-text').show();
@@ -222,8 +169,8 @@ else {
   } else {
     $('#level .selected-text').hide();
   }
-  
-  
+
+
   if ($('#teachingYear :checkbox').is(':checked')) {
 
     $('#teachingYear .selected-text').show();
@@ -236,7 +183,7 @@ else {
     $('#teachingYear .selected-text').hide();
   }
 
-  
+
   if ($('#fundingStream :checkbox').is(':checked')) {
 
     $('#fundingStream .selected-text').show();
@@ -258,24 +205,70 @@ else {
 
 
 $('#updateResults').click(function(e){
+
+  var $filterCheckboxes = $('#allFilters-2 input[type="checkbox"]');
+
+  if ($filterCheckboxes.is(':checked')) {
   
-  $('#resultList li').hide();
-  $('#allFilters-2 :checkbox:checked').each(function () {
-    $('.' + $(this).val()).show();
+    var selectedFilters = {};
+  
+    $filterCheckboxes.filter(':checked').each(function() {
+  
+      if (!selectedFilters.hasOwnProperty(this.name)) {
+        selectedFilters[this.name] = [];
+      }
+  
+      selectedFilters[this.name].push(this.value);
+  
+    });
+  
+    // create a collection containing all of the filterable elements
+    var $filteredResults = $('#resultList li');
+  
+    // loop over the selected filter name -> (array) values pairs
+    $.each(selectedFilters, function(name, filterValues) {
+  
+      // filter each .flower element
+      $filteredResults = $filteredResults.filter(function() {
+  
+        var matched = false,
+          currentFilterValues = $(this).data('category').split(' ');
+  
+        // loop over each category value in the current .flower's data-category
+        $.each(currentFilterValues, function(_, currentFilterValue) {
+  
+          // if the current category exists in the selected filters array
+          // set matched to true, and stop looping. as we're ORing in each
+          // set of filters, we only need to match once
+  
+          if ($.inArray(currentFilterValue, filterValues) != -1) {
+            matched = true;
+            return false;
+          }
+        });
+  
+        // if matched is true the current .flower element is returned
+        return matched;
+  
+      });
+    });
+  
+    $('#resultList li').hide().filter($filteredResults).show();
 
     var listCount = $("#resultList li:visible").length;
     $("#listCount").text('');
     $("#listCount").append(listCount);
-  });
 
-  if (!$('#allFilters-2 :checkbox').is(':checked')) {
-    $('#resultList li').show();
+    // var val = [];
+    // $(':checkbox:checked').each(function(i){
+    //   val[i] = $(this).val();
+    // });
 
-    var listCount = $("#resultList li:visible").length;
-    $("#listCount").text('');
-    $("#listCount").append(listCount);
-  }
-
+    // $('.filter-feedback-container').show();
+    // $('.filter-feedback').show();
+    // $('<a href="#" class="filter-feedback new"> <span class="filter-name"> <span class="close"></span>'+ val +'</span>  </a>').appendTo('#firstFilter');
+    
+  
   
   if ($('#awardingBody :checkbox').is(':checked')) {
     
@@ -328,53 +321,16 @@ $('#updateResults').click(function(e){
   }
 
   e.preventDefault();
+
+  }  
 });
 
 
-// $('#allFilters :checkbox').click(function() {
+$('#clearFilters').click(function() {
+  location.reload();
 
-//   // Get all checked filters...
-//   var $allCheckedFilters = $('input:checked');
-//   var checkedValues = [];
+});
 
-//   // Iterate and build array containing all checked values...
-//   $allCheckedFilters.each(function(index, element){
-//     checkedValues.push($(this).val());
-//   })
-
-//   // Build string to use as selector...
-//   var classNameStr = checkedValues.join('.');    
-
-//   // Hide all listings...
-//   $('#resultList li').hide();
-
-//   // Get items with all classnames and show them...
-//   $('li.' + classNameStr).show();
-
-// });
-
-// $("#allFilters :checkbox").change(function(){
-//   if (!$('#allFilters :checkbox').is(':checked')) {
-//       $('#resultList li').show();
-//     }
-// });
-
-
-// var url = window.location.href;
-
-// var vars = [], hash;
-// var q = document.URL.split('?')[1];
-// if(q != undefined){
-//   q = q.split('+');
-//   for(var i = 0; i < q.length; i++){
-//     hash = q[i].split('=');
-//     vars.push(hash[1]);
-//     vars[hash[0]] = hash[1];
-//   }  
-// }
-
-
-// $( "#containing" ).after( "<span class='results-elements govuk-body govuk-!-font-size-16'><span class='close'></span>" + vars + "</span>" );
 
 
 
@@ -383,10 +339,3 @@ $(".results-elements").click(function(){
   $(".results-number-container").hide();
   
 });
-
-// $(".filter-feedback").click(function(){
-//   $(this).hide();
-//   // $(".filter-feedback-container").hide();
-  
-// });
-

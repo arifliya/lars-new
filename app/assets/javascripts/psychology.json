@@ -1,0 +1,1490 @@
+var data = `[
+    {
+        "LearnAimRefTitle": "BSc (Hons) Psychology",
+        "LearnAimRef": "00243004",
+        "AwardOrgCode": "LU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology (with a foundation year)",
+        "LearnAimRef": "00243297",
+        "AwardOrgCode": "STAFFU",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Psychology and Crime",
+        "LearnAimRef": "00246428",
+        "AwardOrgCode": "UOBEDS",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology (Year One)",
+        "LearnAimRef": "00246492",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Psychology",
+        "LearnAimRef": "00260080",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Intermediate Feline Psychology",
+        "LearnAimRef": "00262978",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 2",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Canine Psychology",
+        "LearnAimRef": "00275383",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 1",
+        "LastNewStartDate": "2010-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Canine Psychology",
+        "LearnAimRef": "00275385",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2010-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Health Studies - University of Bolton",
+        "LearnAimRef": "00287770",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Counselling Theory - Truro College",
+        "LearnAimRef": "00288072",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - The Grimsby Institute of Further and Higher Education",
+        "LearnAimRef": "00288241",
+        "AwardOrgCode": "CERTA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Selby College",
+        "LearnAimRef": "00288383",
+        "AwardOrgCode": "CERTA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Equine Psychology",
+        "LearnAimRef": "00293298",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 3"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Criminology, Psychology and Social Justice",
+        "LearnAimRef": "00300368",
+        "AwardOrgCode": "UOSX",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Psychology and Health Studies",
+        "LearnAimRef": "00300691",
+        "AwardOrgCode": "UODE",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology with Sociology - (Farnborough College of Technology)",
+        "LearnAimRef": "00300991",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA in Psychology in the Community - (Doncaster College)",
+        "LearnAimRef": "00301334",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Psychology",
+        "LearnAimRef": "00301628",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Sociology and Psychology - Burnley College",
+        "LearnAimRef": "00301700",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Applied Psychology - The Manchester College",
+        "LearnAimRef": "00301719",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "PGCE in Secondary (Psychology) - Bradford College",
+        "LearnAimRef": "00302314",
+        "AwardOrgCode": "BOLTONIN",
+        "NotionalNVQLevelDesc": "Level 5 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology - Oldham College",
+        "LearnAimRef": "00302640",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Psychology in the Community - Doncaster College",
+        "LearnAimRef": "00303248",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology with Foundation Entry - Blackburn College",
+        "LearnAimRef": "00304016",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) Business and Psychology - Farnborough College of Technology",
+        "LearnAimRef": "00304103",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology",
+        "LearnAimRef": "40001131",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Human Biology and Psychology",
+        "LearnAimRef": "40001477",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-10-23"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Criminology",
+        "LearnAimRef": "40002317",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2019-10-23"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Counselling",
+        "LearnAimRef": "40004375",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-12-10"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Sociology",
+        "LearnAimRef": "40004387",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-10-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology and Counselling)",
+        "LearnAimRef": "40008216",
+        "AwardOrgCode": "CAVA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2023-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology and Sociology)",
+        "LearnAimRef": "40010326",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2024-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology Sciences)",
+        "LearnAimRef": "40010661",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology)",
+        "LearnAimRef": "40011859",
+        "AwardOrgCode": "CERTA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2029-12-01"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "5002582X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "50026112",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "5002646X",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Psychology",
+        "LearnAimRef": "50044357",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2018-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Psychology",
+        "LearnAimRef": "50044400",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2018-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Psychology (Short Course)",
+        "LearnAimRef": "50045994",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 70,
+        "LastNewStartDate": "2018-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in HL Psychology",
+        "LearnAimRef": "50075512",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Psychology",
+        "LearnAimRef": "50075603",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 225,
+        "LastNewStartDate": "2017-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in the Principles of Sports Psychology (QCF)",
+        "LearnAimRef": "60089611",
+        "AwardOrgCode": "INNOVATE",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 116,
+        "LastNewStartDate": "2017-09-30"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "6015312X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE (9-1) in Psychology",
+        "LearnAimRef": "60311095",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2022-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in SL Psychology",
+        "LearnAimRef": "60323607",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2026-12-31"
+    },
+    {
+        "LearnAimRefTitle": "BTEC National Certificate in Applied Psychology",
+        "LearnAimRef": "60330570",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2023-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology of Music",
+        "LearnAimRef": "A5051001",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 48,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology",
+        "LearnAimRef": "A5070695",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 27,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology",
+        "LearnAimRef": "A6165512",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 15,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Psychology",
+        "LearnAimRef": "D5072052",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 32,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for sports performance",
+        "LearnAimRef": "F5059939",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 5,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Health Psychology",
+        "LearnAimRef": "F5070696",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology",
+        "LearnAimRef": "F5076711",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Applied Sport and Exercise Psychology",
+        "LearnAimRef": "F6000044",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for Sports Performance",
+        "LearnAimRef": "H5025508",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Health Psychology",
+        "LearnAimRef": "J6008985",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music",
+        "LearnAimRef": "K5058901",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology",
+        "LearnAimRef": "K5078064",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Psychology for Life Coaching",
+        "LearnAimRef": "K6023527",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Principles of psychology in improving sporting performance",
+        "LearnAimRef": "M5049911",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 14,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Health Psychology",
+        "LearnAimRef": "M5050377",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology",
+        "LearnAimRef": "M5070693",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 22,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music and the Individual",
+        "LearnAimRef": "R5058858",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 48,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music and the Individual",
+        "LearnAimRef": "R5058942",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Psychology of Music",
+        "LearnAimRef": "T5005067",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 48,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Psychology of Music",
+        "LearnAimRef": "T5005750",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology",
+        "LearnAimRef": "T5050378",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music",
+        "LearnAimRef": "Y5005644",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology",
+        "LearnAimRef": "Y5042483",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 15,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology",
+        "LearnAimRef": "Y6171902",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology (City Literary Institute)",
+        "LearnAimRef": "00230623",
+        "AwardOrgCode": "NONE",
+        "NotionalNVQLevelDesc": "Not Applicable\/ Not Known",
+        "LastNewStartDate": "2019-01-03"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Crime, Deviance and Society, Psychology and Sociology",
+        "LearnAimRef": "00243358",
+        "AwardOrgCode": "STAFFU",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Pastoral Counselling and Psychology",
+        "LearnAimRef": "00243879",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc in Psychology",
+        "LearnAimRef": "00245540",
+        "AwardOrgCode": "MMU",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Psychology and Marketing",
+        "LearnAimRef": "00246036",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Pastoral Care with Psychology",
+        "LearnAimRef": "00246097",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Animal Behaviour and Psychology",
+        "LearnAimRef": "00246138",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology",
+        "LearnAimRef": "00246381",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology and Criminology",
+        "LearnAimRef": "00246687",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in English and Psychology in Society",
+        "LearnAimRef": "00246875",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology with Sociology",
+        "LearnAimRef": "00246881",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Psychology",
+        "LearnAimRef": "00260079",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Intermediate Canine Psychology",
+        "LearnAimRef": "00275384",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 2",
+        "LastNewStartDate": "2010-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Modern Theories of Canine Behaviour, Psychology and Training",
+        "LearnAimRef": "00275391",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2010-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - City College Brighton and Hove",
+        "LearnAimRef": "00286504",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Distance Learning Centre",
+        "LearnAimRef": "00287768",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Thames Valley University (Reading)",
+        "LearnAimRef": "00287864",
+        "AwardOrgCode": "OCNCREDI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Knowsley Community College",
+        "LearnAimRef": "00288739",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Reading College",
+        "LearnAimRef": "00288740",
+        "AwardOrgCode": "OCNCREDI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for Football",
+        "LearnAimRef": "00289738",
+        "AwardOrgCode": "FOOTBALL",
+        "NotionalNVQLevelDesc": "Mixed level",
+        "LastNewStartDate": "2019-01-03"
+    },
+    {
+        "LearnAimRefTitle": "Intermediate Equine Psychology",
+        "LearnAimRef": "00293297",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 2"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Education and Psychology",
+        "LearnAimRef": "00300149",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Applied Psychology",
+        "LearnAimRef": "00300910",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology with Sociology - (City College Norwich)",
+        "LearnAimRef": "00301136",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Psychology with Sociology - (City College Norwich)",
+        "LearnAimRef": "00301234",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Psychology with Modern History - (Farnborough College of Technology)",
+        "LearnAimRef": "00301332",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "LLB (Hons) in Law and Psychology - Burnley College",
+        "LearnAimRef": "00302021",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Counselling and Psychology in Community Settings - Bradford College",
+        "LearnAimRef": "00302292",
+        "AwardOrgCode": "BOLTONIN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology - Grimsby Institute of Further and Higher Education",
+        "LearnAimRef": "00303840",
+        "AwardOrgCode": "HULLU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology - Blackburn College",
+        "LearnAimRef": "00304015",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Criminology with Psychology - Hull College",
+        "LearnAimRef": "00304083",
+        "AwardOrgCode": "HULLCG",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology, Psychotherapy and Counselling - Burnley College",
+        "LearnAimRef": "00304479",
+        "AwardOrgCode": "BOLTONIN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology",
+        "LearnAimRef": "4000739X",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2021-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: (Psychology and Healthcare)",
+        "LearnAimRef": "40007625",
+        "AwardOrgCode": "OneAwards",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2021-12-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology)",
+        "LearnAimRef": "40010259",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2024-09-01"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology A",
+        "LearnAimRef": "50024991",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology A",
+        "LearnAimRef": "50025004",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology B",
+        "LearnAimRef": "50025417",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology B",
+        "LearnAimRef": "50025429",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "50026677",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "50029149",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Pre-U Certificate in Psychology (Principal)",
+        "LearnAimRef": "50036592",
+        "AwardOrgCode": "CAIE",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 380,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Psychology",
+        "LearnAimRef": "50044424",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2018-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE in Psychology",
+        "LearnAimRef": "50045702",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 140,
+        "LastNewStartDate": "2019-01-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "60148378",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "60155723",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "60160445",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE (9-1) in Psychology",
+        "LearnAimRef": "60308904",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2022-08-28"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for Sports Performance",
+        "LearnAimRef": "A5025739",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Cognitive Psychology: Memory",
+        "LearnAimRef": "A5062533",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 10,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introducing Psychology",
+        "LearnAimRef": "A5072642",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology",
+        "LearnAimRef": "D5042467",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 1",
+        "OfQualGlhMax": 28,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Psychology of Music",
+        "LearnAimRef": "D5058913",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Health Psychology",
+        "LearnAimRef": "D5078062",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music",
+        "LearnAimRef": "F5005072",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 48,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Psychology",
+        "LearnAimRef": "F5052036",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 1",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Psychology",
+        "LearnAimRef": "H5034872",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 1",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology",
+        "LearnAimRef": "H5042471",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 15,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for sports performance",
+        "LearnAimRef": "H5058265",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 8,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Criminal Psychology",
+        "LearnAimRef": "J5025579",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology For Sports Performance",
+        "LearnAimRef": "J5071574",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 34,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Clinical Psychology",
+        "LearnAimRef": "K5025607",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Psychology",
+        "LearnAimRef": "K5034873",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Sports Psychology",
+        "LearnAimRef": "K5061684",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 11,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music and the Individual",
+        "LearnAimRef": "L5005074",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 48,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Health Psychology",
+        "LearnAimRef": "L5042478",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 30,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music",
+        "LearnAimRef": "T5058903",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology",
+        "LearnAimRef": "Y5076732",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Sports Psychology Certificate",
+        "LearnAimRef": "00220111",
+        "AwardOrgCode": "WABBA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2013-12-31"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Psychology & Management",
+        "LearnAimRef": "00241035",
+        "AwardOrgCode": "UOB",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Counselling and Psychology in Community Settings",
+        "LearnAimRef": "00243933",
+        "AwardOrgCode": "LMU",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Applied Psychology",
+        "LearnAimRef": "00244857",
+        "AwardOrgCode": "LANU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Child and Adolescent Psychology",
+        "LearnAimRef": "00246382",
+        "AwardOrgCode": "OU",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "HND in Applied Psychology",
+        "LearnAimRef": "00246830",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Psychology and Criminal Behaviour",
+        "LearnAimRef": "00246985",
+        "AwardOrgCode": "UOBEDS",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level Psychology A",
+        "LearnAimRef": "00260081",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level Psychology B",
+        "LearnAimRef": "00260082",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level Psychology",
+        "LearnAimRef": "00260336",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Advanced Feline Psychology",
+        "LearnAimRef": "00270164",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2010-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A2 Level in Psychology",
+        "LearnAimRef": "00285055",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Community Studies, Psychology and Education - University of Bolton",
+        "LearnAimRef": "00287701",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Bury College",
+        "LearnAimRef": "00287767",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Community Studies - University of Bolton",
+        "LearnAimRef": "00287769",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Thames Valley University (Ealing)",
+        "LearnAimRef": "00287863",
+        "AwardOrgCode": "OCNCREDI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Social Science - Uxbridge College",
+        "LearnAimRef": "00287865",
+        "AwardOrgCode": "OCNCREDI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - Bracknell and Wokingham College",
+        "LearnAimRef": "00287955",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Social Work: Care and Psychology - South Birmingham College",
+        "LearnAimRef": "00288224",
+        "AwardOrgCode": "OPENCOLLNETWESTMID",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Equine Psychology",
+        "LearnAimRef": "00293296",
+        "AwardOrgCode": "ACC",
+        "NotionalNVQLevelDesc": "Level 1"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology - St Vincent College",
+        "LearnAimRef": "00298065",
+        "AwardOrgCode": "LASER",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2012-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Applied Psychology - Lowestoft College",
+        "LearnAimRef": "00298271",
+        "AwardOrgCode": "CAVA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-11-21"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology and Criminology",
+        "LearnAimRef": "00300148",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Counselling and Psychology in Community Settings",
+        "LearnAimRef": "00300252",
+        "AwardOrgCode": "UOT",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Psychology and Sociology",
+        "LearnAimRef": "00300738",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in English Literature with Psychology",
+        "LearnAimRef": "00300931",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in English and Psychology in Society - (City College Norwich)",
+        "LearnAimRef": "00301146",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Sociology with Psychology - (Farnborough College of Technology)",
+        "LearnAimRef": "00301324",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Psychology with English Literature - (Farnborough College of Technology)",
+        "LearnAimRef": "00301326",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)",
+        "LastNewStartDate": "2018-04-10"
+    },
+    {
+        "LearnAimRefTitle": "BA (Hons) in Modern History with Psychology - (Farnborough College of Technology)",
+        "LearnAimRef": "00301331",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Psychology with Sociology - (South Devon College)",
+        "LearnAimRef": "00301363",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Foundation Degree in Criminology with Psychology - (South Devon College)",
+        "LearnAimRef": "00301469",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology - Burnley College",
+        "LearnAimRef": "00302126",
+        "AwardOrgCode": "UCLAN",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "University Preparatory Year Extended Degree Programme in Psychology - Oldham College",
+        "LearnAimRef": "00302639",
+        "AwardOrgCode": "SHU",
+        "NotionalNVQLevelDesc": "Level 3"
+    },
+    {
+        "LearnAimRefTitle": "HNC in Applied Psychology - Truro and Penwith College",
+        "LearnAimRef": "00302802",
+        "AwardOrgCode": "UOPLY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc(Hons) in Criminology with Psychology - Farnborough College of Technology",
+        "LearnAimRef": "00302930",
+        "AwardOrgCode": "UOSY",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "BSc (Hons) in Psychology and Sociology - South Essex College of Further and Higher Education",
+        "LearnAimRef": "00303623",
+        "AwardOrgCode": "UEA",
+        "NotionalNVQLevelDesc": "Level 4 (original)"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in Psychology",
+        "LearnAimRef": "10049150",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 102,
+        "LastNewStartDate": "2021-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology",
+        "LearnAimRef": "40005008",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "LastNewStartDate": "2018-12-31"
+    },
+    {
+        "LearnAimRefTitle": "Access to Higher Education Diploma: Psychology and Counselling",
+        "LearnAimRef": "40007005",
+        "AwardOrgCode": "CAVA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2019-04-08"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma: Counselling and Psychology",
+        "LearnAimRef": "40007789",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2019-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology and Sociology)",
+        "LearnAimRef": "40008563",
+        "AwardOrgCode": "GATEWAY",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2019-09-19"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Counselling and Psychology)",
+        "LearnAimRef": "40010909",
+        "AwardOrgCode": "ASCENTIS",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2024-07-01"
+    },
+    {
+        "LearnAimRefTitle": "Access to HE Diploma (Psychology and Criminology)",
+        "LearnAimRef": "40011665",
+        "AwardOrgCode": "OPENAWRD",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2023-12-01"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "5002601X",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2017-07-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "6014838X",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "60151225",
+        "AwardOrgCode": "OCR",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE A Level in Psychology",
+        "LearnAimRef": "60155735",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 360,
+        "LastNewStartDate": "2099-12-31"
+    },
+    {
+        "LearnAimRefTitle": "GCE AS Level in Psychology",
+        "LearnAimRef": "60160457",
+        "AwardOrgCode": "WJEC",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 180,
+        "LastNewStartDate": "2020-08-31"
+    },
+    {
+        "LearnAimRefTitle": "GCSE (9-1) in Psychology",
+        "LearnAimRef": "60309325",
+        "AwardOrgCode": "AQA",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2022-08-28"
+    },
+    {
+        "LearnAimRefTitle": "Certificate in HL Psychology",
+        "LearnAimRef": "60323619",
+        "AwardOrgCode": "IB",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2026-12-31"
+    },
+    {
+        "LearnAimRefTitle": "BTEC National Extended Certificate in Applied Psychology",
+        "LearnAimRef": "60330582",
+        "AwardOrgCode": "EDEXCEL",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 0,
+        "LastNewStartDate": "2023-08-31"
+    },
+    {
+        "LearnAimRefTitle": "Applications of Forensic Psychology",
+        "LearnAimRef": "A5025580",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understand psychology of ill health",
+        "LearnAimRef": "D5057776",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for Sports Performance",
+        "LearnAimRef": "D6158231",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Social Psychology of Music and the Individual",
+        "LearnAimRef": "F5005346",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 42,
+        "LastNewStartDate": "2014-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Health Psychology",
+        "LearnAimRef": "F5076725",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Psychology of Music",
+        "LearnAimRef": "H6155184",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding techniques for change in sports psychology",
+        "LearnAimRef": "J5049915",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 27,
+        "LastNewStartDate": "2015-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Understanding the Psychology of Music",
+        "LearnAimRef": "J5058890",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Sport and Exercise Psychology",
+        "LearnAimRef": "K6000040",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 3",
+        "OfQualGlhMax": 60,
+        "LastNewStartDate": "2016-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology and Sport; The Relationship",
+        "LearnAimRef": "M6171890",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Introduction to Psychology",
+        "LearnAimRef": "R5052090",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Social Psychology",
+        "LearnAimRef": "T5050381",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Cognitive Psychology: Memory",
+        "LearnAimRef": "T6165654",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 15,
+        "LastNewStartDate": "2019-07-31"
+    },
+    {
+        "LearnAimRefTitle": "Psychology for Sports Performance",
+        "LearnAimRef": "Y5053239",
+        "AwardOrgCode": "MULTI",
+        "NotionalNVQLevelDesc": "Level 2",
+        "OfQualGlhMax": 24,
+        "LastNewStartDate": "2020-07-31"
+    }
+]`;
