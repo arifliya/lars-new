@@ -159,7 +159,7 @@ setTimeout(
   $("#listCount").text('');
   $("#listCount").append(listCount);
 
-}, 2000);
+}, 100);
 
   if ($(this).is(':checked')) {
     var checkboxValue = $(this).val();
