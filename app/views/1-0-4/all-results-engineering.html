@@ -62,6 +62,8 @@
             </div>
           <hr class="colour-black govuk-section-break govuk-section-break--m govuk-section-break--visible">
 
+          
+
           <ul id="resultList" class="govuk-list">
           </ul>
         
@@ -89,11 +91,9 @@
 
         </div>
   
-        <div class="govuk-grid-column-one-third">
-  
+        <p class="visually-hidden">{{ data['awarding-body-input'] }}</p> 
+        <p class="visually-hidden2">{{ data['level-input'] }}</p> 
         
-  
-        </div>
       </div>
     
       {% include "./auto-js.html" %}

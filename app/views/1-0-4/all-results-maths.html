@@ -37,14 +37,16 @@
             <div class="filter-feedback-container">
               <span id="from" class="govuk-body govuk-!-font-size-16"><strong>From: </strong>  
                 <span id="firstFilter"> 
-                  <!-- <span class="close"></span><span class="filter-name">test</span>   -->
+                  
                 </span> 
               </span>
             </div>
             <div class="results-number-container">
-              <span id="containing" class="govuk-body govuk-!-font-size-16"><strong>Containing: </strong> <a href="#" class="results-elements"> <span class="close"></span> {{ data['input-autocomplete'] }} </a> </span>
+              <span id="containing" class="govuk-body govuk-!-font-size-16"><strong>Containing: </strong> <a href="#" class="results-elements"> <span class="close"></span> {{ data['input-autocomplete'] }} </a>  </span>
             </div>
           <hr class="colour-black govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+          <span class="loading-spinner"><img src="/public/images/loader.gif" alt="loading-icon"></span>
 
           <ul id="resultList" class="govuk-list">
             </ul>
@@ -74,11 +76,10 @@
 
         </div>
   
-        <div class="govuk-grid-column-one-third">
-  
-        
-  
-        </div>
+        <p class="visually-hidden">{{ data['awarding-body-input'] }}</p> 
+        <p class="visually-hidden2">{{ data['level-input'] }}</p> 
+
+
       </div>
     
       {% include "./auto-js.html" %}

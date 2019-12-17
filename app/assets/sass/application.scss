@@ -110,3 +110,21 @@ $govuk-assets-path: '/govuk/assets/';
 .filter-feedback {
     @extend .results-elements;
 }
+
+.visually-hidden, .visually-hidden2  {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.custom-width-280 {
+    width: 280px;
+}

@@ -48,7 +48,40 @@ $('.filter-box-button').click(function(e){
 });
 
 
+// if ($('.filter-feedback-container .results-elements').is(' ')) {
+//   alert('yo');
+//   $(this).hide();
+// }
 
+// $('.filter-feedback-container .results-elements').each(function(){
+//   if (!$(this).text().trim().length) {
+//       $(this).hide();
+//       $('.filter-feedback-container').hide();
+//   } else {
+//     $('#allFilters input[value='+values+'').attr('checked', true);
+//   }
+// });
+$( document ).ready(function() {
+var filterValue2 = $('.visually-hidden').text();
+var filterValue3 = $('.visually-hidden2').text();
+
+if ($('.visually-hidden').is(':empty')) {
+  $('#allFilters :checkbox').trigger('click');
+}
+
+if ($('.visually-hidden2').is(':empty')) {
+  $('#allFilters :checkbox').trigger('click');
+}
+
+if ($('#allFilters :checkbox').has('label:contains("'+filterValue2+'")')) {
+  $('label:contains("'+filterValue2+'")').trigger('click');
+} 
+
+if ($('#allFilters :checkbox').has('label:contains("'+filterValue3+'")')) {
+  $('label:contains("'+filterValue3+'")').trigger('click');
+} 
+
+});
 
 // ****************************************
 
@@ -58,6 +91,23 @@ $('.filter-box-button').click(function(e){
 var $filterCheckboxes = $('#allFilters input[type="checkbox"]');
 
 $filterCheckboxes.on('change', function() {
+
+  if($(this).prop('checked') == false){
+    $('#resultList li').hide();
+    $('.loading-spinner').show();
+    $('#resultList').hide();
+  } else {
+    $('#resultList li').hide();
+    $('.loading-spinner').show();
+    $('#resultList').hide();
+  }
+  
+
+setTimeout(
+  function() { 
+
+    $('.loading-spinner').hide();
+    $('#resultList').show();
 
   var selectedFilters = {};
 
@@ -102,13 +152,14 @@ $filterCheckboxes.on('change', function() {
     });
   });
 
+
   $('#resultList li').hide().filter($filteredResults).show();
 
   var listCount = $("#resultList li:visible").length;
   $("#listCount").text('');
   $("#listCount").append(listCount);
 
-
+}, 2000);
 
   if ($(this).is(':checked')) {
     var checkboxValue = $(this).val();
@@ -122,7 +173,8 @@ $filterCheckboxes.on('change', function() {
       $('.filter-name:contains("'+value+'")').parent().remove();
     }
   }
-    
+ 
+
     
   $('.filter-name').on('click', function(e) {
     var filterValue = $(this).text();
@@ -133,6 +185,8 @@ $filterCheckboxes.on('change', function() {
 
     e.preventDefault()
   });
+
+
 
   if (!$('#allFilters :checkbox').is(':checked')) {
 
