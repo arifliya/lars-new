@@ -81,7 +81,15 @@ if ($('#allFilters :checkbox').has('label:contains("'+filterValue3+'")')) {
   $('label:contains("'+filterValue3+'")').trigger('click');
 } 
 
+if (!$('.results-elements').text().trim().length) {
+  $('.results-number-container').hide();
+  $(this).hide();
+}
+
 });
+
+
+
 
 // ****************************************
 
@@ -159,7 +167,7 @@ setTimeout(
   $("#listCount").text('');
   $("#listCount").append(listCount);
 
-}, 100);
+}, 200);
 
   if ($(this).is(':checked')) {
     var checkboxValue = $(this).val();
@@ -380,10 +388,10 @@ $('#updateResults').click(function(e){
 });
 
 
-$('#clearFilters').click(function() {
-  location.reload();
+// $('#clearFilters').click(function() {
+//   location.reload();
 
-});
+// });
 
 
 
