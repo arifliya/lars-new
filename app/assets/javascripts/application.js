@@ -75,16 +75,21 @@ if ($('.visually-hidden2').is(':empty')) {
 
 if ($('#allFilters :checkbox').has('label:contains("'+filterValue2+'")')) {
   $('label:contains("'+filterValue2+'")').trigger('click');
+  $('label:contains("'+filterValue2+'")').prop("checked", true);
 } 
 
 if ($('#allFilters :checkbox').has('label:contains("'+filterValue3+'")')) {
   $('label:contains("'+filterValue3+'")').trigger('click');
+  $('label:contains("'+filterValue3+'")').prop("checked", true);
 } 
 
 if (!$('.results-elements').text().trim().length) {
   $('.results-number-container').hide();
   $(this).hide();
 }
+
+
+
 
 });
 
@@ -401,3 +406,6 @@ $(".results-elements").click(function(){
   $(".results-number-container").hide();
   
 });
+
+
+
