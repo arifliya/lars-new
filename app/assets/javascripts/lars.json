@@ -10,7 +10,7 @@ var data = `[
         "LearnAimRefTitle": "Diploma in Aromatherapy",
         "LearnAimRef": "00237439",
         "AwardOrgCode": "ANM",
-        "NotionalNVQLevelDesc": "Higher level",
+        "NotionalNVQLevelDesc": "Higher-level",
         "LastNewStartDate": "2019-01-03"
     },
     {
@@ -149,35 +149,35 @@ var data = `[
         "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level 3)",
         "LearnAimRef": "00280282",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Fractions and Decimals (Entry Level 3)",
         "LearnAimRef": "00280283",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Entry Level 3)",
         "LearnAimRef": "00280284",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Entry Level 3)",
         "LearnAimRef": "00280285",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Entry Level 3)",
         "LearnAimRef": "00280286",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
@@ -254,7 +254,7 @@ var data = `[
         "LearnAimRefTitle": "Everyday Maths Skills (Entry Level 3) - CD-ROM",
         "LearnAimRef": "00280317",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
@@ -275,35 +275,35 @@ var data = `[
         "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level 3) - Text only",
         "LearnAimRef": "00280328",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Fractions, Decimals and Percentages (Entry Level 3) - Text only",
         "LearnAimRef": "00280329",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Common Measures (Entry Level 3) - Text only",
         "LearnAimRef": "00280330",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Entry Level 3) - Text only",
         "LearnAimRef": "00280331",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Handling Data (Entry Level 3) - Text only",
         "LearnAimRef": "00280332",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
@@ -373,91 +373,91 @@ var data = `[
         "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level-2)",
         "LearnAimRef": "00280420",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Fractions (Entry Level-2)",
         "LearnAimRef": "00280421",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 1 (Entry Level-2)",
         "LearnAimRef": "00280422",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 2 (Entry Level-2)",
         "LearnAimRef": "00280423",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Shape and Space (Entry Level-2)",
         "LearnAimRef": "00280424",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Handling Data  (Entry Level-2)",
         "LearnAimRef": "00280426",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Whole Numbers (Entry Level-1)",
         "LearnAimRef": "00280432",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 1 (Entry Level-1)",
         "LearnAimRef": "00280433",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Common Measures 2 (Entry Level-1)",
         "LearnAimRef": "00280434",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Shapes and Space (Entry Level-1)",
         "LearnAimRef": "00280435",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Data Handling (Entry Level-1)",
         "LearnAimRef": "00280436",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Text Only - Fractions (Entry Level-2)",
         "LearnAimRef": "00280444",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
         "LearnAimRefTitle": "Everyday Maths Skills - Text Only - Common Measures 2 (Entry Level-2)",
         "LearnAimRef": "00280448",
         "AwardOrgCode": "Learn-Direct",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2012-07-31"
     },
     {
@@ -641,7 +641,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Mathematics - University of Bolton",
         "LearnAimRef": "00287750",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-3",
         "LastNewStartDate": "2018-11-21"
     },
@@ -844,7 +844,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics",
         "LearnAimRef": "10010385",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 140,
         "LastNewStartDate": "2017-11-30"
     },
@@ -852,14 +852,14 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics",
         "LearnAimRef": "10010622",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "LastNewStartDate": "2017-08-31"
     },
     {
         "LearnAimRefTitle": "Certificate in Mathematics B",
         "LearnAimRef": "10013143",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2011-08-31"
     },
@@ -867,7 +867,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics A",
         "LearnAimRef": "10013155",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2011-08-31"
     },
@@ -906,8 +906,8 @@ var data = `[
     {
         "LearnAimRefTitle": "Free-Standing Mathematics Qualification: Foundations of Advanced Mathematics",
         "LearnAimRef": "10026046",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-08-31"
     },
@@ -1011,7 +1011,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics (Entry 1, 2 and 3)",
         "LearnAimRef": "10052033",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 120,
         "LastNewStartDate": "2016-08-31"
     },
@@ -1384,7 +1384,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "10064722",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1463,7 +1463,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Access to Higher Education Diploma: Science; Technology; Engineering and Mathematics",
         "LearnAimRef": "40006451",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2020-12-01"
@@ -1575,7 +1575,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50020857",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2016-12-31"
@@ -1583,8 +1583,8 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50024127",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1592,7 +1592,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50025569",
         "AwardOrgCode": "ASDAN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1600,7 +1600,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50025600",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1616,7 +1616,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50026720",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1624,7 +1624,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50026756",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1632,7 +1632,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50026823",
         "AwardOrgCode": "EDI",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1672,7 +1672,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50027475",
         "AwardOrgCode": "VTCT",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1783,7 +1783,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Additional Diploma in Teaching Mathematics (Numeracy) in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "50033670",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 150,
         "LastNewStartDate": "2016-12-31"
@@ -1903,7 +1903,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Basic Aromatherapy Techniques (QCF)",
         "LearnAimRef": "50050758",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 270,
         "LastNewStartDate": "2018-10-22"
@@ -1912,7 +1912,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50056062",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
     },
@@ -1927,7 +1927,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "50062359",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 360,
         "LastNewStartDate": "2015-08-31"
@@ -1935,7 +1935,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Aromatherapy Techniques (QCF)",
         "LearnAimRef": "50062372",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 250,
         "LastNewStartDate": "2015-08-31"
@@ -1952,7 +1952,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematical Skills (Entry 1)",
         "LearnAimRef": "50066109",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2019-07-22"
     },
@@ -2008,7 +2008,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics",
         "LearnAimRef": "50078070",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 140,
         "LastNewStartDate": "2018-08-31"
     },
@@ -2136,7 +2136,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 1)",
         "LearnAimRef": "50084665",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2168,7 +2168,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
         "LearnAimRef": "50084963",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2020-06-30"
     },
@@ -2176,7 +2176,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "50084975",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2020-06-30"
     },
@@ -2184,7 +2184,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "50084987",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2020-06-30"
     },
@@ -2224,7 +2224,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
         "LearnAimRef": "50089031",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2016-12-01"
     },
@@ -2232,7 +2232,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "50089043",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2016-12-01"
     },
@@ -2240,7 +2240,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "50089055",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2016-12-01"
     },
@@ -2280,7 +2280,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
         "LearnAimRef": "50091724",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2288,7 +2288,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "50091967",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2296,7 +2296,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "50092959",
         "AwardOrgCode": "EDEXCEL",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2304,7 +2304,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "50093356",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2351,8 +2351,8 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
         "LearnAimRef": "50106375",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2416,7 +2416,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "50108347",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2431,7 +2431,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
         "LearnAimRef": "50109868",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2439,7 +2439,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
         "LearnAimRef": "5010987X",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2472,7 +2472,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 1)",
         "LearnAimRef": "50114323",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
     },
@@ -2535,16 +2535,16 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "50118201",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "50118213",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2552,7 +2552,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level 3",
         "LearnAimRef": "50119448",
         "AwardOrgCode": "EDI",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2016-12-31"
     },
@@ -2584,7 +2584,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 2)",
         "LearnAimRef": "50123804",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
     },
@@ -2600,7 +2600,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics (Entry 1)",
         "LearnAimRef": "60000296",
         "AwardOrgCode": "EDI",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2016-12-31"
     },
@@ -2608,7 +2608,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "60000752",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2017-08-31"
     },
@@ -2616,7 +2616,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
         "LearnAimRef": "60001197",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2017-08-31"
     },
@@ -2624,7 +2624,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "60001203",
         "AwardOrgCode": "AQA",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-08-31"
     },
@@ -2632,7 +2632,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 3)",
         "LearnAimRef": "60001215",
         "AwardOrgCode": "ASCENTIS",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
     },
@@ -2672,7 +2672,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level-1",
         "LearnAimRef": "6000793X",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2680,7 +2680,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level-2",
         "LearnAimRef": "60009044",
         "AwardOrgCode": "EDI",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2016-12-31"
     },
@@ -2688,7 +2688,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level-2",
         "LearnAimRef": "60012183",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2696,7 +2696,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry Level 3",
         "LearnAimRef": "60012195",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -2727,7 +2727,7 @@ var data = `[
     {
         "LearnAimRefTitle": "NVQ Award in Massage Using Pre-blended Aromatherapy Oils (QCF)",
         "LearnAimRef": "60024951",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 67,
         "LastNewStartDate": "2016-07-31"
@@ -2792,7 +2792,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics (Entry 3)",
         "LearnAimRef": "60040944",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2099-12-31"
     },
@@ -2800,7 +2800,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics (Entry 2)",
         "LearnAimRef": "60041857",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 80,
         "LastNewStartDate": "2099-12-31"
     },
@@ -2808,7 +2808,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Mathematics (Entry 2)",
         "LearnAimRef": "60041869",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2099-12-31"
     },
@@ -2816,7 +2816,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics (Entry 3)",
         "LearnAimRef": "60042485",
         "AwardOrgCode": "WJEC",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 80,
         "LastNewStartDate": "2099-12-31"
     },
@@ -2840,7 +2840,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "6004682X",
         "AwardOrgCode": "IMIAL",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2014-08-31"
     },
@@ -2863,7 +2863,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Basic Aromatherapy Techniques (QCF)",
         "LearnAimRef": "60049650",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 260,
         "LastNewStartDate": "2017-10-31"
@@ -2871,7 +2871,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Aromatherapy (QCF)",
         "LearnAimRef": "60050925",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 296,
         "LastNewStartDate": "2018-02-08"
@@ -2879,7 +2879,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in Aromatherapy for Complementary Therapies",
         "LearnAimRef": "60050950",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 112,
         "LastNewStartDate": "2017-12-31"
@@ -2887,7 +2887,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy (QCF)",
         "LearnAimRef": "6005458X",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 120,
         "LastNewStartDate": "2015-12-31"
@@ -2911,7 +2911,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Teaching Mathematics: Numeracy in the Lifelong Learning Sector (QCF)",
         "LearnAimRef": "60056605",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 381,
         "LastNewStartDate": "2018-12-31"
@@ -2919,7 +2919,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Diploma in Teaching in the Lifelong Learning Sector (Mathematics: Numeracy) (QCF)",
         "LearnAimRef": "60056617",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-4 (original)",
         "OfQualGlhMax": 401,
         "LastNewStartDate": "2018-12-31"
@@ -2927,7 +2927,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics for Numeracy Teaching",
         "LearnAimRef": "60059540",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-3",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2020-12-31"
@@ -2960,7 +2960,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
         "LearnAimRef": "60068851",
         "AwardOrgCode": "LASER",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-10-22"
     },
@@ -2968,7 +2968,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
         "LearnAimRef": "60068863",
         "AwardOrgCode": "LASER",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-10-22"
     },
@@ -2999,7 +2999,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space",
         "LearnAimRef": "60073664",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
@@ -3007,71 +3007,71 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics Skills (Measure, Shape and Space) (Entry 1)",
         "LearnAimRef": "60074929",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 50,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data (Entry 1)",
         "LearnAimRef": "60074930",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Number (Entry 2)",
         "LearnAimRef": "60074942",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space (Entry 2)",
         "LearnAimRef": "60074954",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data (Entry 2)",
         "LearnAimRef": "60074966",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Number (Entry 3)",
         "LearnAimRef": "60074978",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 70,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space (Entry 3)",
         "LearnAimRef": "6007498X",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data (Entry 3)",
         "LearnAimRef": "60074991",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Number",
         "LearnAimRef": "60075053",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2021-08-31"
@@ -3079,7 +3079,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Measure, Shape and Space",
         "LearnAimRef": "60075065",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
@@ -3087,7 +3087,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data",
         "LearnAimRef": "60075077",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
@@ -3095,7 +3095,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Number",
         "LearnAimRef": "60075089",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2021-08-31"
@@ -3103,7 +3103,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Handling Data",
         "LearnAimRef": "60075119",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 40,
         "LastNewStartDate": "2021-08-31"
@@ -3111,15 +3111,15 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in Mathematics Skills (Entry 3)",
         "LearnAimRef": "60075120",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 120,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Certificate in Mathematics Skills",
         "LearnAimRef": "60075144",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 140,
         "LastNewStartDate": "2021-08-31"
@@ -3127,15 +3127,15 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in Mathematics Skills (Entry 2)",
         "LearnAimRef": "60075156",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Certificate in Mathematics Skills",
         "LearnAimRef": "60075168",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2021-08-31"
@@ -3143,16 +3143,16 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in Mathematics Skills (Entry 1)",
         "LearnAimRef": "60075235",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2021-08-31"
     },
     {
         "LearnAimRefTitle": "Award in Mathematics Skills - Number (Entry 1)",
         "LearnAimRef": "60075247",
-        "AwardOrgCode": "CG",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "City-Guilds",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 60,
         "LastNewStartDate": "2021-08-31"
     },
@@ -3160,7 +3160,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Money and time (Entry 1) (QCF)",
         "LearnAimRef": "60075600",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 10,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3168,7 +3168,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations with whole numbers (Entry 2) (QCF)",
         "LearnAimRef": "60075612",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3176,7 +3176,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and compass directions (Entry 3) (QCF)",
         "LearnAimRef": "60075624",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3184,7 +3184,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Decimals in money and length (Entry 3) (QCF)",
         "LearnAimRef": "60075636",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3192,7 +3192,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Measurement and time (Entry 3) (QCF)",
         "LearnAimRef": "60075648",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3232,7 +3232,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Fractions and measurement (Entry 2) (QCF)",
         "LearnAimRef": "60075697",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3240,7 +3240,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data (Entry 2) (QCF)",
         "LearnAimRef": "60075703",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3248,7 +3248,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and positional vocabulary (Entry 2) (QCF)",
         "LearnAimRef": "60075715",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3256,7 +3256,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Money, time and date (Entry 2) (QCF)",
         "LearnAimRef": "60075727",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3264,7 +3264,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Measuring systems (Entry 1) (QCF)",
         "LearnAimRef": "60075739",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3272,7 +3272,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations with whole numbers (Entry 3) (QCF)",
         "LearnAimRef": "60075740",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3280,7 +3280,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Fractions (Entry 3) (QCF)",
         "LearnAimRef": "60075752",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 10,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3336,7 +3336,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Calculations with whole numbers (Entry 1) (QCF)",
         "LearnAimRef": "6007582X",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3344,14 +3344,14 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data (Entry 1) (QCF)",
         "LearnAimRef": "60075831",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
     {
         "LearnAimRefTitle": "Certificate in The Principles of Using Mathematical Techniques",
         "LearnAimRef": "60076550",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 98,
         "LastNewStartDate": "2021-08-31"
@@ -3359,7 +3359,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in The Principles of Using Mathematical Techniques",
         "LearnAimRef": "60076562",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 98,
         "LastNewStartDate": "2021-08-31"
@@ -3368,7 +3368,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Number (Entry 1) (QCF)",
         "LearnAimRef": "60076744",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3376,7 +3376,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Handling data (Entry 3) (QCF)",
         "LearnAimRef": "60076756",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3384,7 +3384,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Award in Mathematics: Shape and positional vocabulary (Entry 1) (QCF)",
         "LearnAimRef": "60077220",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3392,7 +3392,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Certificate in Mathematics (Entry 3) (QCF)",
         "LearnAimRef": "6007727X",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3400,7 +3400,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Certificate in Mathematics (Entry 2) (QCF)",
         "LearnAimRef": "60077281",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3408,7 +3408,7 @@ var data = `[
         "LearnAimRefTitle": "Cambridge Certificate in Mathematics (Entry 1) (QCF)",
         "LearnAimRef": "60077293",
         "AwardOrgCode": "OCR",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 130,
         "LastNewStartDate": "2016-12-31"
     },
@@ -3576,7 +3576,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
         "LearnAimRef": "60079484",
         "AwardOrgCode": "LASER",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-10-22"
     },
@@ -3599,7 +3599,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
         "LearnAimRef": "60086440",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -3607,7 +3607,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
         "LearnAimRef": "60086464",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -3615,24 +3615,24 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
         "LearnAimRef": "60086476",
-        "AwardOrgCode": "OPENAWRD",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "OPENAWARD",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
         "LearnAimRef": "60086488",
-        "AwardOrgCode": "OPENAWRD",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "OPENAWARD",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
         "LearnAimRef": "6008649X",
-        "AwardOrgCode": "OPENAWRD",
-        "NotionalNVQLevelDesc": "Entry level",
+        "AwardOrgCode": "OPENAWARD",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -3640,7 +3640,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
         "LearnAimRef": "6008859X",
         "AwardOrgCode": "AIMAWARD",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-09-10"
     },
@@ -3648,7 +3648,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
         "LearnAimRef": "60088606",
         "AwardOrgCode": "AIMAWARD",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-09-10"
     },
@@ -3656,7 +3656,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
         "LearnAimRef": "60088618",
         "AwardOrgCode": "AIMAWARD",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2018-09-10"
     },
@@ -3672,7 +3672,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry Level-1",
         "LearnAimRef": "60094825",
         "AwardOrgCode": "IQ",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -3680,7 +3680,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry Level-2",
         "LearnAimRef": "60094837",
         "AwardOrgCode": "IQ",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -3688,7 +3688,7 @@ var data = `[
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry Level 3",
         "LearnAimRef": "60100412",
         "AwardOrgCode": "IQ",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
     },
@@ -3712,7 +3712,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics Skills (Entry 1)",
         "LearnAimRef": "60105707",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 90,
         "LastNewStartDate": "2020-04-30"
     },
@@ -3720,7 +3720,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics Skills (Entry 2)",
         "LearnAimRef": "60105719",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 90,
         "LastNewStartDate": "2020-04-30"
     },
@@ -3728,7 +3728,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics Skills (Entry 3)",
         "LearnAimRef": "60105720",
         "AwardOrgCode": "NOCN",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 90,
         "LastNewStartDate": "2020-04-30"
     },
@@ -3736,7 +3736,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Maths (Entry 1)",
         "LearnAimRef": "60106098",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 170,
         "LastNewStartDate": "2027-07-31"
     },
@@ -3744,7 +3744,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Maths (Entry 2)",
         "LearnAimRef": "60106104",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 210,
         "LastNewStartDate": "2027-07-31"
     },
@@ -3752,7 +3752,7 @@ var data = `[
         "LearnAimRefTitle": "Certificate in Maths (Entry 3)",
         "LearnAimRef": "60106116",
         "AwardOrgCode": "NCFE",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 230,
         "LastNewStartDate": "2027-07-31"
     },
@@ -3760,7 +3760,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Adding and Subtracting (Entry 1)",
         "LearnAimRef": "6010627X",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3768,7 +3768,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Money and Time (Entry 1)",
         "LearnAimRef": "60106281",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3776,7 +3776,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Using and Communicating Data (Entry 1)",
         "LearnAimRef": "60106293",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3784,7 +3784,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Using Size, Shape and Space (Entry 1)",
         "LearnAimRef": "6010630X",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3792,7 +3792,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Using Whole Numbers (Entry 1)",
         "LearnAimRef": "60106311",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3800,7 +3800,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Addition, Subtracting and Multiplication (Entry 2)",
         "LearnAimRef": "60106414",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3808,7 +3808,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Money, Time and Temperature (Entry 2)",
         "LearnAimRef": "60106438",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3816,7 +3816,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Using and Communicating Data (Entry 2)",
         "LearnAimRef": "6010644X",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3824,7 +3824,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Using Whole Numbers and Fractions (Entry 2)",
         "LearnAimRef": "60106451",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 20,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3832,7 +3832,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Using Size, Shape and Measure (Entry 2)",
         "LearnAimRef": "60106670",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3840,7 +3840,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Making Calculations (Entry 3)",
         "LearnAimRef": "60107029",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     },
@@ -3848,7 +3848,7 @@ var data = `[
         "LearnAimRefTitle": "Award in Mathematics - Money, Time and Temperature (Entry 3)",
         "LearnAimRef": "60107030",
         "AwardOrgCode": "GATEWAY",
-        "NotionalNVQLevelDesc": "Entry level",
+        "NotionalNVQLevelDesc": "Entry-level",
         "OfQualGlhMax": 30,
         "LastNewStartDate": "2022-07-31"
     }

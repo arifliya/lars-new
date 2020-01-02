@@ -90,6 +90,13 @@
     overflow-x: hidden;
     background-color: #ffffff;
     margin-top: 10px;
+
+    .custom-input {
+      margin-left: 15px;
+      margin-top: 3px;
+      width: 93%;
+      margin-bottom: 5px;
+    }
   }
 
   .filter-box.hidden {

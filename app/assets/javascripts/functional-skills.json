@@ -9,7 +9,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills English (QCF)",
         "LearnAimRef": "50024115",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
@@ -17,7 +17,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50024127",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
@@ -217,7 +217,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Information and Communication Technology (ICT) at Entry 2",
         "LearnAimRef": "50085086",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -369,7 +369,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in English at Entry 2",
         "LearnAimRef": "50098378",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -385,7 +385,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology (Entry 1)",
         "LearnAimRef": "50101717",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-07-22"
@@ -393,7 +393,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology",
         "LearnAimRef": "50108359",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-07-22"
@@ -401,7 +401,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills English (Entry 3)",
         "LearnAimRef": "50108360",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -409,7 +409,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
         "LearnAimRef": "50109868",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -433,7 +433,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in English at Entry 1",
         "LearnAimRef": "50113173",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -441,7 +441,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 1)",
         "LearnAimRef": "50114323",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -505,7 +505,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics",
         "LearnAimRef": "50116721",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -545,7 +545,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology (QCF)",
         "LearnAimRef": "50026367",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
@@ -793,7 +793,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in English",
         "LearnAimRef": "50093186",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -801,7 +801,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Information and Communication Technology (ICT)",
         "LearnAimRef": "50096308",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -833,7 +833,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in English at Entry 3",
         "LearnAimRef": "5009838X",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -857,7 +857,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Information and Communication Technology (ICT) at Entry 3",
         "LearnAimRef": "50106387",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -865,7 +865,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Information and Communication Technology (ICT)",
         "LearnAimRef": "50106399",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -881,7 +881,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology (Entry 2)",
         "LearnAimRef": "50107793",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-07-22"
@@ -920,7 +920,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills English (Entry 1)",
         "LearnAimRef": "5011315X",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -944,7 +944,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills English",
         "LearnAimRef": "50116319",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -952,7 +952,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 2",
         "LearnAimRef": "50118213",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -992,7 +992,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics",
         "LearnAimRef": "60001227",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -1064,7 +1064,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (QCF)",
         "LearnAimRef": "50026720",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
@@ -1096,7 +1096,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology (QCF)",
         "LearnAimRef": "50026926",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2011-07-31"
@@ -1160,7 +1160,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Information and Communication Technology (ICT) at Entry 1",
         "LearnAimRef": "50085074",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -1256,7 +1256,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in English",
         "LearnAimRef": "50093198",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1328,7 +1328,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology (Entry 3)",
         "LearnAimRef": "50101729",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-07-22"
@@ -1336,7 +1336,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 1",
         "LearnAimRef": "50106375",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1344,7 +1344,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Information and Communication Technology",
         "LearnAimRef": "5010780X",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-07-22"
@@ -1352,7 +1352,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics",
         "LearnAimRef": "5010987X",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1408,7 +1408,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills qualification in Mathematics at Entry 3",
         "LearnAimRef": "50118201",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1416,7 +1416,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills English",
         "LearnAimRef": "50118225",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -1496,7 +1496,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 3)",
         "LearnAimRef": "60001215",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -1608,7 +1608,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Information and Communication Technology (ICT)",
         "LearnAimRef": "60072714",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -1640,7 +1640,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English",
         "LearnAimRef": "60086439",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1648,7 +1648,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 2",
         "LearnAimRef": "60086488",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1656,7 +1656,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 1",
         "LearnAimRef": "6008649X",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1672,7 +1672,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English at Entry 3",
         "LearnAimRef": "60087390",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1680,7 +1680,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English at Entry 2",
         "LearnAimRef": "60087407",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -1912,7 +1912,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English at Level 2",
         "LearnAimRef": "60346474",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2024-08-31"
@@ -1920,7 +1920,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding and Using Fractions",
         "LearnAimRef": "60347363",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -1928,7 +1928,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding and Using Decimals",
         "LearnAimRef": "60347375",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -1936,7 +1936,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Measure: Time",
         "LearnAimRef": "60347399",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -1944,7 +1944,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding Length, Weight and Capacity",
         "LearnAimRef": "60347405",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -1952,7 +1952,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills)",
         "LearnAimRef": "60347478",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -1960,7 +1960,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in Mathematics (Stepping Stones to Functional Skills)",
         "LearnAimRef": "60347491",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -1968,7 +1968,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English (Entry 2)",
         "LearnAimRef": "60348951",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -1976,7 +1976,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English (Entry 3)",
         "LearnAimRef": "60348963",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -1992,7 +1992,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 1)",
         "LearnAimRef": "60349189",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2071,7 +2071,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills English (Entry 2)",
         "LearnAimRef": "50120499",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -2087,7 +2087,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Functional Skills Mathematics (Entry 2)",
         "LearnAimRef": "50123804",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-01-09"
@@ -2231,7 +2231,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Information and Communication Technology (ICT)",
         "LearnAimRef": "60072726",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -2239,7 +2239,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Information and Communication Technology (ICT) at Entry 2",
         "LearnAimRef": "60074826",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -2279,7 +2279,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English at Entry 1",
         "LearnAimRef": "60087419",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2471,7 +2471,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English at Level 1",
         "LearnAimRef": "60346462",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2024-08-31"
@@ -2479,7 +2479,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Level 1",
         "LearnAimRef": "60346486",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2024-08-31"
@@ -2503,7 +2503,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Using Calculations: Multiplication and Division of Whole Numbers",
         "LearnAimRef": "60347351",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2511,7 +2511,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding Perimeter and Area",
         "LearnAimRef": "60347417",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2519,7 +2519,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Handling Data",
         "LearnAimRef": "60347442",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2527,7 +2527,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Extended Award in Mathematics (Stepping Stones to Functional Skills)",
         "LearnAimRef": "6034748X",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2535,7 +2535,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in English (Stepping Stones to Functional Skills)",
         "LearnAimRef": "60347508",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2543,7 +2543,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Extended Award in English (Stepping Stones to Functional Skills)",
         "LearnAimRef": "6034751X",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2610,7 +2610,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Information and Communication Technology (ICT) at Entry 1",
         "LearnAimRef": "60072702",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -2618,7 +2618,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Information and Communication Technology (ICT) at Entry 3",
         "LearnAimRef": "60078820",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2021-08-31"
@@ -2634,7 +2634,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English",
         "LearnAimRef": "60086427",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2642,7 +2642,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
         "LearnAimRef": "60086440",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2650,7 +2650,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
         "LearnAimRef": "60086464",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2658,7 +2658,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Entry 3",
         "LearnAimRef": "60086476",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 45,
         "LastNewStartDate": "2019-08-31"
@@ -2786,7 +2786,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English",
         "LearnAimRef": "60346048",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2794,7 +2794,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English",
         "LearnAimRef": "6034605X",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2818,7 +2818,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics at Level 2",
         "LearnAimRef": "60346498",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2024-08-31"
@@ -2842,7 +2842,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding Numbers",
         "LearnAimRef": "60347338",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2850,7 +2850,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Using Calculations: Addition and Subtraction of Whole Numbers",
         "LearnAimRef": "6034734X",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2858,7 +2858,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding and Using Percentages",
         "LearnAimRef": "60347387",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2866,7 +2866,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding Volume",
         "LearnAimRef": "60347429",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2874,7 +2874,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Understanding and Using 2D Shapes",
         "LearnAimRef": "60347430",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2882,7 +2882,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Data Calculations",
         "LearnAimRef": "60347454",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2890,7 +2890,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in Mathematics (Stepping Stones to Functional Skills) - Probability",
         "LearnAimRef": "60347466",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2898,7 +2898,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in English (Stepping Stones to Functional Skills) - Reading",
         "LearnAimRef": "60347521",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2906,7 +2906,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in English (Stepping Stones to Functional Skills) - Spelling",
         "LearnAimRef": "60347582",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2914,7 +2914,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in English (Stepping Stones to Functional Skills) - Speaking and Listening",
         "LearnAimRef": "60347624",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -2922,7 +2922,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
         "LearnAimRef": "60348057",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2938,7 +2938,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English (Entry 1)",
         "LearnAimRef": "6034894X",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2954,7 +2954,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English (Entry 1)",
         "LearnAimRef": "6034913X",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2962,7 +2962,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English (Entry 3)",
         "LearnAimRef": "60349153",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -2970,7 +2970,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 3)",
         "LearnAimRef": "60349177",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -3033,7 +3033,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in English (Stepping Stones to Functional Skills) - Writing",
         "LearnAimRef": "60347533",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -3041,7 +3041,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Certificate in English (Stepping Stones to Functional Skills)",
         "LearnAimRef": "60347545",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -3049,7 +3049,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Award in English (Stepping Stones to Functional Skills) - Grammar and Punctuation",
         "LearnAimRef": "60347557",
-        "AwardOrgCode": "ASCENTIS",
+        "AwardOrgCode": "Ascentis",
         "NotionalNVQLevelDesc": "Level-1",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2021-07-31"
@@ -3073,7 +3073,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics",
         "LearnAimRef": "60348069",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Level-2",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -3121,7 +3121,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in English (Entry  2)",
         "LearnAimRef": "60349141",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -3129,7 +3129,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 2)",
         "LearnAimRef": "60349165",
-        "AwardOrgCode": "CG",
+        "AwardOrgCode": "City-Guilds",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -3137,7 +3137,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 1)",
         "LearnAimRef": "60349566",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -3145,7 +3145,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 3)",
         "LearnAimRef": "60349591",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"
@@ -3153,7 +3153,7 @@ var data = `[
     {
         "LearnAimRefTitle": "Functional Skills Qualification in Mathematics (Entry 2)",
         "LearnAimRef": "6034961X",
-        "AwardOrgCode": "OPENAWRD",
+        "AwardOrgCode": "OPENAWARD",
         "NotionalNVQLevelDesc": "Entry level",
         "OfQualGlhMax": 0,
         "LastNewStartDate": "2099-12-31"

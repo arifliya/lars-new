@@ -15,8 +15,7 @@ $('#backLink').on('click', function(e){
 });
 
 
-
-
+// Search page to go to different pages //
 $("#searchProviders").click(function() {
   if ($('.autocomplete__input').val() === 'certificate in engineering') {
     $('#changeUrl').attr('action', "all-results-engineering");
@@ -48,19 +47,6 @@ $('.filter-box-button').click(function(e){
 });
 
 
-// if ($('.filter-feedback-container .results-elements').is(' ')) {
-//   alert('yo');
-//   $(this).hide();
-// }
-
-// $('.filter-feedback-container .results-elements').each(function(){
-//   if (!$(this).text().trim().length) {
-//       $(this).hide();
-//       $('.filter-feedback-container').hide();
-//   } else {
-//     $('#allFilters input[value='+values+'').attr('checked', true);
-//   }
-// });
 $( document ).ready(function() {
 var filterValue2 = $('.visually-hidden').text();
 var filterValue3 = $('.visually-hidden2').text();
@@ -88,10 +74,23 @@ if (!$('.results-elements').text().trim().length) {
   $(this).hide();
 }
 
+if (window.location.href.indexOf('&awarding-body-input=') > 0) {
+  // do nothing
+} else {
+  $('.filter-name').trigger('click');
+  
+}
+
+if (window.location.href.indexOf('&level-input=') > 0) {
+  // do nothing
+} else {
+  $('.filter-name').trigger('click');
+}
 
 
 
 });
+
 
 
 
@@ -114,6 +113,8 @@ $filterCheckboxes.on('change', function() {
     $('.loading-spinner').show();
     $('#resultList').hide();
   }
+
+  
   
 
 setTimeout(
@@ -172,13 +173,17 @@ setTimeout(
   $("#listCount").text('');
   $("#listCount").append(listCount);
 
-}, 200);
+  if ($(listCount).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+
+}, 1000);
 
   if ($(this).is(':checked')) {
     var checkboxValue = $(this).val();
     $('.filter-feedback-container').show();
     $('.filter-feedback').show();
-    $('<a href="#" class="filter-feedback new"> <span class="filter-name"> <span class="close"></span>'+ checkboxValue +'</span>  </a>').appendTo('#firstFilter');
+    $('<a href="#" class="filter-feedback"> <span class="filter-name"> <span class="close"></span>'+ checkboxValue +'</span>  </a>').appendTo('#firstFilter');
   }
   else {
     var value = $(this).val();
@@ -209,6 +214,8 @@ setTimeout(
     var listCount = $("#resultList li:visible").length;
     $("#listCount").text('');
     $("#listCount").append(listCount);
+
+    
   }
 
 
@@ -264,7 +271,6 @@ setTimeout(
   }
 
 });
-
 
 
 
