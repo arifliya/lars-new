@@ -55,7 +55,7 @@
         <div class="govuk-grid-column-two-thirds">
           
           
-            <p class="govuk-body flex space-between"><span><span id="listCount"></span> results</span> <span><a class="govuk-link govuk-link--no-visited-state govuk-!-font-size-16" href="#">Download results</a></span></p>
+            <p id="resultsContainer" class="govuk-body flex space-between"><span><span id="listCount">500</span> results</span> <span><a class="govuk-link govuk-link--no-visited-state govuk-!-font-size-16" href="#">Download results</a></span></p>
             
             <div class="results-number-container">
               <span id="containing" class="govuk-body govuk-!-font-size-16"><strong>Containing: </strong> <a href="#" class="results-elements"> <span class="close"></span> {{ data['input-autocomplete'] }} </a> </span>
@@ -76,7 +76,7 @@
               const node =
                     `<li data-category="${mydata[i].AwardOrgCode} ${mydata[i].NotionalNVQLevelDesc} 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer">
                         <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">${mydata[i].LearnAimRefTitle}</a>
-                        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex space-between">
+                        <p class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex space-between">
                           <span>${mydata[i].LearnAimRef}</span>
                           <span>${mydata[i].AwardOrgCode}</span>
                           <span>${mydata[i].NotionalNVQLevelDesc}</span>

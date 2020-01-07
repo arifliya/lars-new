@@ -164,7 +164,9 @@
 
 .autocomplete__input--focused {
   outline-offset: 0;
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
+  // border: 4px solid #0b0c0c;
+  box-shadow: inset 0 0 0 2px;
 }
 
 .autocomplete__input--show-all-values {
