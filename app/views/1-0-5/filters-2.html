@@ -1,0 +1,272 @@
+<span class="govuk-heading-s govuk-!-margin-bottom-0">Filter results</span>
+<div id="allFilters-2">
+  <section id="awardingBody" class="filter-section">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+        Awarding body
+      </a>
+      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+      <div id="ab-list" class="filter-box hidden">
+          <div class="input-container">
+            <span class="search-icon"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px"><path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"/></svg></span>
+            <input type="text" class="govuk-input custom-input" id="awarding-body-input" name="awarding-body-input" aria-label="search awarding body">
+          </div>
+          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+          {{ govukCheckboxes({
+            idPrefix: "awarding body",
+            name: "awarding body",
+            classes: "govuk-checkboxes--small",
+            
+            items: [
+              {
+                value: "IEB",
+                text: "IEB"
+              },
+              {
+                value: "OCR",
+                text: "OCR"
+              },
+              {
+                value: "Learn-Direct",
+                text: "Learn-Direct"
+              },
+              {
+                value: "AQA",
+                text: "AQA"
+              },
+              {
+                value: "City-Guilds",
+                text: "City-Guilds"
+              },
+              {
+                value: "EDEXCEL",
+                text: "EDEXCEL"
+              },
+              {
+                value: "UWLQ",
+                text: "UWLQ"
+              },
+              {
+                value: "UAL",
+                text: "UAL"
+              },
+              {
+                value: "NCC-Education",
+                text: "NCC-Education"
+              }
+            ]
+          }) }}
+      </div>
+  </section>
+
+  <section id="level" class="filter-section">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      Level
+      </a>
+      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+      <div class="filter-box hidden">
+          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+          {{ govukCheckboxes({
+            idPrefix: "level",
+            name: "level",
+            classes: "govuk-checkboxes--small",
+            
+            items: [
+              {
+                value: "Level-1",
+                text: "Level-1",
+                id: "Level-1"
+              },
+              {
+                value: "Level-2",
+                text: "Level-2"
+              },
+              {
+                value: "Level-3",
+                text: "Level-3"
+              },
+              {
+                value: "Level-4",
+                text: "Level-4"
+              },
+              {
+                value: "Level-5",
+                text: "Level-5"
+              },
+              {
+                value: "Level-6",
+                text: "Level-6"
+              },
+              {
+                value: "Level-7",
+                text: "Level-7"
+              },
+              {
+                value: "Level-8",
+                text: "Level-8"
+              },
+              {
+                value: "Entry-level",
+                text: "Entry-level"
+              },
+              {
+                value: "Higher-level",
+                text: "Higher-level"
+              },
+              {
+                value: "Mixed-level",
+                text: "Mixed-level"
+              },
+              {
+                value: "Not-known",
+                text: "Not-known"
+              }
+            ]
+          }) }}
+      </div>
+  </section>
+
+
+  <section id="fundingStream" class="filter-section">
+    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      Funding stream
+    </a>
+    <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+    <div class="filter-box hidden">
+        {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+        {{ govukCheckboxes({
+          idPrefix: "funding stream",
+          name: "funding stream",
+          classes: "govuk-checkboxes--small",
+          
+          items: [
+            {
+              value: "16-19",
+              text: "16-19"
+            },
+            {
+              value: "Adult-skills",
+              text: "Adult-skills"
+            },
+            {
+              value: "Advanced-learner-loans",
+              text: "Advanced-learner-loans"
+            },
+            {
+              value: "Other",
+              text: "Other"
+            },
+            {
+              value: "Apprenticeships",
+              text: "Apprenticeships"
+            },
+            {
+              value: "Community-learning",
+              text: "Community learning"
+            },
+            {
+              value: "EFA-Funding-condition-english",
+              text: "EFA-Funding-condition-english"
+            },
+            {
+              value: "EFA-Funding-condition-maths",
+              text: "EFA-Funding-condition-maths"
+            },
+            {
+              value: "European-social-fund",
+              text: "European-social-fund"
+            },
+            {
+              value: "OLASS",
+              text: "OLASS"
+            },
+            {
+              value: "Unemployed-offer",
+              text: "Unemployed-offer"
+            }
+          ]
+        }) }}
+    </div>
+</section>
+
+
+  <section id="teachingYear" class="filter-section">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+        Teaching year
+      </a>
+      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+      <div class="filter-box hidden">
+          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+          {{ govukCheckboxes({
+            idPrefix: "teaching year",
+            name: "teaching year",
+            classes: "govuk-checkboxes--small",
+            
+            items: [
+              
+              {
+                value: "2019-2020",
+                text: "2019 to 2020"
+              },
+              {
+                value: "2018-2019",
+                text: "2018 to 2019"
+              },
+              {
+                value: "2017-2018",
+                text: "2017 to 2018"
+              },
+              {
+                value: "2016-2017",
+                text: "2016 to 2017"
+              }
+            ]
+          }) }}
+      </div>
+  </section>
+
+  
+
+  <section id="newStarters" class="filter-section">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+        Last date for new starters
+      </a>
+      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+      <div class="filter-box hidden">
+          <div class="govuk-date-input govuk-!-margin-top-3 govuk-!-margin-left-3">
+              <div class="govuk-date-input__item">
+                <div class="govuk-form-group">
+                  <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+                    Day
+                  </label>
+                  <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="number" pattern="[0-9]*">
+                </div>
+              </div>
+              <div class="govuk-date-input__item">
+                <div class="govuk-form-group">
+                  <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+                    Month
+                  </label>
+                  <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="number" pattern="[0-9]*">
+                </div>
+              </div>
+              <div class="govuk-date-input__item">
+                <div class="govuk-form-group">
+                  <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+                    Year
+                  </label>
+                  <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="number" pattern="[0-9]*">
+                </div>
+              </div>
+            </div>
+      </div>
+  </section>
+</div>
+<a href="#" id="updateResults" class="govuk-!-margin-top-4 govuk-button govuk-button--secondary">Update results</a>
+<p><a href="#" id="clearFilters" class="govuk-!-margin-top-4 govuk-link govuk-link--no-visited-state">Clear filters</a></p>
+
+
+<!-- {{ checked("vehicle-features", "GPS") }} -->
