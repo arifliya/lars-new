@@ -7,7 +7,7 @@
 
 {% block content %}
 
-<script type="text/javascript" src="/public/javascripts/engineering.json"></script>
+<!-- <script type="text/javascript" src="/public/javascripts/engineering.json"></script> -->
  
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
@@ -25,27 +25,6 @@
 
         <div class="govuk-grid-column-one-third">
           
-            
-            
-            <!-- <a href="#" class="filter-box-button">
-              <span class="govuk-body"><strong>Date of submission</strong></span>
-            </a>
-            <div class="filter-box hidden">
-              <div class="govuk-radios govuk-radios--inline">
-                <div class="govuk-radios__item">
-                  <input class="govuk-radios__input" id="changed-name-1" name="changed-name" type="radio" value="yes">
-                  <label class="govuk-label govuk-radios__label" for="changed-name-1">
-                    Yesterday
-                  </label>
-                </div>
-                <div class="govuk-radios__item">
-                  <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
-                  <label class="govuk-label govuk-radios__label" for="changed-name-2">
-                    In the past
-                  </label>
-                </div>
-              </div>
-            </div> -->
 
             {% include "./filters-2.html" %}
           
@@ -64,30 +43,7 @@
 
           
 
-          <ul id="resultList" class="govuk-list">
-          </ul>
-        
-          <script>
-          (function() {
-            var mydata = JSON.parse(data);
-            var ul = document.getElementById('resultList');
-            
-            for(var i=0;i<mydata.length;i++) {
-              const node =
-                    `<li data-category="${mydata[i].AwardOrgCode} ${mydata[i].NotionalNVQLevelDesc} 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer">
-                        <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">${mydata[i].LearnAimRefTitle}</a>
-                        <p class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex space-between">
-                          <span>${mydata[i].LearnAimRef}</span>
-                          <span>${mydata[i].AwardOrgCode}</span>
-                          <span>${mydata[i].NotionalNVQLevelDesc}</span>
-                          <span>${mydata[i].OfQualGlhMax} Guided learning hours</span>
-                        </p>
-                        <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: ${mydata[i].LastNewStartDate}</span></p>
-                      </li>`;
-              ul.insertAdjacentHTML('beforeend', node);
-            }
-          })();
-          </script>
+          {% include "./engineering.html" %}
 
         </div>
   
