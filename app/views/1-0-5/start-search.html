@@ -17,7 +17,7 @@
               
             </h1>
             
-            <p class="govuk-body-l">This service is for users that need up to date information to help them assist with their day to day jobs.</p>
+            <p class="govuk-body-l">Find the latest information on available qualifications and funding for further education providers.</p>
     
             <p class="govuk-body">Use this service to:</p>
     
@@ -34,17 +34,27 @@
       
 
             <div class="app-masthead">
-              <span class="govuk-heading-l white-text">Search for a qualification</span>
-              <p class="govuk-body white-text">Search by <strong>name, reference number</strong> or <strong>awarding body</strong></p>
+              <h2 class="govuk-heading-l white-text">Search for a qualification</h2>
+              <p class="govuk-body white-text">Search by <strong>name</strong> or <strong>reference number</strong></p>
               <form id="changeUrl" class="govuk-form-group" action="all-results-func">
-                <div id="tt-overlay" class="autocomplete-wrapper"></div>
+                <div id="tt-overlay" class="autocomplete-wrapper" aria-label="Search by name or reference number">
+                  
+
+                </div>
                 
               
               
               <div class="flex space-between">
-                <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
+                <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1 flex-09">
                   
-                  <label class="govuk-label white-text" for="awarding-body-input">
+                  <label class="govuk-label white-text" >
+                    Awarding body
+                  </label>
+                  <div id="tt-showAllValues" class="autocomplete-wrapper" aria-label="Search for an awarding body"></div>
+                  
+                  <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="autocomplete__dropdown-arrow-down" focusable="false"><g stroke="none" fill="none" fill-rule="evenodd"><polygon fill="#000000" points="0 0 22 0 11 17"></polygon></g></svg> -->
+
+                  <!-- <label class="govuk-label white-text" for="awarding-body-input">
                     Awarding body
                   </label>
                   <select name="awarding-body-input" class="govuk-select custom-width-280" id="awarding-body-input">
@@ -99,49 +109,51 @@
                     <option value="UWLQ">UWLQ</option>
                     <option value="UAL">UAL</option>
                     <option value="NCC-Education">NCC-Education</option>
-                  </select>
+                  </select> -->
                 </div>
                 
-                <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
-                  <label class="govuk-label white-text" for="level-input">
-                    Level
-                  </label>
-                  <select class="govuk-select" id="level-input" name="level-input">
-                    
-                    <option selected> </option>
-                    <option value="Level-1">Level 1</option>
-                    <option value="Level-2">Level 2</option>
-                    <option value="Level-3">Level 3</option>
-                    <option value="Level-4">Level 4</option>
-                    <option value="Level-5">Level 5</option>
-                    <option value="Level-6">Level 6</option>
-                    <option value="Level-7">Level 7</option>
-                    <option value="Level-8">Level 8</option>
-                    <option value="Entry-Level">Entry level</option>
-                    <option value="Higher-Level">Higher level</option>
-                    <option value="Mixed-Level">Mixed level</option>
-                    <option value="Not-Known">Not known</option>
-                    
-                    
-                  </select>
-                </div>
-                
-                <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
-                  <label class="govuk-label white-text" for="sort">
-                    Teaching year
-                  </label>
-                  <select class="govuk-select" id="sort" name="sort">
-                    
-                    <option value="updated" selected>View all</option>
-                    <option value="updated">2019 to 2020</option>
-                    <option value="updated">2018 to 2019</option>
-                    <option value="updated">2017 to 2018</option>
-                    <option value="updated">2016 to 2017</option>
-                    
-                    
-                    
-                  </select>
-                </div>
+                <!-- <div class="flex space-between"> -->
+                  <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
+                    <label class="govuk-label white-text" for="level-input">
+                      Level
+                    </label>
+                    <select class="govuk-select" id="level-input" name="level-input">
+                      
+                      <option selected> </option>
+                      <option value="Level-1">Level 1</option>
+                      <option value="Level-2">Level 2</option>
+                      <option value="Level-3">Level 3</option>
+                      <option value="Level-4">Level 4</option>
+                      <option value="Level-5">Level 5</option>
+                      <option value="Level-6">Level 6</option>
+                      <option value="Level-7">Level 7</option>
+                      <option value="Level-8">Level 8</option>
+                      <option value="Entry-Level">Entry level</option>
+                      <option value="Higher-Level">Higher level</option>
+                      <option value="Mixed-Level">Mixed level</option>
+                      <option value="Not-Known">Not known</option>
+                      
+                      
+                    </select>
+                  </div>
+                  
+                  <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
+                    <label class="govuk-label white-text" for="sort">
+                      Teaching year
+                    </label>
+                    <select class="govuk-select" id="sort" name="sort">
+                      
+                      <option value="updated" selected>View all</option>
+                      <option value="updated">2019 to 2020</option>
+                      <option value="updated">2018 to 2019</option>
+                      <option value="updated">2017 to 2018</option>
+                      <option value="updated">2016 to 2017</option>
+                      
+                      
+                      
+                    </select>
+                  </div>
+                <!-- </div> -->
               </div>
               <br>
               <button id="searchProviders" type="search" class="govuk-button govuk-button--start govuk-!-margin-bottom-0">Search <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
@@ -180,5 +192,6 @@
       </div>
 
       {% include "./auto-js.html" %}
+      {% include "./auto-js2.html" %}
     
 {% endblock %}

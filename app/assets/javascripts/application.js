@@ -22,6 +22,9 @@ $("#awarding-body-input").on("keyup", function() {
   }).hide();
 });
 
+
+
+
 // Search page to go to different pages //
 $("#searchProviders").click(function() {
   if ($('.autocomplete__input').val() === 'certificate in engineering') {
@@ -339,16 +342,75 @@ $('#updateResults').click(function(e){
     $("#listCount").text('');
     $("#listCount").append(listCount);
 
-    // var val = [];
-    // $(':checkbox:checked').each(function(i){
-    //   val[i] = $(this).val();
-    // });
+    var val = [];
+    $(':checkbox:checked').each(function(i){
+      val[i] = $(this).val();
+    });
 
-    // $('.filter-feedback-container').show();
-    // $('.filter-feedback').show();
-    // $('<a href="#" class="filter-feedback new"> <span class="filter-name"> <span class="close"></span>'+ val +'</span>  </a>').appendTo('#firstFilter');
+    $('.filter-feedback-container').show();
+    $('.filter-feedback').show();
+    $('<a href="#" class="filter-feedback new"> <span class="filter-name"> <span class="close"></span>'+ val +'</span>  </a>').appendTo('#firstFilter');
     
-  
+    
+    $('.filter-name').on('click', function(e) {
+      var filterValue = $(this).text();
+      $(this).parent().remove(); // remove the button
+      if ($('#allFilters :checkbox').has('label:contains("'+filterValue+'")')) {
+        $('label:contains("'+filterValue+'")').trigger('click');
+      }
+
+      if ($('#awardingBody :checkbox').is(':checked')) {
+    
+        $('#awardingBody .selected-text').show();
+    
+        var count = $("#awardingBody :checkbox:checked").length;
+        $('#awardingBody .counter').text('');
+        $('#awardingBody .counter').append(count);
+    
+      } else {
+        $('#awardingBody .selected-text').hide();
+      }
+
+      if ($('#level :checkbox').is(':checked')) {
+
+        $('#level .selected-text').show();
+    
+        var count2 = $("#level :checkbox:checked").length;
+        $('#level .counter').text('');
+        $('#level .counter').append(count2);
+    
+      } else {
+        $('#level .selected-text').hide();
+      }
+      
+      
+      if ($('#teachingYear :checkbox').is(':checked')) {
+    
+        $('#teachingYear .selected-text').show();
+    
+        var count3 = $("#teachingYear :checkbox:checked").length;
+        $('#teachingYear .counter').text('');
+        $('#teachingYear .counter').append(count3);
+    
+      } else {
+        $('#teachingYear .selected-text').hide();
+      }
+    
+      if ($('#fundingStream :checkbox').is(':checked')) {
+    
+        $('#fundingStream .selected-text').show();
+    
+        var count3 = $("#fundingStream :checkbox:checked").length;
+        $('#fundingStream .counter').text('');
+        $('#fundingStream .counter').append(count3);
+    
+      } else {
+        $('#fundingStream .selected-text').hide();
+      }
+
+      e.preventDefault()
+    });
+
   
   if ($('#awardingBody :checkbox').is(':checked')) {
     
@@ -400,19 +462,31 @@ $('#updateResults').click(function(e){
     $('#fundingStream .selected-text').hide();
   }
 
+  
+
+  // if ($('#allFilters-2 :checkbox').is(':checked')) {
+  //   alert('checked');
+  // } else {
+  //   alert('not checked');
+  // }
+
   e.preventDefault();
 
-  }  
+  }  else {
+    if($($filterCheckboxes).is('checked') == false){
+      $('#clearFilters').trigger('click');
+    }
+  }
 });
 
 
-// $('#clearFilters').click(function() {
-//   location.reload();
+$('#clearFilters').click(function() {
+  location.reload();
+});
 
+// $('#updateResults').click(function(){
+  
 // });
-
-
-
 
 $(".results-elements").click(function(){
   $(this).hide();
