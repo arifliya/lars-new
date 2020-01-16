@@ -57,6 +57,15 @@ $govuk-assets-path: '/govuk/assets/';
     flex-direction: column
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1
+}
+
 .flex-09 {
     flex: 0.9;
 }
@@ -75,7 +84,7 @@ $govuk-assets-path: '/govuk/assets/';
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 5px;
-  }
+}
 
 
 .results-elements {

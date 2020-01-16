@@ -289,13 +289,13 @@ setTimeout(
 
 $('#updateResults').click(function(e){
 
-  var $filterCheckboxes = $('#allFilters-2 input[type="checkbox"]');
+  var $filterCheckboxes2 = $('#allFilters-2 input[type="checkbox"]');
 
-  if ($filterCheckboxes.is(':checked')) {
+  if ($filterCheckboxes2.is(':checked')) {
   
     var selectedFilters = {};
   
-    $filterCheckboxes.filter(':checked').each(function() {
+    $filterCheckboxes2.filter(':checked').each(function() {
   
       if (!selectedFilters.hasOwnProperty(this.name)) {
         selectedFilters[this.name] = [];
@@ -472,8 +472,10 @@ $('#updateResults').click(function(e){
 
   e.preventDefault();
 
-  }  else {
-    if($($filterCheckboxes).is('checked') == false){
+  }  
+  
+  else {
+    if($($filterCheckboxes2).is('checked') == false){
       $('#clearFilters').trigger('click');
     }
   }
@@ -483,6 +485,11 @@ $('#updateResults').click(function(e){
 $('#clearFilters').click(function() {
   location.reload();
 });
+
+$('#clearFilters2').click(function() {
+  location.reload();
+});
+
 
 // $('#updateResults').click(function(){
   

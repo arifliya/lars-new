@@ -1,9 +1,11 @@
 <span class="govuk-heading-s govuk-!-margin-bottom-0">Filter results</span>
 <div id="allFilters-2">
   <section id="awardingBody" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-        Awarding body
-      </a>
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+          Awarding body
+        </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div id="ab-list" class="filter-box hidden">
           <div class="input-container">
@@ -224,9 +226,11 @@
   </section>
 
   <section id="level" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
       Level
       </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
           {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
@@ -238,9 +242,12 @@
             
             items: [
               {
+                value: "Entry-level",
+                text: "Entry-level"
+              },
+              {
                 value: "Level-1",
-                text: "Level-1",
-                id: "Level-1"
+                text: "Level-1"
               },
               {
                 value: "Level-2",
@@ -271,10 +278,6 @@
                 text: "Level-8"
               },
               {
-                value: "Entry-level",
-                text: "Entry-level"
-              },
-              {
                 value: "Higher-level",
                 text: "Higher-level"
               },
@@ -293,9 +296,11 @@
 
 
   <section id="fundingStream" class="filter-section">
-    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
       Funding stream
     </a>
+      </h2>
     <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
     <div class="filter-box hidden">
         {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
@@ -357,9 +362,11 @@
 
 
   <section id="teachingYear" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
         Teaching year
       </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
           {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
@@ -395,9 +402,11 @@
   
 
   <section id="newStarters" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
         Last date for new starters
       </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
           <div class="govuk-date-input govuk-!-margin-top-3 govuk-!-margin-left-3">

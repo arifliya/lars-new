@@ -58,20 +58,16 @@
               
               for(var i=0;i<mydata.length;i++) {
                 const node =
-                `<li data-category="${mydata[i].AwardOrgCode} ${mydata[i].NotionalNVQLevelDesc} 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer">
-                        <h3 class="govuk-!-font-size-19 govuk-!-margin-0"><a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">${mydata[i].LearnAimRefTitle}</a></h3>
-                          <div class="flex space-between">
-                            <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
-                              <span><strong>Reference:</strong> ${mydata[i].LearnAimRef}</span>
-                              <span><strong>Assessor:</strong> ${mydata[i].AwardOrgCode}</span>
-                            </div>
-                            <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
-                              <span><strong> ${mydata[i].NotionalNVQLevelDesc}</strong></span>
-                              <span><strong>Guided learning hours:</strong> ${mydata[i].OfQualGlhMax} </span>
-                            </div>
-                          </div>
-                        <span class="govuk-body govuk-!-font-size-16"><span><strong>Closing date for new enrolments:</strong> ${mydata[i].LastNewStartDate}</span></span>
-                      </li>`;
+                      `<li data-category="${mydata[i].AwardOrgCode} ${mydata[i].NotionalNVQLevelDesc} 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer">
+                          <a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="qualification-2">${mydata[i].LearnAimRefTitle}</a>
+                          <p class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex space-between">
+                            <span>${mydata[i].LearnAimRef}</span>
+                            <span>${mydata[i].AwardOrgCode}</span>
+                            <span>${mydata[i].NotionalNVQLevelDesc}</span>
+                            <span>${mydata[i].OfQualGlhMax} Guided learning hours</span>
+                          </p>
+                          <p class="govuk-body govuk-!-font-size-16"><span>Last date for new start: ${mydata[i].LastNewStartDate}</span></p>
+                        </li>`;
                 ul.insertAdjacentHTML('beforeend', node);
               }
             })();

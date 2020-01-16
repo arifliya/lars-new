@@ -1,9 +1,11 @@
 <span class="govuk-heading-s govuk-!-margin-bottom-0">Filter results</span>
 <div id="allFilters">
   <section id="awardingBody" class="filter-section">
-    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-        Awarding body
-      </a>
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+          Assessor
+        </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       
       <div id="ab-list" class="filter-box hidden">
@@ -225,9 +227,11 @@
   </section>
 
   <section id="level" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-      Level
-      </a>
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+        Level
+        </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
           {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
@@ -239,9 +243,12 @@
             
             items: [
               {
+                value: "Entry-level",
+                text: "Entry-level"
+              },
+              {
                 value: "Level-1",
-                text: "Level-1",
-                id: "Level-1"
+                text: "Level-1"
               },
               {
                 value: "Level-2",
@@ -272,10 +279,6 @@
                 text: "Level-8"
               },
               {
-                value: "Entry-level",
-                text: "Entry-level"
-              },
-              {
                 value: "Higher-level",
                 text: "Higher-level"
               },
@@ -290,14 +293,14 @@
             ]
           }) }}
       </div>
-  </section>
-
-  
+  </section>  
 
   <section id="fundingStream" name="fundingStream" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-        Funding stream
-      </a>
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+          Learning stream
+        </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
           {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
@@ -359,9 +362,11 @@
 
 
   <section id="teachingYear" class="filter-section">
-    <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-      Teaching year
-    </a>
+    <h2 class="filter-box-button govuk-!-font-weight-regular">
+      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+        Teaching year
+      </a>
+    </h2>
     <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
     <div class="filter-box hidden">
         {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
@@ -392,13 +397,15 @@
           ]
         }) }}
     </div>
-</section>
+  </section>
 
 
   <section id="newStarters" class="filter-section">
-      <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19 filter-box-button">
-        Last date for new starters
-      </a>
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+          Closing date for new enrolment
+        </a>
+      </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
           
@@ -443,4 +450,4 @@
   </section>
 </div>
 <br>
-<p><a href="#">Clear filters</a></p>
+<p><a id="clearFilters2" class="govuk-link govuk-link--no-visited-state" href="#">Clear filters</a></p>
