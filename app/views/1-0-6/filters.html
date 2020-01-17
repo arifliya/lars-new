@@ -3,7 +3,7 @@
   <section id="awardingBody" class="filter-section">
       <h2 class="filter-box-button govuk-!-font-weight-regular">
         <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
-          Assessor
+          Awarding body
         </a>
       </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
@@ -234,63 +234,94 @@
       </h2>
       <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
       <div class="filter-box hidden">
-          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+        <div class="govuk-form-group">
+          <div class="govuk-checkboxes govuk-checkboxes--small">
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="Entry-level" name="level" type="checkbox" value="Entry-level">
+                <label class="govuk-label govuk-checkboxes__label" for="Entry-level">
+                  Entry-level
+                </label>
+              </div>
+              
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="Level-1" name="level" type="checkbox" value="Level-1">
+                <label class="govuk-label govuk-checkboxes__label" for="Level-1">
+                  Level-1
+                </label>
+              </div>
 
-          {{ govukCheckboxes({
-            idPrefix: "level",
-            name: "level",
-            classes: "govuk-checkboxes--small",
-            items: [
-              {
-                value: "Entry-level",
-                text: "Entry-level"
-              },
-              {
-                value: "Level-1",
-                text: "Level-1"
-              },
-              {
-                value: "Level-2",
-                text: "Level-2"
-              },
-              {
-                value: "Level-3",
-                text: "Level-3"
-              },
-              {
-                value: "Level-4",
-                text: "Level-4"
-              },
-              {
-                value: "Level-5",
-                text: "Level-5"
-              },
-              {
-                value: "Level-6",
-                text: "Level-6"
-              },
-              {
-                value: "Level-7",
-                text: "Level-7"
-              },
-              {
-                value: "Level-8",
-                text: "Level-8"
-              },
-              {
-                value: "Higher-level",
-                text: "Higher-level"
-              },
-              {
-                value: "Mixed-level",
-                text: "Mixed-level"
-              },
-              {
-                value: "Not-known",
-                text: "Not-known"
-              }
-            ]
-          }) }}
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="Level-2" name="level" type="checkbox" value="Level-2">
+                <label class="govuk-label govuk-checkboxes__label" for="Level-2">
+                  Level-2
+                </label>
+              </div>
+
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="Level-3" name="level" type="checkbox" value="Level-3">
+                <label class="govuk-label govuk-checkboxes__label" for="Level-3">
+                  Level-3
+                </label>
+              </div>
+
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="Level-4" name="level" type="checkbox" value="Level-4">
+                <label class="govuk-label govuk-checkboxes__label" for="Level-4">
+                  Level-4
+                </label>
+              </div>
+
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-5" name="level" type="checkbox" value="Level-5">
+                <label class="govuk-label govuk-checkboxes__label" for="level-5">
+                  Level-5
+                </label>    
+              </div>
+                
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-6" name="level" type="checkbox" value="Level-6">
+                <label class="govuk-label govuk-checkboxes__label" for="level-6">
+                  Level-6
+                </label>    
+              </div>
+                
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-7" name="level" type="checkbox" value="Level-7">
+                <label class="govuk-label govuk-checkboxes__label" for="level-7">
+                  Level-7
+                </label>   
+              </div>
+               
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-8" name="level" type="checkbox" value="Level-8">
+                <label class="govuk-label govuk-checkboxes__label" for="level-8">
+                  Level-8
+                </label>    
+              </div>
+                
+                
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-10" name="level" type="checkbox" value="Higher-level">
+                <label class="govuk-label govuk-checkboxes__label" for="level-10">
+                  Higher-level
+                </label>    
+              </div>
+                
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-11" name="level" type="checkbox" value="Mixed-level">
+                <label class="govuk-label govuk-checkboxes__label" for="level-11">
+                  Mixed-level
+                </label>    
+              </div>
+                
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="level-12" name="level" type="checkbox" value="Not-known">
+                <label class="govuk-label govuk-checkboxes__label" for="level-12">
+                  Not-known
+                </label> 
+              </div>
+            </div>
+        </div>
       </div>
   </section>  
 

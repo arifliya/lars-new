@@ -1,0 +1,77 @@
+<script src="/public/javascripts/accessible-autocomplete.min.js"></script>
+<!-- <link href="/public/stylesheets/accessible-autocomplete.min.css" media="all" rel="stylesheet" type="text/css" /> -->
+
+ <script type="text/javascript">
+       var awardingBodies = [
+        'ABC',
+        'AIMAWARD',
+        'ANM',
+        'AQA',
+        'Ascentis',
+        'ASDAN',
+        'BOLTONIN',
+        'BHTB',
+        'CAIE',
+        'CCEA',
+        'CIBTAC',
+        'City-Guilds',
+        'EAL',
+        'EDEXCEL',
+        'EDI',
+        'FAQ',
+        'FIRST',
+        'GATEWAY',
+        'HABC',
+        'IEB',
+        'IFPA',
+        'IQ',
+        'IB',
+        'ITEC',
+        'IMIAL',
+        'KPA',
+        'LASER',
+        'Learn-Direct',
+        'NCC-Education',
+        'NCFE',
+        'NCG',
+        'NOCN',
+        'NTU',
+        'OCNLR',
+        'OCR',
+        'OPENAWARD',
+        'ONEAWARDS',
+        'OCNCREDI',
+        'SQA',
+        'SKILLSFR',
+        'UAL',
+        'UCLAN',
+        'UOPLY',
+        'UOSX',
+        'UOT',
+        'UOWAR',
+        'UW',
+        'UWLQ',
+        'VTCT',
+        'WJEC',       
+      ]
+ </script>
+
+
+    
+
+    <script type="text/javascript">
+      element = document.querySelector('#tt-showAllValues')
+      id = 'awarding-body-input'
+      accessibleAutocomplete({
+        showAllValues: true,
+        displayMenu: 'overlay',
+        element: element,
+        id: id,
+        name: 'awarding-body-input',
+        source: awardingBodies,
+        placeholder: 'e.g Edexcel',
+        showNoOptionsFound: false
+      })
+    </script>
+
+   

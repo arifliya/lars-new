@@ -1,0 +1,74 @@
+
+{% extends "layout-back-to-home.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<!-- <script type="text/javascript" src="/public/javascripts/functional-skills.json"></script> -->
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+      <div class="standard-search">
+          <h1 class="govuk-heading-xl govuk-!-margin-bottom-5">Search</h1>
+          <form id="changeUrl" class="govuk-form-group" action="">
+            <div id="tt-overlay" class="autocomplete-wrapper second"></div>
+            <button id="searchProviders" type="search" class="govuk-button" ><img src="https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png"></img></button>
+          </form>
+        </div>
+  </div>
+</div>
+
+      <div class="govuk-grid-row govuk-!-margin-top-6">
+
+        <div class="govuk-grid-column-one-third">
+          
+
+            {% include "./filters.html" %}
+          
+        </div>
+        
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          
+            <p id="resultsContainer" class="govuk-body flex space-between">
+              <span>
+                <span id="listCount"></span> 
+                results
+              </span> 
+              <span>
+                <a class="govuk-link govuk-link--no-visited-state govuk-!-font-size-16" href="#">Download results</a>
+              </span>
+            </p>
+
+            <div class="filter-feedback-container">
+              <span id="from" class="govuk-body govuk-!-font-size-16"><strong>Showing </strong>
+                <span id="firstFilter">  
+                  <!-- <span class="close"></span><span class="filter-name">test</span>   -->
+                </span> 
+              </span>
+            </div>
+            <div class="results-number-container">
+              <span id="containing" class="govuk-body govuk-!-font-size-16"><strong>Containing </strong> <a href="#" class="results-elements"> <span class="close"></span> {{ data['input-autocomplete'] }} </a> </span>
+            </div>
+          <hr class="colour-black govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+          <span class="loading-spinner"><img src="/public/images/loader.gif" alt="loading-icon"></span>
+
+          {% include "./func.html" %}
+
+        </div>
+  
+        <p class="visually-hidden">{{ data['awarding-body-input'] }}</p> 
+        <p class="visually-hidden2">{{ data['level-input'] }}</p> 
+        
+      </div>
+    
+      {% include "./auto-js.html" %}
+
+
+{% endblock %}
