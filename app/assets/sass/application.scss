@@ -32,6 +32,10 @@ $govuk-assets-path: '/govuk/assets/';
 
     li {
         margin-bottom: 50px;
+
+        ul.funding-stream-list li {
+            margin-bottom: 10px;
+        }
     }
 
     .no-underline {
@@ -49,7 +53,7 @@ $govuk-assets-path: '/govuk/assets/';
 #resultList ul.custom {
     li {
         margin-bottom: 0px;
-    }
+    }   
 }
 
 .flex {

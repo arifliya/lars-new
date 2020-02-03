@@ -115,13 +115,13 @@ var $filterCheckboxes = $('#allFilters input[type="checkbox"]');
 $filterCheckboxes.on('change', function() {
 
   if($(this).prop('checked') == false){
-    $('#resultList li').hide();
+    // $('#resultList li').hide();
     $('.loading-spinner').show();
-    $('#resultList').hide();
+    $('#resultList li').hide();
   } else {
-    $('#resultList li').hide();
+    // $('#resultList li').hide();
     $('.loading-spinner').show();
-    $('#resultList').hide();
+    $('#resultList li').hide();
   }
 
   
@@ -131,7 +131,7 @@ setTimeout(
   function() { 
 
     $('.loading-spinner').hide();
-    $('#resultList').show();
+    $('#resultList li').show();
 
   var selectedFilters = {};
 
@@ -503,3 +503,187 @@ $(".results-elements").click(function(){
 
 
 
+$('#datesBefore').click(function(){
+    
+  var day = $('#date-before-day').val();
+  var month = $('#date-before-month').val();
+  var year = $('#date-before-year').val();
+  var date = year + "-" + month + "-" + day;
+     
+  
+    
+  
+
+});
+
+
+// $('#date-before-day').keyup(function(){
+//   var valThis = $(this).val();
+//    $('#resultList li').each(function(){
+//     var text = $(this).text();
+//        (text.indexOf(valThis) == 0) ? $(this).show() : $(this).hide();         
+//   });
+// });
+
+$('#date-before-day').keyup(function(){
+
+  $('.loading-spinner').show();
+  // $('#resultList li').hide();
+
+  setTimeout(
+    function() { 
+  
+      $('.loading-spinner').hide();
+  
+  }, 500);
+
+  var value = this.value.trim();
+  $("#resultList li").show().filter(function() {
+    return $(this).text().trim().indexOf(value) == -1;
+  }).hide();
+
+
+  var listCountNew = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCountNew);
+
+  if ($(listCountNew).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+  
+});
+
+
+$('#date-before-month').keyup(function(){
+
+  $('.loading-spinner').show();
+  // $('#resultList li').hide();
+
+  setTimeout(
+    function() { 
+  
+      $('.loading-spinner').hide();
+  
+  }, 500);
+
+  var value = this.value.trim();
+  $("#resultList li").show().filter(function() {
+    return $(this).text().trim().indexOf(value) == -1;
+  }).hide();
+
+  var listCount = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCount);
+
+  if ($(listCount).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+});
+
+
+$('#date-before-year').keyup(function(){
+
+  $('.loading-spinner').show();
+  // $('#resultList li').hide();
+
+  setTimeout(
+    function() { 
+  
+      $('.loading-spinner').hide();
+  
+  }, 500);
+
+  var value = this.value.trim();
+  $("#resultList li").show().filter(function() {
+    return $(this).text().trim().indexOf(value) == -1;
+  }).hide();
+
+  var listCount = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCount);
+
+  if ($(listCount).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+});
+
+
+$('#date-after-day').keyup(function(){
+
+  $('.loading-spinner').show();
+  // $('#resultList li').hide();
+
+  setTimeout(
+    function() { 
+  
+      $('.loading-spinner').hide();
+  
+  }, 500);
+
+var value = this.value.trim();
+  $("#resultList li").show().filter(function() {
+    return $(this).text().trim().indexOf(value) == -1;
+  }).hide();
+
+  var listCount = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCount);
+
+  if ($(listCount).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+});
+
+
+$('#date-after-month').keyup(function(){
+
+  $('.loading-spinner').show();
+  // $('#resultList li').hide();
+
+  setTimeout(
+    function() { 
+  
+      $('.loading-spinner').hide();
+  
+  }, 500);
+
+  var value = this.value.trim();
+  $("#resultList li").show().filter(function() {
+    return $(this).text().trim().indexOf(value) == -1;
+  }).hide();
+
+  var listCount = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCount);
+
+  if ($(listCount).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+});
+
+
+$('#date-after-year').keyup(function(){
+
+  $('.loading-spinner').show();
+  // $('#resultList li').hide();
+
+  setTimeout(
+    function() { 
+  
+      $('.loading-spinner').hide();
+  
+  }, 500);
+
+  var value = this.value.trim();
+  $("#resultList li").show().filter(function() {
+    return $(this).text().trim().indexOf(value) == -1;
+  }).hide();
+
+  var listCount = $("#resultList li:visible").length;
+  $("#listCount").text('');
+  $("#listCount").append(listCount);
+
+  if ($(listCount).text('0')) {
+    $("#listCount").text('There are no ');
+  }
+});

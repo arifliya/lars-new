@@ -571,94 +571,34 @@
         </a>
         <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
         <div class="filter-box hidden">
-            
-  
-            
-  
-  
-  
-  
-  
-  
-    
-  
-    
-  
-    
-  
-    
-  <div class="govuk-form-group">
-  
-    <div class="govuk-checkboxes govuk-checkboxes--small">
-      
-        
-            
-          
-          
-          
-          
-          
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="teaching year" name="teaching year" type="checkbox" value="2019-2020">
-            <label class="govuk-label govuk-checkboxes__label" for="teaching year">
-          2019 to 2020
-        </label>
-            
-          </div>
-          
-        
-      
-        
-          
-          
-          
-          
-          
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="teaching year-2" name="teaching year" type="checkbox" value="2018-2019">
-            <label class="govuk-label govuk-checkboxes__label" for="teaching year-2">
-          2018 to 2019
-        </label>
-            
-          </div>
-          
-        
-      
-        
-          
-          
-          
-          
-          
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="teaching year-3" name="teaching year" type="checkbox" value="2017-2018">
-            <label class="govuk-label govuk-checkboxes__label" for="teaching year-3">
-          2017 to 2018
-        </label>
-            
-          </div>
-          
-        
-      
-        
-          
-          
-          
-          
-          
-          <div class="govuk-checkboxes__item">
-            <input class="govuk-checkboxes__input" id="teaching year-4" name="teaching year" type="checkbox" value="2016-2017">
-            <label class="govuk-label govuk-checkboxes__label" for="teaching year-4">
-          2016 to 2017
-        </label>
-            
-          </div>
-          
-        
-      
-    </div>
-  
-  </div>
+          {% from "govuk/components/select/macro.njk" import govukSelect %}
+
+          {{ govukSelect({
+            id: "sort",
+            name: "sort",
+            label: {
+              text: "Teaching year"
+            },
+            items: [
+              {
+                value: "2019-2020",
+                text: "2019-2020",
+                selected: true
+              },
+              {
+                value: "2018-2019",
+                text: "2018-2019"
+              },
+              {
+                value: "2017-2018",
+                text: "2017-2018"
+              },
+              {
+                value: "2016-2017",
+                text: "2016-2017"
+              }
+            ]
+          }) }}
   
         </div>
     </section>
