@@ -1,0 +1,86 @@
+<span class="govuk-heading-s govuk-!-margin-bottom-0">Filter results</span>
+<div id="allFilters">
+  
+  <section id="level" class="filter-section">
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+        Framework type
+        </a>
+      </h2>
+      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+      <div class="filter-box hidden">
+          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+          {{ govukCheckboxes({
+            idPrefix: "funding-stream",
+            name: "funding-stream",
+            classes: "govuk-checkboxes--small",
+
+            items: [
+            {
+              value: "Diploma-Level-1",
+              text: "Diploma-Level-1"            },
+            {
+              value: "Diploma-Level-2",
+              text: "Diploma-Level-2"
+            },
+            {
+              value: "Diploma-Level-3",
+              text: "Diploma-Level-3"
+            },
+            {
+              value: "Apprenticeship-Level-2",
+              text: "Apprenticeship-Level-2"
+            },
+            {
+              value: "Apprenticeship-Level-3",
+              text: "Apprenticeship-Level-3"
+            }
+          ]
+          }) }}
+      </div>
+  </section>  
+
+  <section id="fundingStream" name="fundingStream" class="filter-section">
+      <h2 class="filter-box-button govuk-!-font-weight-regular">
+        <a href="#" class="govuk-link govuk-link--no-visited-state govuk-!-font-size-19">
+          Issuing authority
+        </a>
+      </h2>
+      <span class="selected-text govuk-body govuk-!-font-size-16"> <span class="counter">1</span> selected</span>
+      <div class="filter-box hidden">
+          {% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+          {{ govukCheckboxes({
+            idPrefix: "funding-stream",
+            name: "funding-stream",
+            classes: "govuk-checkboxes--small",
+
+            items: [
+            {
+              value: "121-SkillsActive-Habia",
+              text: "121-SkillsActive-Habia"            },
+            {
+              value: "131-Skills-For-Justice-Skills-For-Health",
+              text: "131-Skills-For-Justice-Skills-For-Health"
+            },
+            {
+              value: "122-Creative-Skillset",
+              text: "122-Creative-Skillset"
+            },
+            {
+              value: "Apprenticeship-Level-2",
+              text: "Apprenticeship-Level-2"
+            },
+            {
+              value: "Apprenticeship-Level-3",
+              text: "Apprenticeship-Level-3"
+            }
+          ]
+          }) }}
+      </div>
+  </section>
+
+</div>
+<br>
+<p><a id="clearFilters2" class="govuk-link govuk-link--no-visited-state" href="#">Clear filters</a></p>

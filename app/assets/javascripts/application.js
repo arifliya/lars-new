@@ -46,6 +46,12 @@ $("#searchProviders").click(function() {
   if ($('.autocomplete__input').val() === 'Access to HE Diploma - Science and Maths, 40010740') {
     $('#changeUrl').attr('action', "qualification");
   }
+ 
+  if ($('#learning').val() === 'frameworks') {
+    $('#changeUrl').attr('action', "all-results-frameworks");
+    
+  }
+
 });
 
 
@@ -102,7 +108,14 @@ if (window.location.href.indexOf('&level-input=') > 0) {
 });
 
 
-
+$('#learning').on('change', function() {
+  if($(this).val() == 'frameworks') {
+    $('#homePageFilters').hide();
+  } else {
+    $('#homePageFilters').css("display", "flex" );
+  }
+  
+});
 
 
 // ****************************************
