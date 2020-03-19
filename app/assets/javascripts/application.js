@@ -22,6 +22,14 @@ $("#awarding-body-input").on("keyup", function() {
   }).hide();
 });
 
+// Search filters for issuing authority //
+$("#issuing-authority-input").on("keyup", function() {
+  var value = this.value.toLowerCase().trim();
+  $("#ab-list .govuk-checkboxes__item").show().filter(function() {
+    return $(this).text().toLowerCase().trim().indexOf(value) == -1;
+  }).hide();
+});
+
 
 
 
