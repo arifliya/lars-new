@@ -1,5 +1,5 @@
 
-{% extends "layout-back-to-home.html" %}
+{% extends "layout.html" %}
 
 {% block pageTitle %}
   GOV.UK Prototype Kit
@@ -8,6 +8,15 @@
 {% block content %}
 
 <!-- <script type="text/javascript" src="/public/javascripts/psychology.json"></script> -->
+
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="start-search.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Search results</li>
+  </ol>
+</div>
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
