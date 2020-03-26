@@ -94,6 +94,20 @@
 
 }
 
+.app-masthead-v2 {
+  @include govuk-media-query($from: mobile) {
+
+    #tt-overlay, #tt-showAllValues, #tt-Frameworks {
+      background-color: white;
+      width: 100%;
+      // font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+      font-family: "nta", Arial, sans-serif;
+      border-radius: 4px;
+    }
+
+  }
+}
+
 .standard-search {
 
   .govuk-form-group {
