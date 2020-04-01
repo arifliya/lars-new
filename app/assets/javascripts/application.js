@@ -708,3 +708,16 @@ $('#date-after-year').keyup(function(){
     $("#listCount").text('There are no ');
   }
 });
+
+$('#openCloseAllFilters').click(function() {
+
+    $('#allFilters a').trigger('click');
+    $(this).text('Close all');
+    
+    if ($('.filter-box').hasClass('hidden')) {
+      $('#openCloseAllFilters').text('Open all');
+    }
+
+});
+
+

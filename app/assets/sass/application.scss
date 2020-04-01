@@ -174,3 +174,22 @@ $govuk-assets-path: '/govuk/assets/';
         margin-top: 0;
     }
 }
+
+.two-thirds-width {
+
+    .govuk-table__header, .govuk-table__cell {
+        border-bottom: 0;
+        padding-bottom: 5px;
+    }
+
+}
+
+@include govuk-media-query($from: tablet) {
+
+    .two-thirds-width {
+
+        padding-bottom: 10px;
+        width: 66%;
+    }
+
+}
