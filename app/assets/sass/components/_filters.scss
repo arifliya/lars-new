@@ -1,5 +1,8 @@
 .open-all {
-  margin-top: 4px;
+  margin-top: 24px; 
+  a {
+    text-decoration: none;
+  }
 }
 
 .filter-section {
@@ -108,6 +111,11 @@
 
 }
 
+#awardingBody {
+  
+    border-top: 1px solid govuk-colour("mid-grey");
+
+}
 
 #custom-box {
   margin-left: 12px;

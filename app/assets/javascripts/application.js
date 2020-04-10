@@ -63,6 +63,35 @@ $("#searchProviders").click(function() {
 });
 
 
+$("#searchProviders").click(function() {
+  if ($('#noAutoComplete').val() === 'certificate in engineering') {
+    $('#changeUrl').attr('action', "all-results-engineering");
+  }
+  if ($('#noAutoComplete').val() === 'engineering') {
+    $('#changeUrl').attr('action', "all-results-engineering");
+  }
+  if ($('#noAutoComplete').val() === 'psychology') {
+    $('#changeUrl').attr('action', "all-results-psy");
+  }
+  if ($('#noAutoComplete').val() === 'functional') {
+    $('#changeUrl').attr('action', "all-results-func");
+  }
+  if ($('#noAutoComplete').val() === 'maths') {
+    $('#changeUrl').attr('action', "all-results-maths");
+  }
+  
+  if ($('#noAutoComplete').val() === '40010740') {
+    $('#changeUrl').attr('action', "qualification-2");
+  }
+ 
+  if ($('#learning').val() === 'frameworks') {
+    $('#changeUrl').attr('action', "all-results-frameworks");
+    
+  }
+
+});
+
+
 // expand filters //
 $('.filter-box-button').click(function(e){
   $(this).toggleClass('rotate');

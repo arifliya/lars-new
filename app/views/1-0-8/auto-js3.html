@@ -1,0 +1,35 @@
+<script src="/public/javascripts/accessible-autocomplete.min.js"></script>
+<!-- <link href="/public/stylesheets/accessible-autocomplete.min.css" media="all" rel="stylesheet" type="text/css" /> -->
+
+ <script type="text/javascript">
+       var awardingBodies = [
+       'maths',
+       'psychology',
+       'engineering',
+       'AQA (Assessment and Qualifications Alliance)',
+       'functional skills qualification in mathematics',
+       'certificate in engineering',
+       'Access to HE Diploma - Science and Maths, 40010740',
+          
+      ]
+ </script>
+
+
+    
+
+    <script type="text/javascript">
+      element = document.querySelector('#tt-Frameworks')
+      id = 'framework-input'
+      accessibleAutocomplete({
+        
+        displayMenu: 'overlay',
+        element: element,
+        id: id,
+        name: 'framework-input',
+        source: awardingBodies,
+        // placeholder: 'e.g Edexcel',
+        showNoOptionsFound: false
+      })
+    </script>
+
+   

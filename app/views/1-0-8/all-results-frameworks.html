@@ -1,0 +1,140 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="start-search.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Search results</li>
+  </ol>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+      <div class="standard-search">
+          <h1 class="govuk-heading-xl govuk-!-margin-bottom-5">Search frameworks</h1>
+          <form id="changeUrl" class="govuk-form-group" action="">
+            <div id="tt-overlay" class="autocomplete-wrapper"></div>
+            <button id="searchProviders" type="search" class="govuk-button" ><img src="https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png"></img></button>
+          </form>
+        </div>
+  </div>
+</div>
+
+      <div class="govuk-grid-row govuk-!-margin-top-6">
+
+        <div class="govuk-grid-column-one-third">
+          
+            {% include "./filters-frameworks.html" %}
+                   
+        </div>
+        
+
+        <div class="govuk-grid-column-two-thirds">
+          
+          
+            <p class="govuk-body flex space-between"><span><span id="listCount">15</span> results</span> <span><a class="govuk-link govuk-link--no-visited-state govuk-!-font-size-16" href="#">Download results</a></span></p>
+            <div class="filter-feedback-container">
+              <span id="from" class="govuk-body govuk-!-font-size-16"><strong>Showing </strong>  
+                <span id="firstFilter"> 
+                  
+                </span> 
+              </span>
+            </div>
+            <!-- <div class="results-number-container">
+              <span id="containing" class="govuk-body govuk-!-font-size-16"><strong>Containing </strong> <a href="#" class="results-elements"> <span class="close"></span> {{ data['framework-input'] }} </a> </span>
+            </div> -->
+          <hr class="colour-black govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+          <ul id="resultList" class="govuk-list">
+              <li data-category="Skills-Active-Habia" style="display: list-item;">
+                  <h3 class="govuk-!-font-size-19 govuk-!-margin-0"><a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="pathways">Children's Care Learning and Development</a></h3>
+                    <div class="flex space-between">
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong>Framework code:</strong> 104</span>
+                        <span class="govuk-body govuk-!-font-size-16"><strong>Pathway:</strong> 0 - </span>
+                      </div>
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong> Framework type: </strong>Advanced Apprenticeship (Level 3)</span>
+                        <span><strong>Issuing authority: </strong>Skills-Active-Habia</span>
+                      </div>
+                    </div>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective from:</strong> <span class="last-date-for-new"> <span class="day">26</span>-<span class="month">03</span>-<span class="year">2001</span></span></span></span>
+                  <br>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective to:</strong> <span class="last-date-for-new"> <span class="day">21</span>-<span class="month">06</span>-<span class="year">2011</span></span></span></span>
+                  
+              </li>
+              <li data-category="Skills-Active-Habia">
+                  <h3 class="govuk-!-font-size-19 govuk-!-margin-0"><a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="pathways">Children's Care Learning and Development</a></h3>
+                    <div class="flex space-between">
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong>Framework code:</strong> 104</span>
+                        <span class="govuk-body govuk-!-font-size-16"><strong>Pathway:</strong> 0 - </span>
+                      </div>
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong> Framework type: </strong>Intermediate Apprenticeship (Level 2)</span>
+                        <span><strong>Issuing authority: </strong>Skills-Active-Habia </span>
+                      </div>
+                    </div>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective from:</strong> <span class="last-date-for-new"> <span class="day">26</span>-<span class="month">03</span>-<span class="year">2001</span></span></span></span>
+                  <br>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective to:</strong> <span class="last-date-for-new"> <span class="day">21</span>-<span class="month">06</span>-<span class="year">2011</span></span></span></span>
+                  
+              </li>
+              <li data-category="NCFE Entry-level 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer" style="display: list-item;">
+                  <h3 class="govuk-!-font-size-19 govuk-!-margin-0"><a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="pathways">Coatings Development Plan - Advanced</a></h3>
+                    <div class="flex space-between">
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong>Framework code:</strong> 256</span>
+                        <span class="govuk-body govuk-!-font-size-16"><strong>Pathway:</strong> 0 - </span>
+                      </div>
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong> Framework type: </strong>Advanced Apprenticeship (Level 3)</span>
+                        <span><strong>Issuing authority:</strong> -1 </span>
+                      </div>
+                    </div>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective from:</strong> <span class="last-date-for-new"> <span class="day">26</span>-<span class="month">03</span>-<span class="year">2001</span></span></span></span>
+                  <br>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective to:</strong> <span class="last-date-for-new"> <span class="day">03</span>-<span class="month">07</span>-<span class="year">2011</span></span></span></span>
+                  
+              </li>
+              <li data-category="NCFE Entry-level 2019-2020 16-19 Adult-skills Advanced-learner-loans Other Apprenticeships Community-learning EFA-Funding-condition-english EFA-Funding-condition-maths European-social-fund OLASS Unemployed-offer" style="display: list-item;">
+                  <h3 class="govuk-!-font-size-19 govuk-!-margin-0"><a class="govuk-link govuk-link--no-visited-state govuk-!-font-weight-bold no-underline" href="pathways">Coatings Development Plan - Intermediate</a></h3>
+                    <div class="flex space-between">
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong>Framework code:</strong> 256</span>
+                        <span class="govuk-body govuk-!-font-size-16"><strong>Pathway:</strong> 0 - </span>
+                      </div>
+                      <div class="aims-list govuk-body govuk-!-font-size-16 govuk-!-margin-top-2 flex-col flex-1">
+                        <span><strong> Framework type: </strong>Intermediate Apprenticeship (Level 2)</span>
+                        <span><strong>Issuing authority:</strong> -1 </span>
+                      </div>
+                    </div>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective from:</strong> <span class="last-date-for-new"> <span class="day">26</span>-<span class="month">03</span>-<span class="year">2001</span></span></span></span>
+                  <br>
+                  <span class="govuk-body govuk-!-font-size-16"><span><strong>Pathway effective to:</strong> <span class="last-date-for-new"> <span class="day">03</span>-<span class="month">07</span>-<span class="year">2011</span></span></span></span>
+                  
+              </li>
+                
+          </ul>
+
+        </div>
+  
+        <div class="govuk-grid-column-one-third">
+  
+        
+  
+        </div>
+      </div>
+    
+      {% include "./auto-js.html" %}
+
+
+{% endblock %}

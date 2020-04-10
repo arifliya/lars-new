@@ -1,0 +1,112 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="start-search.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="all-results-frameworks.html">Search results</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Certificate in Engineering</li>
+  </ol>
+</div>
+
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">Certificate in Engineering
+          </h1>
+          <div class="flex space-between">
+          <!-- <p><span><a class="govuk-link govuk-link--no-visited-state" href="related">Related learning aims</a></span> &nbsp; &nbsp; <span><a class="govuk-link govuk-link--no-visited-state" href="category">Category</a></span></p> -->
+          <ul class="govuk-list">
+            
+              
+              <li>
+                <span class="govuk-!-font-weight-bold">Reference:</span> 60008805
+              </li>
+              <li>
+                <span class="govuk-!-font-weight-bold">Level:</span> 2
+              </li>
+              <li>
+                <span class="govuk-!-font-weight-bold">Type:</span> 0016 - Certificate
+              </li>
+              <li>
+                <span class="govuk-!-font-weight-bold">Guided learning hours:</span> 300
+              </li>
+              <li>
+                <span class="govuk-!-font-weight-bold">Awarding body:</span> CG - City & Guilds of London Institute
+              </li>
+              <li>
+                <span class="govuk-!-font-weight-bold">Level 2 Category:</span> Not Applicable
+              </li>
+              <li>
+                <span class="govuk-!-font-weight-bold">Level 3 Category:</span> Not Applicable
+              </li>
+              <li>
+                <span><a class="govuk-link govuk-link--no-visited-state" href="category">View category information</a></span>  
+              </li>
+              <li>
+                  <span><a class="govuk-link govuk-link--no-visited-state" href="frameworks">View frameworks</a></span>  
+                </li>
+              <li>
+                <a class="govuk-link govuk-link--no-visited-state" target="blank" href="https://register.ofqual.gov.uk/Search?category=Qualifications&query=60008805">View more information on OFQUAL</a> 
+              </li>
+            </ul>
+          
+
+          <div class="govuk-form-group">
+              <label class="govuk-label" for="sort">
+                Teaching year
+              </label>
+              <select class="govuk-select" id="sort" name="sort">
+                <option value="published" selected>2019 / 2020</option>
+                <option value="updated">2018 / 2019</option>
+                <option value="views">2017 / 2018</option>
+                <option value="comments">2016 / 2017</option>
+              </select>
+            </div>
+          </div>
+          
+
+         
+       
+          
+        </div>
+  
+        <!-- <div class="govuk-grid-column-one-third">
+  
+            <aside class="app-related-items" role="complementary">
+                <h2 class="govuk-heading-m" id="subsection-title">
+                  More information
+                </h2>
+                <nav role="navigation" aria-labelledby="subsection-title">
+                  <ul class="govuk-list govuk-!-font-size-16">
+                      <li>
+                        <span><a class="govuk-link govuk-link--no-visited-state" href="category">View category information</a></span>  
+                      </li>
+                      
+                      <li>
+                        <a class="govuk-link govuk-link--no-visited-state" target="blank" href="https://register.ofqual.gov.uk/Search?category=Qualifications&query=6014838X">View more information on OFQUAL</a> 
+                      </li>
+                  </ul>
+                </nav>
+              </aside>
+  
+        </div> -->
+      </div>
+      
+      <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds">
+              {% include "./aims-template-app.html" %}
+        </div>
+      </div>
+    
+{% endblock %}

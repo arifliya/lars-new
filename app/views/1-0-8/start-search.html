@@ -1,0 +1,218 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+
+      <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds">
+
+            <h1 class="govuk-heading-xl">
+            
+              {% if serviceName %} {{ serviceName }} {% endif %}
+              
+            </h1>
+            
+            <p class="govuk-body-l">Find the latest information on available qualifications, apprenticeship frameworks, and funding for further education providers.</p>
+    
+            <p class="govuk-body">Qualifications will show you funding streams for courses and the last date learners can start. Frameworks will show you pathways, dates, and the issuing authority. You can also download datasets used in the funding information system (FIS).</p>
+    
+            <!-- <ul class="govuk-list govuk-list--bullet">
+              <li>search for a learning aim</li>
+              <li>check funding rates</li>
+              <li>search for qualifications</li>
+              <li>search for apprenticeships</li>
+              <li>download descriptions</li>
+              <li>download datasets</li>
+            </ul> -->
+            <br>
+      
+            <div class="govuk-tabs" data-module="govuk-tabs">
+                
+                <ul class="govuk-tabs__list">
+                  <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+                    <a class="govuk-tabs__tab" href="#past-day">
+                      Qualifications
+                    </a>
+                  </li>
+                  <li class="govuk-tabs__list-item">
+                    <a class="govuk-tabs__tab" href="#past-week">
+                      Frameworks
+                    </a>
+                  </li>
+                  
+                </ul>
+                <div class="govuk-tabs__panel" id="past-day">
+                  
+                    <div class="app-masthead-v2">
+                        <h2 class="govuk-heading-l">Search for a qualification</h2>
+                        
+                        <form id="changeUrl" class="govuk-form-group" action="all-results-func">
+                          <!-- <div class="flex space-between"> -->
+                            <div>                  
+                              <label class="govuk-label">Search by <strong>name</strong> or <strong>reference number</strong></label>
+                            <!-- <div 
+                              id="tt-overlay" 
+                              class="autocomplete-wrapper" 
+                              aria-label="Search by name or reference number">
+                            </div> -->
+                            <input id="noAutoComplete" class="govuk-input">
+                          </div>
+          
+          
+                            <!-- <div class="govuk-form-group">
+                              <label class="govuk-label white-text" for="learning">
+                                Type of learning
+                              </label>
+                              <select class="govuk-select" id="learning" name="learning">
+                                <option value="select a type" selected></option>
+                                <option value="qualification">Qualification</option>
+                                <option value="frameworks">Frameworks</option>
+                              </select>
+                            </div> -->
+                        <!-- </div> -->
+                        
+                        <!-- <div id="homePageFilters" class="flex space-between">
+                          <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1 flex-09">
+                            
+                            <label class="govuk-label" >
+                              Awarding body
+                            </label>
+                            <div id="tt-showAllValues" class="autocomplete-wrapper" aria-label="Search for an awarding body"></div>
+                          
+                          </div>
+                          
+                          
+                            <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
+                              <label class="govuk-label" for="level-input">
+                                Level
+                              </label>
+                              <select class="govuk-select" id="level-input" name="level-input">
+                                
+                                <option selected> </option>
+                                <option value="Level-1">Level 1</option>
+                                <option value="Level-2">Level 2</option>
+                                <option value="Level-3">Level 3</option>
+                                <option value="Level-4">Level 4</option>
+                                <option value="Level-5">Level 5</option>
+                                <option value="Level-6">Level 6</option>
+                                <option value="Level-7">Level 7</option>
+                                <option value="Level-8">Level 8</option>
+                                <option value="Entry-Level">Entry level</option>
+                                <option value="Higher-Level">Higher level</option>
+                                <option value="Mixed-Level">Mixed level</option>
+                                <option value="Not-Known">Not known</option>
+                                
+                                
+                              </select>
+                            </div>
+                            
+                            <div class="govuk-form-group govuk-!-margin-top-3 govuk-!-margin-bottom-1">
+                              <label class="govuk-label" for="sort">
+                                Teaching year
+                              </label>
+                              <select class="govuk-select" id="sort" name="sort">
+                                
+                                <option value="updated" selected>View all</option>
+                                <option value="updated">2019 to 2020</option>
+                                <option value="updated">2018 to 2019</option>
+                                <option value="updated">2017 to 2018</option>
+                                <option value="updated">2016 to 2017</option>
+                                
+                                
+                                
+                              </select>
+                            </div>
+                     
+                        </div> -->
+                        <br>
+                        <button id="searchProviders" type="search" class="govuk-button govuk-button--start govuk-!-margin-bottom-0">Search <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+                          <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+                        </svg></button>
+          
+                      </form>
+          
+                    </div>  
+              
+                </div>
+                <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+                  
+                  <div class="app-masthead-v2">
+                      <h2 class="govuk-heading-l">Search for a framework</h2>
+                      
+                      <form id="changeUrl" class="govuk-form-group" action="all-results-frameworks">
+                        <!-- <div class="flex space-between"> -->
+                          <div>                  
+                            <label class="govuk-label">Search by <strong>name</strong> or <strong>reference number</strong></label>
+                          <div id="tt-Frameworks" class="autocomplete-wrapper" aria-label="Search by name or reference number"></div>
+                        </div>
+        
+        
+                          <!-- <div class="govuk-form-group">
+                            <label class="govuk-label white-text" for="learning">
+                              Type of learning
+                            </label>
+                            <select class="govuk-select" id="learning" name="learning">
+                              <option value="select a type" selected></option>
+                              <option value="qualification">Qualification</option>
+                              <option value="frameworks">Frameworks</option>
+                            </select>
+                          </div> -->
+                      <!-- </div> -->
+                      
+                      
+                      <br>
+                      <button id="searchProviders" type="search" class="govuk-button govuk-button--start govuk-!-margin-bottom-0">Search <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+                        <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+                      </svg></button>
+        
+                    </form>
+        
+                  </div>
+              
+                </div>
+                
+                
+              </div>
+
+
+
+
+            
+          </div>
+              
+              <!-- <div class="app-masthead">
+                  <div class="govuk-grid-row">
+                    <div class="govuk-grid-column-two-thirds">
+                      <span class="govuk-heading-s govuk-!-font-size-27 white-text">Search for a qualification</span>
+                      <form class="govuk-form-group" action="provider-record">
+                        <input class="govuk-input" id="name" name="name" type="text" placeholder="e.g. Manchester or 123456">
+                        <div id="tt-overlay" class="autocomplete-wrapper"></div>
+                        <button id="searchProviders" type="search" class="govuk-button" ><img src="https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png"></img></button>
+                      </form>
+                    </div>
+                    <div class="govuk-grid-column-one-third">
+                        <a href="advanced-search-v2">Advanced search</a>
+                        <a href="add-new-provider">Add a new provider</a>
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="govuk-grid-column-one-third">
+  
+         
+                    {% include "./help-links.html" %}
+            
+                  </div> -->
+        
+      </div>
+
+      {% include "./auto-js.html" %}
+      {% include "./auto-js2.html" %}
+      {% include "./auto-js3.html" %}
+    
+{% endblock %}
